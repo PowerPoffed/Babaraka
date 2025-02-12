@@ -1,0 +1,59 @@
+import asyncio
+import logging
+import random
+from aiogram import Bot, Dispatcher, types
+from aiogram.utils import executor
+
+# Токен бота (замени на свой, но не отправляй его никому)
+TOKEN = "7757378722:AAHihxPSoq9Ov1ds5bX1bjAh4wIqWDz_BXA"
+
+# Список каналов, куда будут отправляться посты (замени на свои)
+CHANNELS = ["@picovole1", "@picovole2", "@picovole3"]
+
+# Список продавцов (замени на свои ссылки)
+SELLERS = [
+    {"Вася": "Saller 1", "link": "@zabanennizachto"},
+    {"Петя": "Продавец 2", "link": "@PowerPoffed"},
+    {"name": "Продавец 3", "link": "https://t.me/seller3"}
+]
+
+# Список товаров (замени на свои)
+PRODUCTS = [
+    {"image": "AgACAgIAAxkBAAJug2esiYDZexpku7QVogjyHworAt3dAAIN7TEb_O5oSTguOtpNJ0MMAQADAgADcwADNgQ", "Заходи покупай товар лучший": "Хуй пизда 123"},
+    {"image": "AgACAgIAAxkBAAJuhWesicSwRiMDm9Azhe1IH-w0qq6mAALN7TEb_HRhSTUXxSGlf55zAQADAgADeAADNgQ", "Купил и охуел": "Лучший"},
+    {"image": "https://example.com/image3.jpg", "text": "Описание товара 3"}
+]
+
+# Интервал отправки постов (по умолчанию 30 минут)
+POST_INTERVAL = 1800  # 30 минут в секундах
+
+# Настройка логирования
+logging.basicConfig(level=logging.INFO)
+
+# Инициализация бота
+bot = Bot(token=TOKEN)
+dp = Dispatcher(bot)
+
+async def send_post():
+    while True:
+        product = random.choice(PRODUCTS)
+        seller = random.choice(SELLERS)
+        caption = f"{product['text']}\n\n🔗 Купить у {seller['name']}: {seller['link']}"
+        
+        for channel in CHANNELS:
+            try:
+                await bot.send_photo(chat_id=channel, photo=product['image'], caption=caption)
+                logging.info(f"Отправлен пост в {channel}")
+            except Exception as e:
+                logging.error(f"Ошибка при отправке в {channel}: {e}")
+        
+        await asyncio.sleep(POST_INTERVAL)  # Ждем следующий цикл
+
+@dp.message_handler(commands=['start'])
+async def start_command(message: types.Message):
+    await message.reply("Бот запущен! Он автоматически публикует посты по расписанию.")
+
+if __name__ == "__main__":
+    loop = asyncio.get_event_loop()
+    loop.create_task(send_post())
+    executor.start_polling(dp, skip_updates=True)
