@@ -18,6 +18,8 @@ Follow these rules in every image:
 - No modern objects in prehistoric scenes: no metal, no buckles, no plastic, no glass, no modern clothes.
 - Prompts with "plain warm beige background" are simple object cards: only the objects on a plain beige background.
 - Animals have normal natural anatomy.
+- Every character is an adult unless the prompt says "child".
+- Make exactly one image per prompt. Never repeat a shot and never make extra variations unless asked.
 
 ========================================
 3) Название: CAVE     Референс: cave_ref_a.png (или ваш лучший кадр CAVE из Flow)

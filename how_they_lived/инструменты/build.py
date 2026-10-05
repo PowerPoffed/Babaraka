@@ -23,8 +23,8 @@ T={
 '{SAMSON}':"an anthropologist in his 40s with a short brown beard, a khaki shirt and a baseball cap",
 '{WRANG}':"an anthropologist in his 70s with white hair, glasses and a blue shirt",
 '{HIST}':"a historian in his 70s with gray hair, glasses and a tweed jacket",
-'{EARLY}':"a small early human ancestor with long strong arms, short dark hair and a normal human face with a slightly heavy brow, upright human posture, wearing a simple brown hide wrap",
-'{ERECTUS}':"a tall slim early human with long legs, short dark hair and a normal human face with a slightly heavy brow, wearing a simple brown hide wrap, normal human proportions",
+'{EARLY}':"an adult early human ancestor, a grown man with a short dark beard, long strong arms, short dark hair and a normal adult human face with a slightly heavy brow, upright human posture, wearing a simple brown hide wrap",
+'{ERECTUS}':"a tall slim adult man, an early human (Homo erectus), a grown man with a short dark beard, long legs, short dark hair and a normal adult human face with a slightly heavy brow, wearing a simple brown hide wrap, normal human proportions",
 '{G3}':"Three adult hunter-gatherers",
 '{G2}':"Two adult hunter-gatherers",
 }
