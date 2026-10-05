@@ -1,0 +1,29 @@
+УПАКОВКА — How Did Ancient Humans Sleep Without Beds?
+
+10 ВАРИАНТОВ НАЗВАНИЯ (до 60 символов)
+1. How Did Ancient Humans Sleep Without Beds?            (42)  ⚠ ЗАНЯТО: точно такое название у Deep Epoch (99K) и ещё 3 каналов — не брать
+2. Ancient Humans Never Slept All at Once. Here's Why    (50)
+3. The 200,000-Year-Old Bed That Kept Bugs Away          (45)
+4. How Ancient Humans Really Slept (Not What You Think)  (52)
+5. Why Your Grandma Wakes Up at 5 AM (Stone Age Reason) (52)
+6. What Sleeping Was Like 200,000 Years Ago              (40)
+7. Ancient Humans Slept Less Than You Think              (40)
+8. How Stone Age Humans Survived the Night               (39)
+9. The Strange Way Ancient Humans Slept                  (36)
+10. No Bed, No Walls, Lions Outside: How They Slept      (47)
+
+ПРОВЕРКА НА КОПИИ (5.10.2026): текст сравнён с субтитрами 18 похожих роликов — совпадение не больше 0,3% (у старого ролика было 35%). Название №4 на YouTube не найдено.
+
+РЕКОМЕНДУЮ: №4 "How Ancient Humans Really Slept (Not What You Think)"
+Почему: тема понятна сразу, плюс обещание сюрприза (как "Actually" у хитов ниши),
+и оно не копирует чужие названия. Запасной для теста через 2–3 дня: №2.
+
+3 ИДЕИ ОБЛОЖКИ (1 герой + 1 предмет/действие + 2–4 слова)
+A. CAVE спит на травяной постели у костра, один глаз открыт, в темноте горят глаза льва.  Текст: "ONE EYE OPEN"
+B. CAVE лежит на постели из листьев в пещере и гордо улыбается, руки за головой.  Текст: "THE FIRST BED"
+C. Пожилая женщина у костра не спит ночью, вокруг спят двое.  Текст: "NIGHT WATCH"
+
+ПРОМПТЫ ОБЛОЖКИ (тот же стиль, что ролик; текст добавляй сам в редакторе)
+A: 2D cartoon illustration in a modern adult animated TV series style, bold clean dark outlines, simple cartoon human faces with big round white eyes with small black pupils, expressive eyebrows and simple expressions, flat cel-shaded colors with soft shading, muted desaturated cinematic color palette, atmospheric lighting, richly detailed background with depth, wide 16:9 storyboard frame. Close-up of an adult prehistoric man in his early 30s with messy shoulder-length dark brown hair and a short dark stubble beard, a ragged brown fur tunic, barefoot, lying on a bed of tied grass bundles next to a small campfire at night, one eye open and nervous, two glowing lion eyes in the dark grass behind him. The man is on the right side of the frame, big and clear, empty dark sky on the left side. Only one person in the scene. He is completely alone, nobody else around, no crowd. Everyone is fully clothed, no nudity. No text, no letters, no watermark.
+B: 2D cartoon illustration in a modern adult animated TV series style, bold clean dark outlines, simple cartoon human faces with big round white eyes with small black pupils, expressive eyebrows and simple expressions, flat cel-shaded colors with soft shading, muted desaturated cinematic color palette, atmospheric lighting, richly detailed background with depth, wide 16:9 storyboard frame. An adult prehistoric man in his early 30s with messy shoulder-length dark brown hair and a short dark stubble beard, a ragged brown fur tunic, barefoot, lying happily on a thick bed of green leaves and grass in a cave, hands behind his head, big proud smile, warm firelight. The man is on the right side of the frame, big and clear, plain dark cave wall on the left side. Only one person in the scene. He is completely alone, nobody else around, no crowd. Everyone is fully clothed, no nudity. No text, no letters, no watermark.
+C: 2D cartoon illustration in a modern adult animated TV series style, bold clean dark outlines, simple cartoon human faces with big round white eyes with small black pupils, expressive eyebrows and simple expressions, flat cel-shaded colors with soft shading, muted desaturated cinematic color palette, atmospheric lighting, richly detailed background with depth, wide 16:9 storyboard frame. An old woman with long gray hair tied back and a kind wrinkled face, wearing a simple brown fur and leather wrap, a normal human body with normal human proportions, sitting wide awake by a campfire at night, alert eyes looking to the side into the darkness, big and clear on the right side of the frame, starry sky on the left. Only one person in the scene. She is completely alone, nobody else around, no crowd. Everyone is fully clothed, no nudity. No text, no letters, no watermark.
