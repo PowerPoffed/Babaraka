@@ -20,16 +20,20 @@
 
 ТИПЫ ЭЛЕМЕНТОВ в motion_plan.json:
   title  — большая дата по центру:         {"shot":"shot_001","type":"title","text":"200,000 YEARS AGO","sub":"SOUTHERN AFRICA"}
-  map    — карта Африки с булавкой:          {"shot":"shot_008","type":"map","label":"BORDER CAVE","sub":"SOUTH AFRICA","lon":31.99,"lat":-27.02}
+  map    — карта с булавкой (любое место):  {"shot":"shot_008","type":"map","label":"BORDER CAVE","sub":"SOUTH AFRICA","lon":31.99,"lat":-27.02,"view":"africa"}
+           lon/lat — долгота/широта места (из Google Maps: правый клик → первые цифры это широта, вторые долгота;
+           в плане порядок наоборот: lon = второе число, lat = первое).
+           view — с какого вида начинается карта: africa, europe, mediterranean, middleeast, asia, americas, world;
+           без view — регион вокруг места. zoom — насколько приближать к булавке (обычно 2.6, для маленьких островов 4).
   source — плашка «SOURCE» слева сверху:   {"shot":"shot_009","type":"source","text":"Wadley et al., <i>Science</i>, 2020"}
   name   — имя учёного / народ / место:     {"shot":"shot_043","type":"name","text":"Richard Wrangham","sub":"ANTHROPOLOGIST"}
   number — большая цифра справа сверху:    {"shot":"shot_090","type":"number","value":15,"sub":"BEDDING LAYERS"}  (value — считает от 0)
                                            {"shot":"shot_156","type":"number","text":"10–30%","sub":"OF ADULTS"}      (text — без счёта)
   "dur": 3.5 — длительность в секундах (не обязательно).
-  Карта пока только Африка. Для других мест — title или name.
+  Карта — настоящая карта мира (Natural Earth, свободная лицензия): Шотландия, Египет, Рим, Скандинавия — всё работает.
 
 ЧТО НАПИСАТЬ CLAUDE ДЛЯ НОВОГО РОЛИКА:
-  «Сделай motion_plan.json по тексту и кадрам: даты — title, места в Африке — map, учёные и народы — name,
+  «Сделай motion_plan.json по тексту и кадрам: даты — title, места — map, учёные и народы — name,
    исследования — source, яркие цифры — number. Не чаще одного элемента на 3–4 кадра, не больше ~30 на ролик.»
 
 Время: ~30 сек на элемент; весь ролик (~30 элементов) ≈ 15 мин. ALL_overlays.mov весит ~0,7 ГБ (это нормально для прозрачного видео).

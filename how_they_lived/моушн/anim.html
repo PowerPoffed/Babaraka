@@ -53,8 +53,7 @@ html,body{margin:0;width:1920px;height:1080px;background:transparent;overflow:hi
     <g clip-path="url(#cl)"><g id="zg">
     <rect x="-2000" y="-2000" width="5000" height="5000" fill="#efdcb3"/>
     <g id="grid" stroke="#cdb488" stroke-width="3" stroke-dasharray="10 12" fill="none"></g>
-    <path id="africa" fill="#b8a46a" stroke="#2b1d12" stroke-width="7" stroke-linejoin="round"/>
-    <path id="mada" fill="#b8a46a" stroke="#2b1d12" stroke-width="6" stroke-linejoin="round"/>
+    <path id="land" fill="#b8a46a" stroke="#2b1d12" stroke-width="7" stroke-linejoin="round" fill-rule="evenodd"/>
     <g id="rings" fill="none" stroke="#d2442f" stroke-width="6"></g>
     </g></g>
     <rect x="20" y="20" width="760" height="860" rx="36" fill="none" stroke="#2b1d12" stroke-width="10"/>
@@ -79,6 +78,7 @@ html,body{margin:0;width:1920px;height:1080px;background:transparent;overflow:hi
   <div class="s" id="us"></div>
 </div></div>
 
+<script src="world_land.js"></script>
 <script>
 const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
 const ease=t=>1-Math.pow(1-t,3);
@@ -97,24 +97,60 @@ function drawTitle(t,dur){
   const lp=ease(prog(t,0.7,1.1)); const l=document.getElementById('tline'); l.style.width=(lp*620)+'px'; l.style.opacity=1-out;
   const sp=ease(prog(t,0.9,1.3)); const sb=document.getElementById('tsub'); sb.style.opacity=sp*(1-out); sb.style.transform=`translateY(${(1-sp)*25}px)`;
 }
-// ---------- map ----------
-const W=800,H=900,PAD=95, LON0=-19,LON1=53,LAT0=38,LAT1=-36;
-const sx=(W-2*PAD)/(LON1-LON0), sy=(H-2*PAD)/(LAT0-LAT1), S=Math.min(sx,sy);
-const ox=(W-(LON1-LON0)*S)/2, oy=(H-(LAT0-LAT1)*S)/2;
-const P=(lon,lat)=>[ox+(lon-LON0)*S, oy+(LAT0-lat)*S];
-const AF=[[-5.9,35.8],[-9.6,30.4],[-13.2,27.7],[-16.5,23.7],[-17.1,21],[-17.4,14.7],[-16.7,12.5],[-15,10.8],[-13.3,8.5],[-11.5,6.9],[-7.5,4.4],[-4,5.2],[0,5.6],[2.5,6.3],[5,5.6],[6.5,4.3],[8.9,4],[9.5,2],[9,-1],[11.8,-4.8],[12.3,-6.1],[13.2,-8.8],[13.6,-12.4],[11.8,-17.3],[14.5,-22.9],[15.2,-26.6],[16.5,-28.6],[18,-32],[18.4,-34.1],[20,-34.8],[22.5,-34],[25.6,-34],[28,-32.6],[31,-29.8],[32.6,-26],[35.3,-23.8],[35.5,-21],[36.9,-17.9],[39.2,-15.5],[40.5,-12.9],[40.4,-10.5],[39.3,-6.8],[39.7,-4],[41.6,-1.6],[44,1.5],[45.3,2],[47.5,4.9],[49,8],[51.3,11.8],[49,11.3],[45,10.4],[43.2,11.5],[41.7,13.5],[39.5,15.6],[37.2,19.6],[35.6,23.9],[33.9,27.2],[32.5,30],[32.3,31.3],[29.9,31.2],[25,31.6],[20.1,32.1],[18.5,30.4],[15.5,31.6],[13.2,32.9],[10.8,34.7],[11,37],[9.8,37.3],[3,36.8],[-0.6,35.7],[-2.9,35.3]];
-const MD=[[49.3,-12],[50.4,-15.5],[49.6,-17],[47.1,-24.9],[44,-25],[43.3,-22],[44.4,-16.2],[47,-14]];
-// smooth closed path (Catmull-Rom -> Bezier) for a hand-drawn cartoon look
-function smooth(pts){const p=pts.map(([a,b])=>P(a,b));let d=`M${p[0][0]},${p[0][1]}`;const n=p.length;
+// ---------- map (настоящая карта мира: world_land.js) ----------
+const W=800,H=900,PAD=95;
+const VIEWS={africa:{lon:17,lat:1,span:72},europe:{lon:12,lat:50,span:48},mediterranean:{lon:20,lat:36,span:42},
+  middleeast:{lon:40,lat:28,span:40},asia:{lon:95,lat:35,span:80},americas:{lon:-80,lat:10,span:100},world:{lon:15,lat:15,span:200}};
+let VIEW, S, KX, ZOOM=2.6;
+const P=(lon,lat)=>[W/2+(lon-VIEW.lon)*KX*S, H/2-(lat-VIEW.lat)*S];
+// обрезка полигона по прямоугольнику (Sutherland–Hodgman)
+function clipRect(pts,x0,y0,x1,y1){
+  const edges=[[p=>p[0]>=x0,(a,b)=>{const t=(x0-a[0])/(b[0]-a[0]);return[x0,a[1]+t*(b[1]-a[1])]}],
+    [p=>p[0]<=x1,(a,b)=>{const t=(x1-a[0])/(b[0]-a[0]);return[x1,a[1]+t*(b[1]-a[1])]}],
+    [p=>p[1]>=y0,(a,b)=>{const t=(y0-a[1])/(b[1]-a[1]);return[a[0]+t*(b[0]-a[0]),y0]}],
+    [p=>p[1]<=y1,(a,b)=>{const t=(y1-a[1])/(b[1]-a[1]);return[a[0]+t*(b[0]-a[0]),y1]}]];
+  for(const [inside,cut] of edges){const out=[];for(let i=0;i<pts.length;i++){const a=pts[(i-1+pts.length)%pts.length],b=pts[i];
+      if(inside(b)){if(!inside(a))out.push(cut(a,b));out.push(b)}else if(inside(a))out.push(cut(a,b));}
+    pts=out;if(!pts.length)break;}
+  return pts;
+}
+// упрощение линии (Douglas–Peucker) — мультяшный вид без мелких зубцов
+function simplify(p,tol){if(p.length<4)return p;   // замкнутый контур: делим на две половины по дальней точке
+  let far=0,fd=-1;for(let k=1;k<p.length;k++){const d=Math.hypot(p[k][0]-p[0][0],p[k][1]-p[0][1]);if(d>fd){fd=d;far=k}}
+  return dpLine(p.slice(0,far+1),tol).slice(0,-1).concat(dpLine(p.slice(far).concat([p[0]]),tol).slice(0,-1));}
+function dpLine(p,tol){if(p.length<3)return p;const keep=new Uint8Array(p.length);keep[0]=keep[p.length-1]=1;const st=[[0,p.length-1]];
+  while(st.length){const [i,j]=st.pop();let md=0,mi=-1;const [ax,ay]=p[i],[bx,by]=p[j],dx=bx-ax,dy=by-ay,L=Math.hypot(dx,dy)||1;
+    for(let k=i+1;k<j;k++){const d=Math.abs(dy*p[k][0]-dx*p[k][1]+bx*ay-by*ax)/L;if(d>md){md=d;mi=k}}
+    if(md>tol){keep[mi]=1;st.push([i,mi],[mi,j])}}
+  return p.filter((_,k)=>keep[k]);}
+// плавный замкнутый контур (Catmull-Rom -> Bezier)
+function smooth(p){let d=`M${p[0][0].toFixed(1)},${p[0][1].toFixed(1)}`;const n=p.length;
   for(let i=0;i<n;i++){const p0=p[(i-1+n)%n],p1=p[i],p2=p[(i+1)%n],p3=p[(i+2)%n];
-    d+=` C${p1[0]+(p2[0]-p0[0])/6},${p1[1]+(p2[1]-p0[1])/6} ${p2[0]-(p3[0]-p1[0])/6},${p2[1]-(p3[1]-p1[1])/6} ${p2[0]},${p2[1]}`;}return d+'Z';}
-document.getElementById('africa').setAttribute('d',smooth(AF));
-document.getElementById('mada').setAttribute('d',smooth(MD));
-const g=document.getElementById('grid');
-for(let lat=-30;lat<=30;lat+=15){const [x1,y]=P(LON0+3,lat),[x2]=P(LON1-3,lat);g.innerHTML+=`<line x1="${x1}" y1="${y}" x2="${x2}" y2="${y}"/>`}
-let BC=P(31.99,-27.02);
-const afr=document.getElementById('africa'); const L=afr.getTotalLength();
-afr.style.strokeDasharray=L;
+    d+=` C${(p1[0]+(p2[0]-p0[0])/6).toFixed(1)},${(p1[1]+(p2[1]-p0[1])/6).toFixed(1)} ${(p2[0]-(p3[0]-p1[0])/6).toFixed(1)},${(p2[1]-(p3[1]-p1[1])/6).toFixed(1)} ${p2[0].toFixed(1)},${p2[1].toFixed(1)}`;}
+  return d+'Z';}
+let BC, afr, L;
+function setMap(d){
+  VIEW=typeof d.view==='object'?d.view:(VIEWS[d.view]||{lon:d.lon??31.99,lat:d.lat??-27.02,span:40});
+  ZOOM=d.zoom||2.6; KX=Math.cos(VIEW.lat*Math.PI/180); S=(W-2*PAD)/(VIEW.span*KX);
+  const lonR=(W/2+40)/(KX*S), latR=(H/2+40)/S, M=40, tol=1.6/ZOOM;
+  let path='';
+  for(const r of LAND){
+    let x0=1e9,x1=-1e9,y0=1e9,y1=-1e9;for(const [lo,la] of r){if(lo<x0)x0=lo;if(lo>x1)x1=lo;if(la<y0)y0=la;if(la>y1)y1=la}
+    if(x1<VIEW.lon-lonR||x0>VIEW.lon+lonR||y1<VIEW.lat-latR||y0>VIEW.lat+latR)continue;
+    let pl=null; const ul=r.map(([lo])=>{if(pl!==null)lo+=360*Math.round((pl-lo)/360); pl=lo; return lo});  // линия перемены дат
+    const sh=360*Math.round((VIEW.lon-ul.reduce((a,b)=>a+b,0)/ul.length)/360);
+    const pts=r.map(([,la],i)=>P(ul[i]+sh,la));
+    if(pts.length>3&&pts[0][0]===pts[pts.length-1][0]&&pts[0][1]===pts[pts.length-1][1])pts.pop();          // без повтора первой точки
+    let p=clipRect(pts,-M,-M,W+M,H+M); if(p.length<3)continue;
+    p=simplify(p,tol); if(p.length<3)continue;
+    let A=0;for(let i=0;i<p.length;i++){const a=p[i],b=p[(i+1)%p.length];A+=a[0]*b[1]-b[0]*a[1]} if(Math.abs(A)/2<4)continue;  // крошечные островки
+    path+=smooth(p);
+  }
+  afr=document.getElementById('land'); afr.setAttribute('d',path||'M0,0'); L=afr.getTotalLength()||1;
+  const g=document.getElementById('grid'); g.innerHTML='';
+  for(let lat=Math.ceil((VIEW.lat-latR)/15)*15;lat<=VIEW.lat+latR;lat+=15){const y=P(0,lat)[1];g.innerHTML+=`<line x1="${PAD-60}" y1="${y}" x2="${W-PAD+60}" y2="${y}"/>`}
+  BC=P(d.lon??31.99,d.lat??-27.02);
+}
 function drawMap(t,dur){
   const out=prog(t,dur-0.45,dur);
   const cin=back(prog(t,0,0.55));
@@ -122,15 +158,15 @@ function drawMap(t,dur){
   card.style.transform=`translateY(${(1-cin)*120 + out*60}px) scale(${Math.max(0,cin)})`;
   card.style.opacity=1-out;
   // zoom inside the frame toward Border Cave
-  const zp=ease(prog(t,2.0,3.3)); const z=1+zp*1.6;
+  const zp=ease(prog(t,2.0,3.3)); const z=1+zp*(ZOOM-1);
   const fx=400+(BC[0]-400)*zp, fy=450+(BC[1]-450)*zp;
   document.getElementById('zg').setAttribute('transform',`translate(400,450) scale(${z}) translate(${-fx},${-fy})`);
   const sx=(BC[0]-fx)*z+400, sy=(BC[1]-fy)*z+450;   // pin position on screen (svg coords)
-  const dp=ease(prog(t,0.25,1.35)); afr.style.strokeDashoffset=L*(1-dp);
-  afr.style.fillOpacity=ease(prog(t,0.9,1.5)); document.getElementById('mada').style.opacity=ease(prog(t,1.1,1.5));
+  const dp=ease(prog(t,0.25,1.35)); afr.style.strokeDasharray=dp<1?L:'none'; afr.style.strokeDashoffset=L*(1-dp);
+  afr.setAttribute('stroke-width',7/Math.sqrt(z)); afr.style.fillOpacity=ease(prog(t,0.9,1.5));
   const pp=prog(t,1.4,1.9); const pin=document.getElementById('pin');
   const y=pp<=0?-500:(pp<1? -500*(1-easeIn(pp)) : 0); const sq=pp>=1? 1-0.25*Math.sin(prog(t,1.9,2.15)*Math.PI):1;
-  pin.setAttribute('transform',`translate(${sx},${sy+y}) scale(${1/sq},${sq})`); pin.style.opacity=pp>0?1:0;
+  pin.setAttribute("transform",`translate(${sx},${sy+y}) scale(${1/sq},${sq}) translate(0,-40)`); pin.style.opacity=pp>0?1:0;
   const r=document.getElementById('rings'); r.innerHTML='';
   for(let k=0;k<3;k++){const q=((t-1.9-k*0.45)%1.35)/1.35; if(t>1.9+k*0.45){r.innerHTML+=`<circle cx="${BC[0]}" cy="${BC[1]}" r="${(10+q*70)/z}" stroke-width="${6/z}" opacity="${(1-q)*0.9}"/>`}}
   const lp=back(prog(t,2.3,2.7)); const lab=document.getElementById('mlabel');
@@ -164,8 +200,7 @@ const LAYER={title:'title',map:'map',source:'src',src:'src',name:'name',number:'
 window.setup=(type,d={})=>{
   document.querySelectorAll('.layer').forEach(l=>l.style.display='none');
   if(type==='title') setTitle(d.text?d:{text:'200,000 YEARS AGO',sub:'SOUTHERN AFRICA'});
-  if(type==='map'){ $('mlabel').innerHTML=(d.label||'BORDER CAVE')+(d.sub?`<small>${d.sub}</small>`:'');
-    BC=P(d.lon??31.99, d.lat??-27.02); }
+  if(type==='map'){ $('mlabel').innerHTML=(d.label||'BORDER CAVE')+(d.sub?`<small>${d.sub}</small>`:''); setMap(d); }
   if(type==='source'||type==='src'){ $('sk').textContent=d.k||'SOURCE'; $('sv').innerHTML=d.text||''; }
   if(type==='name'){ $('nk').textContent=d.sub||''; $('nv').textContent=d.text||''; }
   if(type==='number'){ NUM=(typeof d.value==='number')?d:null; $('un').textContent=NUM?'0':(d.text||''); $('us').textContent=d.sub||''; }
@@ -173,5 +208,5 @@ window.setup=(type,d={})=>{
 };
 window.draw=(type,t,dur)=>{({title:drawTitle,map:drawMap,source:drawSrc,src:drawSrc,name:drawName,number:drawNum})[type](t,dur)};
 // открыть anim.html в браузере → показать пример
-if(!navigator.webdriver){window.setup('map',{});let t0=performance.now();(function loop(){const t=((performance.now()-t0)/1000)%4.5;window.draw('map',t,4.5);requestAnimationFrame(loop)})();}
+if(!navigator.webdriver){window.setup('map',{view:'africa'});let t0=performance.now();(function loop(){const t=((performance.now()-t0)/1000)%4.5;window.draw('map',t,4.5);requestAnimationFrame(loop)})();}
 </script></body></html>
