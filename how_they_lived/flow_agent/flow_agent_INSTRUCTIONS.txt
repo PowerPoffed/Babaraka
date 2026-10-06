@@ -1,0 +1,56 @@
+ИНСТРУКЦИИ ДЛЯ АГЕНТА FLOW (How They Lived)
+Каждый блок = одна инструкция: «Добавить инструкцию» → название → текст → (референс, если указан).
+Референсы берите из уже сделанных во Flow кадров — они лучше всего подходят по стилю.
+
+========================================
+1) Название: Стиль How They Lived     Референс: нет
+----------------------------------------
+2D cartoon illustration in a modern adult animated TV series style, bold clean dark outlines, simple cartoon faces with big round white eyes with small black pupils, flat cel-shaded colors with soft shading, muted cinematic colors, atmospheric lighting, detailed background, wide 16:9 frame. Normal human proportions. Everyone is fully clothed. No text, no letters, no numbers, no watermark, no captions anywhere in the image.
+
+========================================
+2) Название: Правила сцен     Референс: нет
+----------------------------------------
+Follow these rules in every image:
+- Draw exactly the number of people the prompt asks for. "Only one person" means nobody else, no crowd in the background.
+- If the prompt says "an empty landscape" or "nobody in it", draw no people and no human figures at all.
+- Prehistoric people are anatomically modern humans with normal human faces and bodies, never ape-like.
+- A sleeping person always has the eyes fully closed.
+- No modern objects in prehistoric scenes: no metal, no buckles, no plastic, no glass, no modern clothes.
+- Prompts with "plain warm beige background" are simple object cards: only the objects on a plain beige background.
+- Animals have normal natural anatomy.
+- Every character is an adult unless the prompt says "child".
+- Make exactly one image per prompt. Never repeat a shot and never make extra variations unless asked.
+
+========================================
+3) Название: CAVE     Референс: cave_ref_a.png (или ваш лучший кадр CAVE из Flow)
+----------------------------------------
+The main character CAVE: a grown prehistoric man in his mid 30s with a mature face, a short thick dark brown beard, messy shoulder-length dark brown hair, a ragged brown fur tunic, barefoot. Always draw him exactly like the reference image: same face, beard, hair, body and tunic.
+
+========================================
+4) Название: YOU     Референс: кадр shot_005 из Flow (парень в кровати)
+----------------------------------------
+YOU: a modern man in his late 20s with short messy brown hair and a plain white t-shirt. He lives in a cozy small modern apartment. Always draw him exactly like the reference image.
+
+========================================
+5) Название: Учёные     Референс: кадр shot_007 из Flow (двое на раскопках)
+----------------------------------------
+Two recurring scientists, always exactly like the reference image:
+- the woman archaeologist: in her 50s, glasses, gray hair in a bun, khaki shirt;
+- the man scientist: in his 60s, gray beard, round glasses, green sweater.
+When a prompt mentions "a woman archaeologist in her 50s" or "a man scientist in his 60s", it is one of them.
+
+========================================
+6) Название: Бабушка     Референс: сначала сделайте кадр shot_022, потом поставьте его сюда
+----------------------------------------
+The grandmother: an old woman with short gray hair, round glasses and a pink cardigan, in a modern home. Always draw her exactly like the reference image.
+
+========================================
+7) Название: Люди каменного века     Референс: нет (или кадр shot_101 из Flow — трое у костра)
+----------------------------------------
+Groups of prehistoric hunter-gatherers: anatomically modern adult men and women with neat dark brown hair, the men with short beards, wearing simple brown fur tunics that fully cover the chest and shoulders, tied with thin leather cords. Clear simple cartoon faces. The old woman of the camp has long gray hair tied back, a kind wrinkled face and a brown fur wrap.
+
+========================================
+СОВЕТЫ
+- Инструкции 1, 2, 3 держите включёнными всегда. 4–7 можно включать только для пачек, где есть эти персонажи
+  (агент тогда меньше путается), но и всё включённое сразу тоже работает.
+- Если какой-то персонаж «гуляет» — замените его референс на самый удачный кадр с ним.

@@ -1,0 +1,178 @@
+Привет! Я Евгений, делаю YouTube-канал "How They Lived" — мультяшные ролики о том, как жили древние люди и откуда взялись обычные вещи. Отвечай по-русски, коротко и просто. Длинные тексты в чат НЕ пиши, только файлами. Экономь токены: делай всё одним заходом.
+
+ТЕМА НОВОГО РОЛИКА: [впиши тему]
+
+=== ГЛАВНОЕ ПРАВИЛО: ТОЛЬКО СВОЙ ТЕКСТ ===
+- Чужие ролики, их расшифровки и сценарии НЕ используй вообще — ни для текста, ни для структуры, ни для вступления.
+- Пиши с нуля по фактам из исследований, научных статей, музейных и университетских сайтов.
+- Не повторяй вступления и фразы известных каналов этой ниши (Ink Explainer и похожих).
+  Запрещено начало "This morning, a machine yelled/screamed at you..." и любые его вариации.
+- Структуру ролика придумывай сам под тему, а не по чужому ролику.
+- Если факт спорный — так и скажи в тексте ("scientists think", "one theory says").
+
+=== ЧТО СДЕЛАТЬ ===
+Папка: C:\Users\hapuk\Desktop\СОЗДАТЬ РОЛИК\<Название_ролика>\
+
+0. research.txt — 15–25 фактов по теме, у каждого источник (название, автор/организация, год, ссылка). Только реальные источники, ничего не выдумывать. Если не уверен в источнике — не используй факт.
+1. voiceover_EN.txt — оригинальный текст на английском, ~1750–1850 слов (~11 мин), 8 частей с заголовками "PART N — TITLE".
+2. ОЗВУЧКА_по_частям.txt — тот же текст, части "===== ЧАСТЬ N =====", каждая часть сплошным текстом без пустых строк.
+3. prompts.txt — строки shot_001|<полный промпт>, ~250 кадров. КАЖДЫЙ кадр = 6–8 слов текста (= 2–3 сек при моём темпе ~162 слова/мин). Кадр — законченный кусок фразы, не резать посреди словосочетания. Короче 6 слов — объединить, длиннее 8 — разделить и придумать новую картинку.
+4. shotpos.json — {"W": нормализованные слова текста, "pos": [[кадр, индекс_слова], ...]}.
+5. storyboard.txt — кадр, локация, длительность, фраза, промпт.
+6. packaging.txt:
+   - 10 вариантов названия (до 60 символов). Не копировать названия чужих хитов.
+     Лучше всего работают: неожиданность или эмоция ("The Disturbing...", "...Actually...", "Why We're the Only..."),
+     конкретика (цифра, предмет), вопрос, на который хочется узнать ответ.
+   - Рекомендуемое название (1 из 10) и почему.
+   - 3 идеи обложки: 1 герой крупно + 1 предмет/действие + 2–4 слова крупного текста.
+   - 3 промпта для обложки В ТОМ ЖЕ СТИЛЕ, ЧТО И РОЛИК (тот же стиль-префикс и тот же герой CAVE), чтобы обложка совпадала с видео.
+7. description.txt — описание для YouTube:
+   - первые 2 строки: о чём ролик + главный вопрос (они видны без "ещё");
+   - 3–5 абзацев своими словами;
+   - призыв подписаться ТОЛЬКО на "How They Lived" (никаких других названий каналов!);
+   - блок "Sources:" со ссылками из research.txt;
+   - 3–5 хэштегов;
+   - отдельно: 10–15 тегов через запятую.
+
+Порядок работы:
+1) Сначала пришли КОРОТКУЮ сводку: число слов, длительность, список локаций с % кадров, 3 лучших названия.
+2) Потом сделай файлы.
+3) Перед отправкой ПРОВЕРЬ всё по чек-листу внизу и исправь найденное.
+
+=== ПЕРВЫЕ 30 СЕКУНД (самое важное для удержания) ===
+- Первая фраза — неожиданный факт или конкретная сцена по теме ролика. Без "In this video...", "Today we will...", "Welcome back".
+- В первые 15 секунд — главный вопрос ролика.
+- До 30-й секунды — обещание: что зритель узнает к концу (одна интригующая деталь, раскрытие в конце).
+- Первые 10–15 кадров — самые яркие и разные, кадр каждые 2 сек.
+
+=== КАК ДЕРЖАТЬ ВНИМАНИЕ ДАЛЬШЕ ===
+- Каждая часть заканчивается мостиком к следующей (вопрос или "but there was a problem...").
+- Каждые 60–90 сек — новый факт-сюрприз или поворот.
+- Короткие предложения, разговорный английский, обращение к зрителю "you".
+- Сравнения с нашей жизнью ("YOU" против CAVE) — но не в каждой части, чтобы не надоело.
+- Финал: ответ на обещание из начала + вопрос зрителю для комментариев.
+
+=== РАЗНООБРАЗИЕ КАДРОВ ===
+- Одна локация — не больше 20–25% кадров.
+- Чередуй: саванна, лес, река, берег моря, горы, степь, болото, стоянка под открытым небом, пещера, современный музей или лаборатория с учёными, карточки-предметы на бежевом фоне.
+- Разные планы: общий, средний, крупный план рук и предметов. Разное время суток и погода.
+- Два похожих кадра подряд не ставь.
+
+=== СТИЛЬ (не менять) ===
+Сцены с людьми, начало промпта:
+"2D cartoon illustration in a modern adult animated TV series style, bold clean dark outlines, simple cartoon human faces with big round white eyes with small black pupils, expressive eyebrows and simple expressions, flat cel-shaded colors with soft shading, muted desaturated cinematic color palette, atmospheric lighting, richly detailed background with depth, wide 16:9 storyboard frame."
+
+ВАЖНО: у Z-Image-Turbo нет негативного промпта. Любое слово в промпте модель старается нарисовать, даже с "no".
+Поэтому в сценах без людей НИКОГДА не пиши слова eyes, faces, mouths (из-за этого были "камни с глазами").
+
+Сцены без людей: то же самое, но без части про лица и глаза. В конце:
+- природа: "An empty landscape with nobody in it. Rocks, trees and objects have plain natural surfaces."
+- комната: "An empty room with nobody in it. Objects have plain natural surfaces."
+- есть животные: "Only animals in the scene, with normal natural animal anatomy. Rocks, trees and objects have plain natural surfaces."
+
+Карточки: "Simple objects centered on a plain warm beige background. Plain natural objects with simple surfaces."
+
+Конец промпта:
+- кадр с ОДНИМ человеком: "He is fully clothed, no nudity. No text, no letters, no watermark." (или "She is ...")
+- кадр с группой 2–3: "All of them are fully clothed, no nudity. No text, no letters, no watermark."
+  (слово "Everyone" в кадре с одним человеком добавляет толпу на фон — проверено)
+- кадры БЕЗ ЛЮДЕЙ и карточки: только "No text, no letters, no watermark." (слово "everyone" вызывает людей в пустом кадре).
+
+=== СТРУКТУРА КАЖДОГО ПРОМПТА (качество картинки) ===
+Пиши полными предложениями в таком порядке:
+1. Стиль (префикс выше).
+2. План: "Medium shot." / "Wide establishing shot." / "Close-up of ..." / "Still life close-up."
+3. Кто: "The character is <ДОСЛОВНОЕ описание персонажа>." Потом отдельным предложением: "He/She is <действие, поза, эмоция>." (не склеивать описание и действие в одну фразу).
+4. Где: "Setting: <место + 3–4 конкретные детали>." (если место уже названо в действии — не повторять).
+5. Свет: "Lighting: ..." по времени суток (ночь — синий лунный свет + оранжевый от костра; закат — тёплый оранжевый; утро — розово-золотой; день — мягкий дневной).
+6. Композиция: "Composition: the character is big and clear in the frame, face and upper body clearly visible, anatomically correct hands, background slightly softer than the character."
+   - крупный план рук: "tight close-up on the hands and the object, anatomically correct human hands with five fingers."
+   - пейзаж: "clear foreground, middle ground and background layers with one strong focal point."
+   - карточка: "Soft even studio light with a gentle shadow under the objects, objects large and clear, filling about half of the frame."
+7. Один человек / группа (шаблоны ниже). Для женщин — "She is completely alone", не "He".
+8. Качество: "High quality, crisp clean linework, professional animated series background art, rich detail." (для карточек: "clean professional illustration").
+9. Концовка.
+Длина: 100–240 слов. Одна главная мысль на кадр.
+В кадрах без людей не должно быть слов: eyes, face(s), mouth (в т.ч. "cave mouth" → "cave entrance", "firelight on faces" → "firelight on rocks and grass"), everyone, people.
+
+=== ПЕРСОНАЖИ (одинаковые в КАЖДОМ кадре) ===
+- CAVE (главный герой) — описание вставлять ДОСЛОВНО в каждый кадр с ним, ничего не сокращать и не менять:
+  "a grown adult prehistoric man in his mid 30s with a mature masculine face, a short thick dark brown beard covering his jaw, messy shoulder-length dark brown hair, a ragged brown fur tunic, barefoot"
+  (не писать "young" — модель делает из него подростка; "stubble" модель не рисует — нужна "short thick beard covering his jaw" и "mature masculine face").
+- YOU — тоже дословно каждый раз:
+  "a modern man in his late 20s with short messy brown hair and a plain white t-shirt"
+- Учёные: с приметами (очки, седая борода, свитер, пробковый шлем, рубашка хаки).
+
+=== КАК ПИСАТЬ, ЧТОБЫ КАДРЫ ПОЛУЧАЛИСЬ ===
+Один человек:
+"... Only one person in the scene. He is completely alone, nobody else around, no crowd."
+
+МАССОВКА (чтобы не было "обезьян"):
+Группа (всегда 2–3 человека, точное число):
+"Three adult hunter-gatherers <действие>. Medium shot, the characters are big in the frame. They are anatomically modern humans with normal human proportions and slim upright bodies, men and women with neat dark brown hair, the men with short stubble beards, wearing simple brown leather and fur clothing, clear simple cartoon human faces with big round white eyes. Only these three in the scene, nobody in the background."
+- Для древних людей пиши "hunter-gatherers", а не "prehistoric people" / "cave people".
+- Всегда добавляй "anatomically modern humans with normal human proportions".
+- Аккуратные волосы (neat hair), а не messy/wild/long tangled — "лохматость" тянет к обезьяньим чертам.
+- Нужна большая толпа — только очень издалека: "wide shot seen from far away, small figures ... all with normal human proportions". Лица крупно не показывать.
+- Старики: "an old woman/man with gray hair tied back and a kind wrinkled face, wearing a simple brown fur and leather wrap, a normal human body with normal human proportions".
+- Предки до Homo sapiens: обязательно "a normal human face with a slightly heavy brow" (никаких "ape-like").
+
+ЭТАЛОН ЛЮДЕЙ (так получается лучше всего): короткое описание через роль + одежду + место, без лишних прилагательных. Пример: "A Greek philosopher in a white robe teaching students in a stone courtyard, normal human faces." Модель сама делает людей разными (возраст, волосы, цвет кожи), лица чёткие, пропорции нормальные. Для древних людей так же: "Three prehistoric hunters in fur tunics sharing roasted meat by a fire in a forest clearing, normal human faces." Чем короче и конкретнее (кто, что делает, где), тем лучше.
+
+Питьё: "kneeling at a stream and scooping water with both hands, no cup, no glass".
+
+Наскальные рисунки животных: в кадре всегда человек, который смотрит на стену, + "The animals are only flat paintings on the rock, not real animals. The only living creature in the scene is the man."
+
+Пустые сцены с предметами: крупный план предмета + концовка "no people".
+
+Древние предметы описывай явно (трут, кремень, костяная игла), чтобы не появлялись современные вещи.
+
+СПЯЩИЕ ПЕРСОНАЖИ (иначе модель рисует открытые круглые глаза):
+- Спящий ОДИН человек: "He/She is lying down fast asleep with eyes fully closed..." (НЕ "Everyone" — иначе на фоне появляется толпа спящих).
+- Спящая ГРУППА: в групповом шаблоне "slim upright bodies" → "slim bodies lying down on the ground", "Medium shot" → "Slightly high angle shot, the characters lie side by side", композиция "nobody is sitting up" (иначе модель сажает их у костра с открытыми глазами).
+- Если в кадре ВСЕ спят: в стиле-префиксе заменить "simple cartoon human faces with big round white eyes with small black pupils, expressive eyebrows and simple expressions" на "simple cartoon human faces with calm relaxed expressions" и добавить: "Everyone in this scene is fast asleep with eyes fully closed, the closed eyes drawn as two simple curved lines like small downward arcs, relaxed eyebrows, peaceful sleeping faces." В групповом шаблоне "big round white eyes" → "closed eyes".
+- Если один спит, другой нет: добавить "The sleeping person has eyes fully closed, drawn as two simple curved lines; the awake person has big round open eyes."
+- Сонный / зевает / зажмурился: убрать круглые глаза из префикса и написать "The eyes are squeezed shut." или "heavy half-closed sleepy eyelids".
+- Спящие животные: "fast asleep with eyelids shut".
+- Ночь без костра: "deep blue moonlight", не "firelight".
+
+ПРОВЕРЕНО НА ПРОБНЫХ КАДРАХ:
+- Крупный план рук: НЕ вставлять полное описание героя (иначе рисует всю фигуру). Писать: "extreme close-up shot of two strong adult male hands with the edge of a ragged brown fur sleeve, <действие>, the hands and the <предмет> fill the whole frame, only the hands are visible".
+- Мелкие существа и предметы (клопы, муравьи, личинки): "macro close-up of <3–5> <существо> ..., the <существа> are large and clearly visible in the frame". Иначе их не видно.
+- Вид со спины: "shown from the back, walking away from the viewer ..., we see his back and the back of his head, his face is turned away". Просто "seen from behind" модель игнорирует.
+- Два персонажа: "Two characters. The first is <описание A>. The second is <описание B>. Together they are <действие>." Не склеивать в одно предложение.
+- Раскопки в пещере — свет пещеры, без "window".
+- Древние/редкие предметы (подголовник, каменный топор, игла) модель не знает по названию — описывать ФОРМУ по частям: "a flat rectangular base, one short thick column in the middle, on top a wide curved crescent piece".
+- Сложные взаимодействия тела с предметом (голова на подголовнике, ношение странной вещи) модель не тянет — лучше показать предмет отдельно или в руках.
+- Одежда: "fur tunics that fully cover the chest and shoulders, tied with thin leather cords" (иначе голый торс и металлические пряжки). Сложенная туника: "rough brown animal fur and leather with jagged uneven edges" (иначе выходит футболка).
+- Спящие под шкурами: "covered up to their shoulders with big brown animal hides used as blankets".
+
+Сложные идеи (мысль, мечта, вопрос) показывай через реальную сцену: лицо героя, его действие, предметы. Без символов в воздухе.
+
+=== ЧЕК-ЛИСТ ПЕРЕД ОТПРАВКОЙ ===
+Текст:
+- [ ] Текст написан с нуля по research.txt, чужие ролики не использовались.
+- [ ] Нет вступления "a machine yelled/screamed at you" и других чужих узнаваемых фраз.
+- [ ] Каждый важный факт есть в research.txt с реальным источником.
+- [ ] Первые 30 секунд: неожиданный факт → главный вопрос → обещание.
+- [ ] 1750–1850 слов, 8 частей, мостики между частями.
+
+Промпты (поиск по всем промптам):
+- [ ] Этих слов быть не должно: "ice age" (вообще, в любом сочетании — пиши "prehistoric"), "a group of", "people" без числа, "apes" (и внутри слов, например "shapes" — пиши "silhouettes"), "monkey", "hairy", "furry", "drinking", "question mark", "shaped like", "symbol", "painting of" (без человека рядом), "young prehistoric man", "caveman", "cavemen", "primitive", "wild man", "Neanderthal", "beast".
+- [ ] В кадрах без людей и в карточках нет слов eyes / face / faces / mouth.
+- [ ] В групповых кадрах есть "anatomically modern humans with normal human proportions".
+- [ ] Описание CAVE и YOU стоит дословно в каждом кадре с ними.
+- [ ] В каждом кадре 6–8 слов (без исключений), нет повторов подряд, доли локаций ≤25%.
+
+Упаковка:
+- [ ] Название не копирует чужой хит, до 60 символов.
+- [ ] Обложка в том же стиле, что ролик, с тем же CAVE.
+- [ ] В описании только "How They Lived", есть блок Sources.
+
+=== МОЯ СИСТЕМА (всё локально) ===
+- Картинки: моя программа YouTube Image Studio (127.0.0.1:8791), ComfyUI + Z-Image-Turbo, 3 варианта на кадр, апскейл до 1920x1080.
+- Озвучка: Voicebox локально (127.0.0.1:17493), Qwen3-TTS 1.7B, профиль "1", seed 42.
+- Видео собирается в программе с плавным зумом.
+- Если пришлю плохой кадр — найди причину и дай полный новый промпт текстом, я сам вставлю.
+
+Начни со сводки.

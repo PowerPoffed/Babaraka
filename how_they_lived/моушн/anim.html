@@ -1,0 +1,340 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Lucky;src:url(fonts/LuckiestGuy.ttf)}
+@font-face{font-family:Nunito;src:url(fonts/Nunito.ttf);font-weight:200 1000}
+html,body{margin:0;width:1920px;height:1080px;background:transparent;overflow:hidden}
+.layer{position:absolute;inset:0;display:none}
+/* ---------- 1. TITLE ---------- */
+#title .wrap{position:absolute;left:0;right:0;top:380px;text-align:center}
+#title .big{font-family:Lucky;font-size:150px;letter-spacing:4px;color:#f6e7c8;
+  -webkit-text-stroke:10px #2b1d12;paint-order:stroke fill;
+  text-shadow:0 10px 0 #2b1d12,0 18px 30px rgba(0,0,0,.45)}
+#title .big span{display:inline-block;transform-origin:50% 80%}
+#title .sub{font-family:Nunito;font-weight:900;font-size:46px;letter-spacing:14px;color:#f3c66a;
+  -webkit-text-stroke:6px #2b1d12;paint-order:stroke fill;margin-top:18px;text-shadow:0 6px 0 #2b1d12}
+#title .line{height:10px;width:0;margin:22px auto 0;background:#f3c66a;border:5px solid #2b1d12;border-radius:10px}
+/* ---------- 2. MAP ---------- */
+#map .card{position:absolute;left:560px;top:90px;width:800px;height:900px;transform-origin:50% 50%}
+#map svg{position:absolute;inset:0}
+#map .label{position:absolute;font-family:Lucky;font-size:58px;color:#f6e7c8;-webkit-text-stroke:8px #2b1d12;paint-order:stroke fill;
+  text-shadow:0 7px 0 #2b1d12;white-space:nowrap}
+#map .label small{display:block;font-family:Nunito;font-weight:900;font-size:30px;letter-spacing:6px;color:#f3c66a;-webkit-text-stroke:5px #2b1d12}
+/* ---------- 3. SOURCE ---------- */
+#src .box,#name .box{position:absolute;left:70px;top:70px;padding:22px 34px 24px 30px;background:rgba(32,24,17,.86);
+  border:5px solid #2b1d12;border-left:14px solid #f3c66a;border-radius:18px;box-shadow:0 12px 30px rgba(0,0,0,.4)}
+#src .k{font-family:Nunito;font-weight:900;font-size:24px;letter-spacing:6px;color:#f3c66a}
+#src .v{font-family:Nunito;font-weight:800;font-size:40px;color:#f6e7c8;margin-top:4px}
+#src .v i{font-style:italic;color:#fff}
+/* ---------- 4. NAME (кто говорит / народ / место) ---------- */
+#name .box{padding:18px 40px 22px 30px}
+#name .k{font-family:Nunito;font-weight:900;font-size:26px;letter-spacing:7px;color:#f3c66a}
+#name .v{font-family:Lucky;font-size:64px;letter-spacing:2px;color:#f6e7c8;margin-top:4px;-webkit-text-stroke:7px #2b1d12;paint-order:stroke fill}
+/* ---------- 5. NUMBER (большая цифра) ---------- */
+#num .box{position:absolute;right:90px;top:80px;min-width:300px;padding:20px 46px 26px;text-align:center;background:#efdcb3;
+  border:9px solid #2b1d12;border-radius:34px;box-shadow:0 14px 0 #2b1d12,0 22px 40px rgba(0,0,0,.4);transform-origin:50% 0}
+#num .n{font-family:Lucky;font-size:150px;line-height:1.05;color:#d2442f;-webkit-text-stroke:9px #2b1d12;paint-order:stroke fill;
+  text-shadow:0 8px 0 #2b1d12;white-space:nowrap}
+#num .s{font-family:Nunito;font-weight:900;font-size:34px;letter-spacing:6px;color:#2b1d12;white-space:nowrap}
+#map .label{transform-origin:50% 100%;text-align:center}
+/* ---------- 6. COMPARE (сравнение столбиками) ---------- */
+.card{background:#efdcb3;border:9px solid #2b1d12;border-radius:34px;box-shadow:0 14px 0 #2b1d12,0 22px 40px rgba(0,0,0,.4)}
+#cmp .box{position:absolute;right:90px;top:80px;width:640px;padding:22px 36px 34px;box-sizing:border-box;transform-origin:100% 0}
+#cmp .ttl{font-family:Nunito;font-weight:900;font-size:28px;letter-spacing:6px;color:#2b1d12;text-align:center}
+#cmp .lab{font-family:Nunito;font-weight:900;font-size:28px;letter-spacing:4px;color:#2b1d12;margin-top:16px}
+#cmp .bar{height:58px;border:6px solid #2b1d12;border-radius:16px;background:#d2442f;position:relative;width:0;box-sizing:border-box;margin-top:4px}
+#cmp .bar.b1{background:#f3c66a}#cmp .bar.b2{background:#5f9b4f}
+#cmp .val{position:absolute;left:100%;margin-left:16px;top:-6px;font-family:Lucky;font-size:54px;color:#f6e7c8;-webkit-text-stroke:8px #2b1d12;paint-order:stroke fill;white-space:nowrap}
+/* ---------- 7. TIMELINE (линия времени) ---------- */
+#tl .wrap{position:absolute;left:230px;width:1460px;top:50px;height:200px}
+#tl .rail{position:absolute;left:0;top:76px;height:14px;background:#f3c66a;border:6px solid #2b1d12;border-radius:12px;width:0;box-shadow:0 6px 0 #2b1d12}
+#tl .pt{position:absolute;top:64px;width:44px;height:44px;margin-left:-22px;border-radius:50%;background:#efdcb3;border:7px solid #2b1d12;box-sizing:border-box}
+#tl .t{position:absolute;top:0;font-family:Lucky;font-size:46px;color:#f6e7c8;-webkit-text-stroke:8px #2b1d12;paint-order:stroke fill;white-space:nowrap}
+#tl .s{position:absolute;top:122px;font-family:Nunito;font-weight:900;font-size:24px;letter-spacing:4px;color:#f3c66a;-webkit-text-stroke:6px #2b1d12;paint-order:stroke fill;white-space:nowrap}
+#tl .mk{position:absolute;top:54px;width:64px;height:64px;margin-left:-32px;border-radius:50%;background:#d2442f;border:8px solid #2b1d12;box-sizing:border-box}
+/* ---------- 8. MYTH / FACT ---------- */
+#myth .box{position:absolute;left:0;right:0;top:330px}
+#myth .row{display:flex;align-items:center;justify-content:center;gap:30px;margin:22px 0}
+#myth .tag{font-family:Lucky;font-size:56px;padding:12px 26px 4px;border:8px solid #2b1d12;border-radius:20px;color:#fff;-webkit-text-stroke:6px #2b1d12;paint-order:stroke fill;box-shadow:0 8px 0 #2b1d12}
+#myth .m .tag{background:#d2442f}#myth .f .tag{background:#5f9b4f}
+#myth .txt{font-family:Lucky;font-size:80px;color:#f6e7c8;-webkit-text-stroke:10px #2b1d12;paint-order:stroke fill;position:relative;white-space:nowrap;text-shadow:0 8px 0 #2b1d12}
+#myth .strike{position:absolute;left:-14px;top:38%;height:16px;background:#d2442f;border:5px solid #2b1d12;border-radius:10px;width:0}
+/* ---------- 9. QUOTE (крупная фраза) ---------- */
+#quote .wrap{position:absolute;left:140px;right:140px;top:340px;text-align:center}
+#quote .q{font-family:Lucky;line-height:1.12;color:#f6e7c8;-webkit-text-stroke:10px #2b1d12;paint-order:stroke fill;text-shadow:0 9px 0 #2b1d12}
+#quote .q span{display:inline-block;margin:0 .14em;transform-origin:50% 80%}
+#quote .q .mk{color:#f3c66a}
+#quote .s{font-family:Nunito;font-weight:900;font-size:36px;letter-spacing:8px;color:#f3c66a;-webkit-text-stroke:6px #2b1d12;paint-order:stroke fill;margin-top:22px}
+/* ---------- 10. CHECKLIST (список с галочками) ---------- */
+#chk .box{position:absolute;left:70px;top:70px;padding:22px 44px 28px 30px;background:rgba(32,24,17,.86);border:5px solid #2b1d12;border-left:14px solid #f3c66a;border-radius:18px;box-shadow:0 12px 30px rgba(0,0,0,.4)}
+#chk .k{font-family:Nunito;font-weight:900;font-size:26px;letter-spacing:7px;color:#f3c66a;margin-bottom:6px}
+#chk .it{display:flex;align-items:center;gap:20px;margin-top:14px;font-family:Lucky;font-size:46px;color:#f6e7c8;white-space:nowrap}
+#chk .cb{width:50px;height:50px;border-radius:12px;background:#efdcb3;border:5px solid #2b1d12;box-sizing:border-box;position:relative;flex:none}
+#chk .cb svg{position:absolute;left:-6px;top:-14px;width:64px;height:64px;overflow:visible}
+/* ---------- 11. ALERT (опасность / враг) ---------- */
+#alert .box{position:absolute;right:90px;top:80px;display:flex;align-items:center;gap:22px;padding:18px 40px 18px 24px;transform-origin:100% 0}
+#alert .k{font-family:Nunito;font-weight:900;font-size:28px;letter-spacing:6px;color:#2b1d12;white-space:nowrap}
+#alert .v{font-family:Lucky;font-size:76px;line-height:1;color:#d2442f;-webkit-text-stroke:9px #2b1d12;paint-order:stroke fill;white-space:nowrap;margin-top:4px}
+/* ---------- 12. LABEL (подпись со стрелкой) ---------- */
+#lab .pill{position:absolute;padding:14px 34px 8px;background:#efdcb3;border:8px solid #2b1d12;border-radius:999px;font-family:Lucky;font-size:52px;color:#2b1d12;white-space:nowrap;box-shadow:0 9px 0 #2b1d12}
+#lab svg{position:absolute;inset:0;overflow:visible}
+</style></head><body>
+
+<div id="title" class="layer"><div class="wrap">
+  <div class="big" id="tbig"></div>
+  <div class="line" id="tline"></div>
+  <div class="sub" id="tsub"></div>
+</div></div>
+
+<div id="map" class="layer"><div class="card" id="mcard">
+  <svg viewBox="0 0 800 900" width="800" height="900">
+    <defs><filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="12" stdDeviation="14" flood-opacity=".45"/></filter></defs>
+    <rect x="20" y="20" width="760" height="860" rx="36" fill="#efdcb3" stroke="#2b1d12" stroke-width="10" filter="url(#sh)"/>
+    <clipPath id="cl"><rect x="25" y="25" width="750" height="850" rx="32"/></clipPath>
+    <g clip-path="url(#cl)"><g id="zg">
+    <rect x="-2000" y="-2000" width="5000" height="5000" fill="#efdcb3"/>
+    <g id="grid" stroke="#cdb488" stroke-width="3" stroke-dasharray="10 12" fill="none"></g>
+    <path id="land" fill="#b8a46a" stroke="#2b1d12" stroke-width="7" stroke-linejoin="round" fill-rule="evenodd"/>
+    <g id="rings" fill="none" stroke="#d2442f" stroke-width="6"></g>
+    </g></g>
+    <rect x="20" y="20" width="760" height="860" rx="36" fill="none" stroke="#2b1d12" stroke-width="10"/>
+    <g id="pin"><path d="M0,-70 C-34,-70 -48,-44 -48,-26 C-48,6 0,40 0,40 C0,40 48,6 48,-26 C48,-44 34,-70 0,-70 Z" fill="#d2442f" stroke="#2b1d12" stroke-width="7"/>
+      <circle cx="0" cy="-28" r="15" fill="#f6e7c8" stroke="#2b1d12" stroke-width="5"/></g>
+  </svg>
+  <div class="label" id="mlabel"></div>
+</div></div>
+
+<div id="src" class="layer"><div class="box" id="sbox">
+  <div class="k" id="sk">SOURCE</div>
+  <div class="v" id="sv"></div>
+</div></div>
+
+<div id="name" class="layer"><div class="box" id="nbox">
+  <div class="k" id="nk"></div>
+  <div class="v" id="nv"></div>
+</div></div>
+
+<div id="num" class="layer"><div class="box" id="ubox">
+  <div class="n" id="un"></div>
+  <div class="s" id="us"></div>
+</div></div>
+
+<div id="cmp" class="layer"><div class="box card" id="cbox"></div></div>
+<div id="tl" class="layer"><div class="wrap" id="twrap"></div></div>
+<div id="myth" class="layer"><div class="box" id="ybox">
+  <div class="row m" id="ym"><div class="tag">MYTH</div><div class="txt"><span id="ymt"></span><div class="strike" id="yst"></div></div></div>
+  <div class="row f" id="yf"><div class="tag">FACT</div><div class="txt" id="yft"></div></div>
+</div></div>
+<div id="quote" class="layer"><div class="wrap"><div class="q" id="qq"></div><div class="s" id="qs"></div></div></div>
+<div id="chk" class="layer"><div class="box" id="kbox"><div class="k" id="kk"></div><div id="kit"></div></div></div>
+<div id="alert" class="layer"><div class="box card" id="abox">
+  <svg width="130" height="118" viewBox="-65 -62 130 118" id="atri"><path d="M0,-52 L56,46 L-56,46 Z" fill="#f3c66a" stroke="#2b1d12" stroke-width="10" stroke-linejoin="round"/>
+    <rect x="-7" y="-22" width="14" height="40" rx="7" fill="#2b1d12"/><circle cx="0" cy="32" r="8" fill="#2b1d12"/></svg>
+  <div><div class="k" id="ak"></div><div class="v" id="av"></div></div>
+</div></div>
+<div id="lab" class="layer"><svg width="1920" height="1080"><path id="lline2" fill="none" stroke="#2b1d12" stroke-width="18" stroke-linecap="round"/>
+  <path id="lline" fill="none" stroke="#f6e7c8" stroke-width="8" stroke-linecap="round"/>
+  <circle id="ldot" r="16" fill="#d2442f" stroke="#2b1d12" stroke-width="7"/></svg><div class="pill" id="lpill"></div></div>
+<script src="world_land.js"></script>
+<script>
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const ease=t=>1-Math.pow(1-t,3);
+const easeIn=t=>t*t*t;
+const back=t=>{const c=1.9;return 1+(c+1)*Math.pow(t-1,3)+c*Math.pow(t-1,2)};
+const prog=(t,a,b)=>clamp((t-a)/(b-a));
+// ---------- title ----------
+const $=id=>document.getElementById(id);
+function setTitle(d){$('tbig').innerHTML=[...d.text].map(c=>`<span>${c===' '?'&nbsp;':c}</span>`).join('');$('tsub').textContent=d.sub||'';
+  const n=d.text.length; $('tbig').style.fontSize=(n>18?Math.round(150*18/n):150)+'px';}
+function drawTitle(t,dur){
+  const spans=[...document.querySelectorAll('#tbig span')];
+  const out=prog(t,dur-0.45,dur);
+  spans.forEach((s,i)=>{const p=prog(t,0.05+i*0.035,0.45+i*0.035);
+    const sc=p<=0?0:back(p); s.style.transform=`translateY(${(1-ease(p))*60 + out*-40}px) scale(${sc})`; s.style.opacity=(p>0?1:0)*(1-out);});
+  const lp=ease(prog(t,0.7,1.1)); const l=document.getElementById('tline'); l.style.width=(lp*620)+'px'; l.style.opacity=1-out;
+  const sp=ease(prog(t,0.9,1.3)); const sb=document.getElementById('tsub'); sb.style.opacity=sp*(1-out); sb.style.transform=`translateY(${(1-sp)*25}px)`;
+}
+// ---------- map (настоящая карта мира: world_land.js) ----------
+const W=800,H=900,PAD=95;
+const VIEWS={africa:{lon:17,lat:1,span:72},europe:{lon:12,lat:50,span:48},mediterranean:{lon:20,lat:36,span:42},
+  middleeast:{lon:40,lat:28,span:40},asia:{lon:95,lat:35,span:80},americas:{lon:-80,lat:10,span:100},world:{lon:15,lat:15,span:200}};
+let VIEW, S, KX, ZOOM=2.6;
+const P=(lon,lat)=>[W/2+(lon-VIEW.lon)*KX*S, H/2-(lat-VIEW.lat)*S];
+// обрезка полигона по прямоугольнику (Sutherland–Hodgman)
+function clipRect(pts,x0,y0,x1,y1){
+  const edges=[[p=>p[0]>=x0,(a,b)=>{const t=(x0-a[0])/(b[0]-a[0]);return[x0,a[1]+t*(b[1]-a[1])]}],
+    [p=>p[0]<=x1,(a,b)=>{const t=(x1-a[0])/(b[0]-a[0]);return[x1,a[1]+t*(b[1]-a[1])]}],
+    [p=>p[1]>=y0,(a,b)=>{const t=(y0-a[1])/(b[1]-a[1]);return[a[0]+t*(b[0]-a[0]),y0]}],
+    [p=>p[1]<=y1,(a,b)=>{const t=(y1-a[1])/(b[1]-a[1]);return[a[0]+t*(b[0]-a[0]),y1]}]];
+  for(const [inside,cut] of edges){const out=[];for(let i=0;i<pts.length;i++){const a=pts[(i-1+pts.length)%pts.length],b=pts[i];
+      if(inside(b)){if(!inside(a))out.push(cut(a,b));out.push(b)}else if(inside(a))out.push(cut(a,b));}
+    pts=out;if(!pts.length)break;}
+  return pts;
+}
+// упрощение линии (Douglas–Peucker) — мультяшный вид без мелких зубцов
+function simplify(p,tol){if(p.length<4)return p;   // замкнутый контур: делим на две половины по дальней точке
+  let far=0,fd=-1;for(let k=1;k<p.length;k++){const d=Math.hypot(p[k][0]-p[0][0],p[k][1]-p[0][1]);if(d>fd){fd=d;far=k}}
+  return dpLine(p.slice(0,far+1),tol).slice(0,-1).concat(dpLine(p.slice(far).concat([p[0]]),tol).slice(0,-1));}
+function dpLine(p,tol){if(p.length<3)return p;const keep=new Uint8Array(p.length);keep[0]=keep[p.length-1]=1;const st=[[0,p.length-1]];
+  while(st.length){const [i,j]=st.pop();let md=0,mi=-1;const [ax,ay]=p[i],[bx,by]=p[j],dx=bx-ax,dy=by-ay,L=Math.hypot(dx,dy)||1;
+    for(let k=i+1;k<j;k++){const d=Math.abs(dy*p[k][0]-dx*p[k][1]+bx*ay-by*ax)/L;if(d>md){md=d;mi=k}}
+    if(md>tol){keep[mi]=1;st.push([i,mi],[mi,j])}}
+  return p.filter((_,k)=>keep[k]);}
+// плавный замкнутый контур (Catmull-Rom -> Bezier)
+function smooth(p){let d=`M${p[0][0].toFixed(1)},${p[0][1].toFixed(1)}`;const n=p.length;
+  for(let i=0;i<n;i++){const p0=p[(i-1+n)%n],p1=p[i],p2=p[(i+1)%n],p3=p[(i+2)%n];
+    d+=` C${(p1[0]+(p2[0]-p0[0])/6).toFixed(1)},${(p1[1]+(p2[1]-p0[1])/6).toFixed(1)} ${(p2[0]-(p3[0]-p1[0])/6).toFixed(1)},${(p2[1]-(p3[1]-p1[1])/6).toFixed(1)} ${p2[0].toFixed(1)},${p2[1].toFixed(1)}`;}
+  return d+'Z';}
+let BC, afr, L;
+function setMap(d){
+  VIEW=typeof d.view==='object'?d.view:(VIEWS[d.view]||{lon:d.lon??31.99,lat:d.lat??-27.02,span:40});
+  ZOOM=d.zoom||2.6; KX=Math.cos(VIEW.lat*Math.PI/180); S=(W-2*PAD)/(VIEW.span*KX);
+  const lonR=(W/2+40)/(KX*S), latR=(H/2+40)/S, M=40, tol=1.6/ZOOM;
+  let path='';
+  for(const r of LAND){
+    let x0=1e9,x1=-1e9,y0=1e9,y1=-1e9;for(const [lo,la] of r){if(lo<x0)x0=lo;if(lo>x1)x1=lo;if(la<y0)y0=la;if(la>y1)y1=la}
+    if(x1<VIEW.lon-lonR||x0>VIEW.lon+lonR||y1<VIEW.lat-latR||y0>VIEW.lat+latR)continue;
+    let pl=null; const ul=r.map(([lo])=>{if(pl!==null)lo+=360*Math.round((pl-lo)/360); pl=lo; return lo});  // линия перемены дат
+    const sh=360*Math.round((VIEW.lon-ul.reduce((a,b)=>a+b,0)/ul.length)/360);
+    const pts=r.map(([,la],i)=>P(ul[i]+sh,la));
+    if(pts.length>3&&pts[0][0]===pts[pts.length-1][0]&&pts[0][1]===pts[pts.length-1][1])pts.pop();          // без повтора первой точки
+    let p=clipRect(pts,-M,-M,W+M,H+M); if(p.length<3)continue;
+    p=simplify(p,tol); if(p.length<3)continue;
+    let A=0;for(let i=0;i<p.length;i++){const a=p[i],b=p[(i+1)%p.length];A+=a[0]*b[1]-b[0]*a[1]} if(Math.abs(A)/2<4)continue;  // крошечные островки
+    path+=smooth(p);
+  }
+  afr=document.getElementById('land'); afr.setAttribute('d',path||'M0,0'); L=afr.getTotalLength()||1;
+  const g=document.getElementById('grid'); g.innerHTML='';
+  for(let lat=Math.ceil((VIEW.lat-latR)/15)*15;lat<=VIEW.lat+latR;lat+=15){const y=P(0,lat)[1];g.innerHTML+=`<line x1="${PAD-60}" y1="${y}" x2="${W-PAD+60}" y2="${y}"/>`}
+  BC=P(d.lon??31.99,d.lat??-27.02);
+}
+function drawMap(t,dur){
+  const out=prog(t,dur-0.45,dur);
+  const cin=back(prog(t,0,0.55));
+  const card=document.getElementById('mcard');
+  card.style.transform=`translateY(${(1-cin)*120 + out*60}px) scale(${Math.max(0,cin)})`;
+  card.style.opacity=1-out;
+  // zoom inside the frame toward Border Cave
+  const zp=ease(prog(t,2.0,3.3)); const z=1+zp*(ZOOM-1);
+  const fx=400+(BC[0]-400)*zp, fy=450+(BC[1]-450)*zp;
+  document.getElementById('zg').setAttribute('transform',`translate(400,450) scale(${z}) translate(${-fx},${-fy})`);
+  const sx=(BC[0]-fx)*z+400, sy=(BC[1]-fy)*z+450;   // pin position on screen (svg coords)
+  const dp=ease(prog(t,0.25,1.35)); afr.style.strokeDasharray=dp<1?L:'none'; afr.style.strokeDashoffset=L*(1-dp);
+  afr.setAttribute('stroke-width',7/Math.sqrt(z)); afr.style.fillOpacity=ease(prog(t,0.9,1.5));
+  const pp=prog(t,1.4,1.9); const pin=document.getElementById('pin');
+  const y=pp<=0?-500:(pp<1? -500*(1-easeIn(pp)) : 0); const sq=pp>=1? 1-0.25*Math.sin(prog(t,1.9,2.15)*Math.PI):1;
+  pin.setAttribute("transform",`translate(${sx},${sy+y}) scale(${1/sq},${sq}) translate(0,-40)`); pin.style.opacity=pp>0?1:0;
+  const r=document.getElementById('rings'); r.innerHTML='';
+  for(let k=0;k<3;k++){const q=((t-1.9-k*0.45)%1.35)/1.35; if(t>1.9+k*0.45){r.innerHTML+=`<circle cx="${BC[0]}" cy="${BC[1]}" r="${(10+q*70)/z}" stroke-width="${6/z}" opacity="${(1-q)*0.9}"/>`}}
+  const lp=back(prog(t,2.3,2.7)); const lab=document.getElementById('mlabel');
+  lab.style.left=sx+'px'; lab.style.top=(sy-235)+'px';
+  lab.style.transform=`translateX(-50%) scale(${Math.max(0,lp)})`; lab.style.opacity=prog(t,2.3,2.4)*(1-out);
+}
+// ---------- source ----------
+function drawSrc(t,dur){
+  const pin=ease(prog(t,0,0.5)), out=easeIn(prog(t,dur-0.45,dur));
+  const b=document.getElementById('sbox'); b.style.transform=`translateX(${(-1+pin)*700 - out*700}px)`; b.style.opacity=pin*(1-out);
+}
+// ---------- name ----------
+function drawName(t,dur){
+  const pin=ease(prog(t,0,0.5)), out=easeIn(prog(t,dur-0.45,dur));
+  const b=$('nbox'); b.style.transform=`translateX(${(-1+pin)*800 - out*800}px)`; b.style.opacity=pin*(1-out);
+  const k=$('nk'); k.style.opacity=ease(prog(t,0.35,0.7)); k.style.transform=`translateY(${(1-ease(prog(t,0.35,0.7)))*12}px)`;
+}
+// ---------- number ----------
+let NUM=null;
+function fmt(v,dec){return v.toLocaleString('en-US',{minimumFractionDigits:dec,maximumFractionDigits:dec})}
+function drawNum(t,dur){
+  const out=easeIn(prog(t,dur-0.4,dur)), p=back(prog(t,0,0.5));
+  const b=$('ubox'); b.style.transform=`translateY(${out*-40}px) scale(${Math.max(0,p)}) rotate(${(1-clamp(p))*-8}deg)`; b.style.opacity=(t>0?1:0)*(1-out);
+  if(NUM){const c=ease(prog(t,0.2,1.3)); const dec=(String(NUM.value).split('.')[1]||'').length;
+    $('un').textContent=(NUM.prefix||'')+fmt(NUM.value*c,dec)+(NUM.suffix||'');}
+  const pop=prog(t,1.3,1.6); $('un').style.transform=`scale(${1+0.12*Math.sin(pop*Math.PI)})`;
+  $('us').style.opacity=ease(prog(t,0.6,1.0));
+}
+// ---------- compare ----------
+let CMP=null;
+function setCompare(d){CMP=d; const its=d.items||[]; const mx=Math.max(...its.map(i=>i.value));
+  $('cbox').innerHTML=(d.title?`<div class="ttl">${d.title}</div>`:'')+its.map((it,i)=>`<div class="lab">${it.label}</div><div class="bar b${i%3}" data-w="${Math.round(330*it.value/mx)}"><div class="val">${it.text||it.value}</div></div>`).join('');}
+function drawCompare(t,dur){const out=easeIn(prog(t,dur-0.4,dur)),p=back(prog(t,0,0.45)),step=CMP.step||0.6;
+  const b=$('cbox'); b.style.transform=`translateY(${out*-40}px) scale(${Math.max(0,p)})`; b.style.opacity=(t>0?1:0)*(1-out);
+  [...b.querySelectorAll('.bar')].forEach((bar,i)=>{const a=0.4+i*step; bar.style.width=(ease(prog(t,a,a+0.8))*bar.dataset.w)+'px';
+    const v=bar.querySelector('.val'); v.style.opacity=prog(t,a+0.5,a+0.7); v.style.transform=`scale(${1+0.25*Math.sin(prog(t,a+0.5,a+0.9)*Math.PI)})`;});}
+// ---------- timeline ----------
+let TL=null;
+function setTimeline(d){TL=d; const n=d.points.length, W=1460;
+  TL.xs=d.points.map((_,i)=>n>1?60+i*(W-120)/(n-1):W/2);
+  $('twrap').innerHTML=`<div class="rail" id="trail"></div>`+d.points.map((p,i)=>`<div class="pt" style="left:${TL.xs[i]}px"></div><div class="t" style="left:${TL.xs[i]}px">${p.t}</div><div class="s" style="left:${TL.xs[i]}px">${p.sub||''}</div>`).join('')+`<div class="mk" id="tmk"></div>`;}
+function drawTimeline(t,dur){const out=easeIn(prog(t,dur-0.4,dur)), a=TL.active??TL.points.length-1, from=Math.max(0,a-1);
+  const w=$('twrap'); w.style.opacity=(t>0?1:0)*(1-out); w.style.transform=`translateY(${out*-30}px)`;
+  $('trail').style.width=(ease(prog(t,0,0.6))*1460)+'px';
+  const pts=w.querySelectorAll('.pt'),ts=w.querySelectorAll('.t'),ss=w.querySelectorAll('.s');
+  TL.xs.forEach((x,i)=>{const p=back(prog(t,0.1+i*0.1,0.4+i*0.1)), on=i===a, hi=on?ease(prog(t,1.4,1.7)):0;
+    pts[i].style.transform=`scale(${Math.max(0,p)})`;
+    ts[i].style.transform=`translateX(-50%) scale(${Math.max(0,p)*(1+0.25*hi)})`; ts[i].style.opacity=on?1:0.6;
+    ss[i].style.transform=`translateX(-50%)`; ss[i].style.opacity=prog(t,0.3+i*0.1,0.6+i*0.1)*(on?1:0.6);});
+  const mp=ease(prog(t,0.7,1.5)), mx=TL.xs[from]+(TL.xs[a]-TL.xs[from])*mp, m=$('tmk');
+  m.style.left=mx+'px'; m.style.transform=`scale(${Math.max(0,back(prog(t,0.5,0.8)))*(1+0.15*Math.sin(prog(t,1.5,1.8)*Math.PI))})`;}
+// ---------- myth / fact ----------
+function setMyth(d){$('ymt').textContent=d.myth||''; $('yft').textContent=d.fact||'';
+  const n=Math.max((d.myth||'').length,(d.fact||'').length); document.querySelectorAll('#myth .txt').forEach(e=>e.style.fontSize=(n>18?Math.round(80*18/n):80)+'px');}
+function drawMyth(t,dur){const out=easeIn(prog(t,dur-0.4,dur)), b=$('ybox'); b.style.opacity=1-out; b.style.transform=`translateY(${out*-40}px)`;
+  const m=$('ym'), mp=back(prog(t,0,0.4)); m.style.transform=`scale(${Math.max(0,mp)})`; m.style.opacity=(t>0?1:0)*(1-0.45*prog(t,1.1,1.4));
+  $('yst').style.width=(ease(prog(t,0.7,1.05))*($('ymt').offsetWidth+28))+'px';
+  const f=$('yf'), fp=back(prog(t,1.2,1.6)); f.style.transform=`scale(${Math.max(0,fp)})`; f.style.opacity=fp>0?1:0;}
+// ---------- quote ----------
+function setQuote(d){const words=(d.text||'').split(/\s+/); const n=(d.text||'').length;
+  $('qq').style.fontSize=(n>18?Math.max(64,Math.round(118*18/n)):118)+'px';
+  $('qq').innerHTML=words.map(w=>`<span>${w}</span>`).join(' '); $('qs').textContent=d.sub||'';}
+function drawQuote(t,dur){const out=prog(t,dur-0.4,dur), sp=[...document.querySelectorAll('#qq span')];
+  sp.forEach((s,i)=>{const p=prog(t,0.05+i*0.11,0.4+i*0.11); s.style.transform=`translateY(${(1-ease(p))*50+out*-40}px) scale(${p<=0?0:back(p)})`; s.style.opacity=(p>0?1:0)*(1-out);});
+  const q=ease(prog(t,0.3+sp.length*0.11,0.7+sp.length*0.11)); $('qs').style.opacity=q*(1-out); $('qs').style.transform=`translateY(${(1-q)*20}px)`;}
+// ---------- checklist ----------
+let CHK=null;
+function setCheck(d){CHK=d; $('kk').textContent=d.title||'';
+  $('kit').innerHTML=(d.items||[]).map(it=>{const x=it.startsWith('-')||d.mark==='x', txt=it.replace(/^-/,'');
+    const icon=x?`<path d="M14,14 L50,50 M50,14 L14,50" stroke="#d2442f" stroke-width="11" stroke-linecap="round" fill="none" pathLength="100"/>`
+                :`<path d="M10,34 L26,50 L56,10" stroke="#5f9b4f" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" fill="none" pathLength="100"/>`;
+    return `<div class="it"><div class="cb"><svg viewBox="0 0 64 64">${icon}</svg></div><div>${txt}</div></div>`}).join('');}
+function drawCheck(t,dur){const pin=ease(prog(t,0,0.5)), out=easeIn(prog(t,dur-0.45,dur)), step=CHK.step||0.5;
+  const b=$('kbox'); b.style.transform=`translateX(${(-1+pin)*900 - out*900}px)`; b.style.opacity=pin*(1-out);
+  [...document.querySelectorAll('#kit .it')].forEach((it,i)=>{const a=0.35+i*step, p=ease(prog(t,a,a+0.3));
+    it.style.opacity=p; it.style.transform=`translateX(${(1-p)*-40}px)`;
+    const path=it.querySelector('path'); path.style.strokeDasharray=100; path.style.strokeDashoffset=100*(1-ease(prog(t,a+0.25,a+0.55)));});}
+// ---------- alert ----------
+function drawAlert(t,dur){const out=easeIn(prog(t,dur-0.4,dur)), p=back(prog(t,0,0.45)), wig=Math.sin(t*28)*7*(1-prog(t,0.5,1.2))*(t>0.45?1:0);
+  const b=$('abox'); b.style.transform=`translateY(${out*-40}px) scale(${Math.max(0,p)})`; b.style.opacity=(t>0?1:0)*(1-out);
+  $('atri').style.transform=`rotate(${wig}deg) scale(${1+0.06*Math.sin(t*9)})`;}
+// ---------- label ----------
+let LB=null;
+function setLabel(d){LB={X:(d.x??0.5)*1920, Y:(d.y??0.55)*1080}; $('lpill').textContent=d.text||'';
+  const pw=$('lpill').offsetWidth, ph=$('lpill').offsetHeight, up=LB.Y>380;
+  let cx=LB.X+(LB.X>960?-180:180); cx=Math.max(pw/2+60,Math.min(1860-pw/2,cx)); const cy=up?LB.Y-230:LB.Y+230;
+  LB.px=cx-pw/2; LB.py=cy-ph/2; LB.up=up; const sx=cx, sy=up?cy+ph/2+6:cy-ph/2-6;
+  const d2=`M${sx},${sy} Q${sx},${(sy+LB.Y)/2} ${LB.X},${LB.Y}`; $('lline').setAttribute('d',d2); $('lline2').setAttribute('d',d2);
+  LB.L=$('lline').getTotalLength(); $('ldot').setAttribute('cx',LB.X); $('ldot').setAttribute('cy',LB.Y);
+  $('lpill').style.left=LB.px+'px'; $('lpill').style.top=LB.py+'px'; $('lpill').style.transformOrigin=up?'50% 100%':'50% 0';}
+function drawLabel(t,dur){const out=prog(t,dur-0.4,dur), p=back(prog(t,0,0.4)), lp=ease(prog(t,0.3,0.7));
+  const pl=$('lpill'); pl.style.transform=`scale(${Math.max(0,p)})`; pl.style.opacity=(t>0?1:0)*(1-out);
+  for(const id of ['lline','lline2']){const e=$(id); e.style.strokeDasharray=LB.L; e.style.strokeDashoffset=LB.L*(1-lp); e.style.opacity=1-out;}
+  const dp=back(prog(t,0.65,0.9)); $('ldot').setAttribute('r',16*Math.max(0,dp)*(1+0.15*Math.sin(Math.max(0,t-0.9)*7))); $('ldot').style.opacity=1-out;}
+// ---------- данные из motion_plan.json ----------
+const LAYER={title:'title',map:'map',source:'src',src:'src',name:'name',number:'num',compare:'cmp',timeline:'tl',myth:'myth',quote:'quote',checklist:'chk',alert:'alert',label:'lab'};
+window.setup=(type,d={})=>{
+  document.querySelectorAll('.layer').forEach(l=>l.style.display='none');
+  if(type==='title') setTitle(d.text?d:{text:'200,000 YEARS AGO',sub:'SOUTHERN AFRICA'});
+  if(type==='map'){ $('mlabel').innerHTML=(d.label||'BORDER CAVE')+(d.sub?`<small>${d.sub}</small>`:''); setMap(d); }
+  if(type==='source'||type==='src'){ $('sk').textContent=d.k||'SOURCE'; $('sv').innerHTML=d.text||''; }
+  if(type==='name'){ $('nk').textContent=d.sub||''; $('nv').textContent=d.text||''; }
+  if(type==='number'){ NUM=(typeof d.value==='number')?d:null; $('un').textContent=NUM?'0':(d.text||''); $('us').textContent=d.sub||'';
+    const n=NUM?fmt(NUM.value,0).length+(NUM.prefix||'').length+(NUM.suffix||'').length:(d.text||'').length; $('un').style.fontSize=(n>6?Math.round(150*6/n):150)+'px'; }
+  if(type==='alert'){ $('ak').textContent=d.sub||''; $('av').textContent=d.text||''; }
+  $(LAYER[type]).style.display='block';
+  if(type==='compare') setCompare(d); if(type==='timeline') setTimeline(d); if(type==='myth') setMyth(d);
+  if(type==='quote') setQuote(d); if(type==='checklist') setCheck(d); if(type==='label') setLabel(d);
+};
+window.draw=(type,t,dur)=>{({title:drawTitle,map:drawMap,source:drawSrc,src:drawSrc,name:drawName,number:drawNum,
+  compare:drawCompare,timeline:drawTimeline,myth:drawMyth,quote:drawQuote,checklist:drawCheck,alert:drawAlert,label:drawLabel})[type](t,dur)};
+// открыть anim.html в браузере → показать пример
+if(!navigator.webdriver){window.setup('map',{view:'africa'});let t0=performance.now();(function loop(){const t=((performance.now()-t0)/1000)%4.5;window.draw('map',t,4.5);requestAnimationFrame(loop)})();}
+</script></body></html>

@@ -1,0 +1,1 @@
+{ "name": "htl-motion", "private": true, "dependencies": { "playwright": "^1.47.0" } }
