@@ -5,7 +5,12 @@
 const { chromium } = require('playwright');
 const fs = require('fs'); const path = require('path'); const { execFileSync } = require('child_process');
 const FPS = 30;
-const DUR = { title: 3.5, map: 4.5, source: 3.0, name: 3.0, number: 3.0 };
+const DUR = { title: 3.5, map: 4.5, source: 3.0, name: 3.0, number: 3.0, compare: 4.0, timeline: 3.5, myth: 4.0,
+  quote: 3.0, checklist: 4.5, alert: 3.0, label: 3.0 };
+// где на экране стоит элемент — чтобы два элемента в одном месте не наложились
+const ZONE = { title: 'center', map: 'center', myth: 'center', quote: 'center', label: 'center', source: 'topleft', name: 'topleft',
+  checklist: 'topleft', number: 'topright', alert: 'topright', compare: 'topright', timeline: 'top' };
+const clash = (a, b) => a === b || (a === 'top' && b.startsWith('top')) || (b === 'top' && a.startsWith('top'));
 
 const planPath = path.resolve(process.argv[2] || path.join(__dirname, 'motion_plan.json'));
 const planDir = path.dirname(planPath);
@@ -14,6 +19,9 @@ const outDir = path.join(__dirname, 'out', path.basename(planDir)); fs.mkdirSync
 const ffmpeg = (args) => execFileSync('ffmpeg', ['-v', 'error', '-y', ...args], { stdio: ['ignore', 'inherit', 'inherit'] });
 const fileOf = (it) => `${it.shot}_${it.type}.mov`;
 
+// уже готовый файл перерисовывается, только если в плане поменяли его текст/длительность
+const metaPath = path.join(outDir, '.meta.json');
+const meta = fs.existsSync(metaPath) ? JSON.parse(fs.readFileSync(metaPath, 'utf8')) : {};
 async function renderAll() {
   let browser;
   if (process.env.CHROME_PATH) browser = await chromium.launch({ executablePath: process.env.CHROME_PATH });
@@ -24,8 +32,8 @@ async function renderAll() {
   const frames = path.join(__dirname, 'frames_tmp');
   for (const [i, it] of plan.items.entries()) {
     const out = path.join(outDir, fileOf(it));
-    if (fs.existsSync(out)) { console.log(`[${i + 1}/${plan.items.length}] уже есть: ${fileOf(it)}`); continue; }
-    const dur = it.dur || DUR[it.type];
+    const dur = it.dur || DUR[it.type], key = JSON.stringify({ ...it, dur });
+    if (fs.existsSync(out) && meta[fileOf(it)] === key) { console.log(`[${i + 1}/${plan.items.length}] уже есть: ${fileOf(it)}`); continue; }
     fs.rmSync(frames, { recursive: true, force: true }); fs.mkdirSync(frames);
     await page.evaluate(([type, d]) => window.setup(type, d), [it.type, it]);
     const n = Math.round(dur * FPS);
@@ -35,6 +43,7 @@ async function renderAll() {
     }
     ffmpeg(['-framerate', String(FPS), '-i', path.join(frames, 'f_%04d.png'),
       '-c:v', 'prores_ks', '-profile:v', '4444', '-qscale:v', '11', '-pix_fmt', 'yuva444p10le', out]);
+    meta[fileOf(it)] = key; fs.writeFileSync(metaPath, JSON.stringify(meta, null, 1));
     console.log(`[${i + 1}/${plan.items.length}] готово: ${fileOf(it)}`);
   }
   fs.rmSync(frames, { recursive: true, force: true });
@@ -84,8 +93,20 @@ function shotStarts(srtPath) {
   return start;
 }
 
-function buildTimeline(srtPath) {
-  const start = shotStarts(srtPath);
+// длительность каждого элемента: не дольше, чем до следующего элемента в том же месте экрана
+function fitDurations(start) {
+  const items = plan.items.filter((it) => start[it.shot] != null).sort((a, b) => start[a.shot] - start[b.shot]);
+  items.forEach((it, i) => {
+    let dur = it.dur || DUR[it.type];
+    for (const nx of items.slice(i + 1)) {
+      if (start[nx.shot] - start[it.shot] >= dur) break;
+      if (clash(ZONE[it.type], ZONE[nx.type])) { dur = Math.max(1.6, start[nx.shot] - start[it.shot] - 0.05); break; }
+    }
+    it.dur = +dur.toFixed(2);
+  });
+}
+
+function buildTimeline(start) {
   const items = plan.items.filter((it) => start[it.shot] != null).map((it) => ({ ...it, at: start[it.shot] }));
   const fmt = (s) => `${String(Math.floor(s / 60)).padStart(2, '0')}:${(s % 60).toFixed(1).padStart(4, '0')}`;
   fs.writeFileSync(path.join(outDir, 'timings.txt'), items.map((it) => `${fmt(it.at)}  ${fileOf(it)}`).join('\r\n') + '\r\n');
@@ -105,9 +126,11 @@ function buildTimeline(srtPath) {
 }
 
 (async () => {
-  await renderAll();
   const srt = process.argv[3] ? path.resolve(process.argv[3]) : fs.readdirSync(planDir).filter((f) => f.toLowerCase().endsWith('.srt')).map((f) => path.join(planDir, f))[0];
-  if (srt && fs.existsSync(path.join(planDir, 'shotpos.json'))) buildTimeline(srt);
+  const start = srt && fs.existsSync(path.join(planDir, 'shotpos.json')) ? shotStarts(srt) : null;
+  if (start) fitDurations(start);
+  await renderAll();
+  if (start) buildTimeline(start);
   else console.log('Субтитров .srt рядом с планом нет — общая дорожка не собрана. Элементы лежат по номерам кадров.');
   console.log('Папка:', outDir);
 })();
