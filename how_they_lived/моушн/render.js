@@ -127,7 +127,10 @@ function buildTimeline(start) {
 
 (async () => {
   const srt = process.argv[3] ? path.resolve(process.argv[3]) : fs.readdirSync(planDir).filter((f) => f.toLowerCase().endsWith('.srt')).map((f) => path.join(planDir, f))[0];
-  const start = srt && fs.existsSync(path.join(planDir, 'shotpos.json')) ? shotStarts(srt) : null;
+  // время кадров: готовый shot_times.json (его пишет программа: {"shot_001": 0.0, ...}) или расчёт по субтитрам .srt
+  const timesPath = path.join(planDir, 'shot_times.json');
+  const start = fs.existsSync(timesPath) ? JSON.parse(fs.readFileSync(timesPath, 'utf8'))
+    : srt && fs.existsSync(path.join(planDir, 'shotpos.json')) ? shotStarts(srt) : null;
   if (start) fitDurations(start);
   await renderAll();
   if (start) buildTimeline(start);
