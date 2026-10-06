@@ -1,0 +1,125 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Lucky;src:url(fonts/LuckiestGuy.ttf)}
+@font-face{font-family:Nunito;src:url(fonts/Nunito.ttf);font-weight:200 1000}
+html,body{margin:0;width:1920px;height:1080px;background:transparent;overflow:hidden}
+.layer{position:absolute;inset:0;display:none}
+/* ---------- 1. TITLE ---------- */
+#title .wrap{position:absolute;left:0;right:0;top:380px;text-align:center}
+#title .big{font-family:Lucky;font-size:150px;letter-spacing:4px;color:#f6e7c8;
+  -webkit-text-stroke:10px #2b1d12;paint-order:stroke fill;
+  text-shadow:0 10px 0 #2b1d12,0 18px 30px rgba(0,0,0,.45)}
+#title .big span{display:inline-block;transform-origin:50% 80%}
+#title .sub{font-family:Nunito;font-weight:900;font-size:46px;letter-spacing:14px;color:#f3c66a;
+  -webkit-text-stroke:6px #2b1d12;paint-order:stroke fill;margin-top:18px;text-shadow:0 6px 0 #2b1d12}
+#title .line{height:10px;width:0;margin:22px auto 0;background:#f3c66a;border:5px solid #2b1d12;border-radius:10px}
+/* ---------- 2. MAP ---------- */
+#map .card{position:absolute;left:560px;top:90px;width:800px;height:900px;transform-origin:50% 50%}
+#map svg{position:absolute;inset:0}
+#map .label{position:absolute;font-family:Lucky;font-size:58px;color:#f6e7c8;-webkit-text-stroke:8px #2b1d12;paint-order:stroke fill;
+  text-shadow:0 7px 0 #2b1d12;white-space:nowrap}
+#map .label small{display:block;font-family:Nunito;font-weight:900;font-size:30px;letter-spacing:6px;color:#f3c66a;-webkit-text-stroke:5px #2b1d12}
+/* ---------- 3. SOURCE ---------- */
+#src .box{position:absolute;left:70px;bottom:80px;padding:22px 34px 24px 30px;background:rgba(32,24,17,.86);
+  border:5px solid #2b1d12;border-left:14px solid #f3c66a;border-radius:18px;box-shadow:0 12px 30px rgba(0,0,0,.4)}
+#src .k{font-family:Nunito;font-weight:900;font-size:24px;letter-spacing:6px;color:#f3c66a}
+#src .v{font-family:Nunito;font-weight:800;font-size:40px;color:#f6e7c8;margin-top:4px}
+#src .v i{font-style:italic;color:#fff}
+</style></head><body>
+
+<div id="title" class="layer"><div class="wrap">
+  <div class="big" id="tbig"></div>
+  <div class="line" id="tline"></div>
+  <div class="sub" id="tsub">SOUTHERN AFRICA</div>
+</div></div>
+
+<div id="map" class="layer"><div class="card" id="mcard">
+  <svg viewBox="0 0 800 900" width="800" height="900">
+    <defs><filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="12" stdDeviation="14" flood-opacity=".45"/></filter></defs>
+    <rect x="20" y="20" width="760" height="860" rx="36" fill="#efdcb3" stroke="#2b1d12" stroke-width="10" filter="url(#sh)"/>
+    <clipPath id="cl"><rect x="25" y="25" width="750" height="850" rx="32"/></clipPath>
+    <g clip-path="url(#cl)"><g id="zg">
+    <rect x="-2000" y="-2000" width="5000" height="5000" fill="#efdcb3"/>
+    <g id="grid" stroke="#cdb488" stroke-width="3" stroke-dasharray="10 12" fill="none"></g>
+    <path id="africa" fill="#b8a46a" stroke="#2b1d12" stroke-width="7" stroke-linejoin="round"/>
+    <path id="mada" fill="#b8a46a" stroke="#2b1d12" stroke-width="6" stroke-linejoin="round"/>
+    <g id="rings" fill="none" stroke="#d2442f" stroke-width="6"></g>
+    </g></g>
+    <rect x="20" y="20" width="760" height="860" rx="36" fill="none" stroke="#2b1d12" stroke-width="10"/>
+    <g id="pin"><path d="M0,-70 C-34,-70 -48,-44 -48,-26 C-48,6 0,40 0,40 C0,40 48,6 48,-26 C48,-44 34,-70 0,-70 Z" fill="#d2442f" stroke="#2b1d12" stroke-width="7"/>
+      <circle cx="0" cy="-28" r="15" fill="#f6e7c8" stroke="#2b1d12" stroke-width="5"/></g>
+  </svg>
+  <div class="label" id="mlabel">BORDER CAVE<small>~200,000 YEARS AGO</small></div>
+</div></div>
+
+<div id="src" class="layer"><div class="box" id="sbox">
+  <div class="k">SOURCE</div>
+  <div class="v">Wadley et al., <i>Science</i>, 2020</div>
+</div></div>
+
+<script>
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const ease=t=>1-Math.pow(1-t,3);
+const easeIn=t=>t*t*t;
+const back=t=>{const c=1.9;return 1+(c+1)*Math.pow(t-1,3)+c*Math.pow(t-1,2)};
+const prog=(t,a,b)=>clamp((t-a)/(b-a));
+// ---------- title ----------
+const T="200,000 YEARS AGO";
+document.getElementById('tbig').innerHTML=[...T].map(c=>`<span>${c===' '?'&nbsp;':c}</span>`).join('');
+function drawTitle(t,dur){
+  const spans=[...document.querySelectorAll('#tbig span')];
+  const out=prog(t,dur-0.45,dur);
+  spans.forEach((s,i)=>{const p=prog(t,0.05+i*0.035,0.45+i*0.035);
+    const sc=p<=0?0:back(p); s.style.transform=`translateY(${(1-ease(p))*60 + out*-40}px) scale(${sc})`; s.style.opacity=(p>0?1:0)*(1-out);});
+  const lp=ease(prog(t,0.7,1.1)); const l=document.getElementById('tline'); l.style.width=(lp*620)+'px'; l.style.opacity=1-out;
+  const sp=ease(prog(t,0.9,1.3)); const sb=document.getElementById('tsub'); sb.style.opacity=sp*(1-out); sb.style.transform=`translateY(${(1-sp)*25}px)`;
+}
+// ---------- map ----------
+const W=800,H=900,PAD=95, LON0=-19,LON1=53,LAT0=38,LAT1=-36;
+const sx=(W-2*PAD)/(LON1-LON0), sy=(H-2*PAD)/(LAT0-LAT1), S=Math.min(sx,sy);
+const ox=(W-(LON1-LON0)*S)/2, oy=(H-(LAT0-LAT1)*S)/2;
+const P=(lon,lat)=>[ox+(lon-LON0)*S, oy+(LAT0-lat)*S];
+const AF=[[-5.9,35.8],[-9.6,30.4],[-13.2,27.7],[-16.5,23.7],[-17.1,21],[-17.4,14.7],[-16.7,12.5],[-15,10.8],[-13.3,8.5],[-11.5,6.9],[-7.5,4.4],[-4,5.2],[0,5.6],[2.5,6.3],[5,5.6],[6.5,4.3],[8.9,4],[9.5,2],[9,-1],[11.8,-4.8],[12.3,-6.1],[13.2,-8.8],[13.6,-12.4],[11.8,-17.3],[14.5,-22.9],[15.2,-26.6],[16.5,-28.6],[18,-32],[18.4,-34.1],[20,-34.8],[22.5,-34],[25.6,-34],[28,-32.6],[31,-29.8],[32.6,-26],[35.3,-23.8],[35.5,-21],[36.9,-17.9],[39.2,-15.5],[40.5,-12.9],[40.4,-10.5],[39.3,-6.8],[39.7,-4],[41.6,-1.6],[44,1.5],[45.3,2],[47.5,4.9],[49,8],[51.3,11.8],[49,11.3],[45,10.4],[43.2,11.5],[41.7,13.5],[39.5,15.6],[37.2,19.6],[35.6,23.9],[33.9,27.2],[32.5,30],[32.3,31.3],[29.9,31.2],[25,31.6],[20.1,32.1],[18.5,30.4],[15.5,31.6],[13.2,32.9],[10.8,34.7],[11,37],[9.8,37.3],[3,36.8],[-0.6,35.7],[-2.9,35.3]];
+const MD=[[49.3,-12],[50.4,-15.5],[49.6,-17],[47.1,-24.9],[44,-25],[43.3,-22],[44.4,-16.2],[47,-14]];
+// smooth closed path (Catmull-Rom -> Bezier) for a hand-drawn cartoon look
+function smooth(pts){const p=pts.map(([a,b])=>P(a,b));let d=`M${p[0][0]},${p[0][1]}`;const n=p.length;
+  for(let i=0;i<n;i++){const p0=p[(i-1+n)%n],p1=p[i],p2=p[(i+1)%n],p3=p[(i+2)%n];
+    d+=` C${p1[0]+(p2[0]-p0[0])/6},${p1[1]+(p2[1]-p0[1])/6} ${p2[0]-(p3[0]-p1[0])/6},${p2[1]-(p3[1]-p1[1])/6} ${p2[0]},${p2[1]}`;}return d+'Z';}
+document.getElementById('africa').setAttribute('d',smooth(AF));
+document.getElementById('mada').setAttribute('d',smooth(MD));
+const g=document.getElementById('grid');
+for(let lat=-30;lat<=30;lat+=15){const [x1,y]=P(LON0+3,lat),[x2]=P(LON1-3,lat);g.innerHTML+=`<line x1="${x1}" y1="${y}" x2="${x2}" y2="${y}"/>`}
+const BC=P(31.99,-27.02);
+const afr=document.getElementById('africa'); const L=afr.getTotalLength();
+afr.style.strokeDasharray=L;
+function drawMap(t,dur){
+  const out=prog(t,dur-0.45,dur);
+  const cin=back(prog(t,0,0.55));
+  const card=document.getElementById('mcard');
+  card.style.transform=`translateY(${(1-cin)*120 + out*60}px) scale(${Math.max(0,cin)})`;
+  card.style.opacity=1-out;
+  // zoom inside the frame toward Border Cave
+  const zp=ease(prog(t,2.0,3.3)); const z=1+zp*1.6;
+  const fx=400+(BC[0]-400)*zp, fy=450+(BC[1]-450)*zp;
+  document.getElementById('zg').setAttribute('transform',`translate(400,450) scale(${z}) translate(${-fx},${-fy})`);
+  const sx=(BC[0]-fx)*z+400, sy=(BC[1]-fy)*z+450;   // pin position on screen (svg coords)
+  const dp=ease(prog(t,0.25,1.35)); afr.style.strokeDashoffset=L*(1-dp);
+  afr.style.fillOpacity=ease(prog(t,0.9,1.5)); document.getElementById('mada').style.opacity=ease(prog(t,1.1,1.5));
+  const pp=prog(t,1.4,1.9); const pin=document.getElementById('pin');
+  const y=pp<=0?-500:(pp<1? -500*(1-easeIn(pp)) : 0); const sq=pp>=1? 1-0.25*Math.sin(prog(t,1.9,2.15)*Math.PI):1;
+  pin.setAttribute('transform',`translate(${sx},${sy+y}) scale(${1/sq},${sq})`); pin.style.opacity=pp>0?1:0;
+  const r=document.getElementById('rings'); r.innerHTML='';
+  for(let k=0;k<3;k++){const q=((t-1.9-k*0.45)%1.35)/1.35; if(t>1.9+k*0.45){r.innerHTML+=`<circle cx="${BC[0]}" cy="${BC[1]}" r="${(10+q*70)/z}" stroke-width="${6/z}" opacity="${(1-q)*0.9}"/>`}}
+  const lp=back(prog(t,2.3,2.7)); const lab=document.getElementById('mlabel');
+  lab.style.left=(sx-200)+'px'; lab.style.top=(sy-235)+'px'; lab.style.transformOrigin='50% 100%'; lab.style.textAlign='center'; lab.style.width='400px';
+  lab.style.transform=`scale(${Math.max(0,lp)})`; lab.style.opacity=prog(t,2.3,2.4)*(1-out);
+}
+// ---------- source ----------
+function drawSrc(t,dur){
+  const pin=ease(prog(t,0,0.5)), out=easeIn(prog(t,dur-0.45,dur));
+  const b=document.getElementById('sbox'); b.style.transform=`translateX(${(-1+pin)*700 - out*700}px)`; b.style.opacity=pin*(1-out);
+}
+window.setup=(id)=>{document.querySelectorAll('.layer').forEach(l=>l.style.display='none');document.getElementById(id).style.display='block'};
+window.draw=(id,t,dur)=>{({title:drawTitle,map:drawMap,src:drawSrc})[id](t,dur)};
+</script></body></html>
