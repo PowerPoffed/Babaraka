@@ -21,17 +21,28 @@ html,body{margin:0;width:1920px;height:1080px;background:transparent;overflow:hi
   text-shadow:0 7px 0 #2b1d12;white-space:nowrap}
 #map .label small{display:block;font-family:Nunito;font-weight:900;font-size:30px;letter-spacing:6px;color:#f3c66a;-webkit-text-stroke:5px #2b1d12}
 /* ---------- 3. SOURCE ---------- */
-#src .box{position:absolute;left:70px;bottom:80px;padding:22px 34px 24px 30px;background:rgba(32,24,17,.86);
+#src .box,#name .box{position:absolute;left:70px;top:70px;padding:22px 34px 24px 30px;background:rgba(32,24,17,.86);
   border:5px solid #2b1d12;border-left:14px solid #f3c66a;border-radius:18px;box-shadow:0 12px 30px rgba(0,0,0,.4)}
 #src .k{font-family:Nunito;font-weight:900;font-size:24px;letter-spacing:6px;color:#f3c66a}
 #src .v{font-family:Nunito;font-weight:800;font-size:40px;color:#f6e7c8;margin-top:4px}
 #src .v i{font-style:italic;color:#fff}
+/* ---------- 4. NAME (кто говорит / народ / место) ---------- */
+#name .box{padding:18px 40px 22px 30px}
+#name .k{font-family:Nunito;font-weight:900;font-size:26px;letter-spacing:7px;color:#f3c66a}
+#name .v{font-family:Lucky;font-size:64px;letter-spacing:2px;color:#f6e7c8;margin-top:4px;-webkit-text-stroke:7px #2b1d12;paint-order:stroke fill}
+/* ---------- 5. NUMBER (большая цифра) ---------- */
+#num .box{position:absolute;right:90px;top:80px;min-width:300px;padding:20px 46px 26px;text-align:center;background:#efdcb3;
+  border:9px solid #2b1d12;border-radius:34px;box-shadow:0 14px 0 #2b1d12,0 22px 40px rgba(0,0,0,.4);transform-origin:50% 0}
+#num .n{font-family:Lucky;font-size:150px;line-height:1.05;color:#d2442f;-webkit-text-stroke:9px #2b1d12;paint-order:stroke fill;
+  text-shadow:0 8px 0 #2b1d12;white-space:nowrap}
+#num .s{font-family:Nunito;font-weight:900;font-size:34px;letter-spacing:6px;color:#2b1d12;white-space:nowrap}
+#map .label{transform-origin:50% 100%;text-align:center}
 </style></head><body>
 
 <div id="title" class="layer"><div class="wrap">
   <div class="big" id="tbig"></div>
   <div class="line" id="tline"></div>
-  <div class="sub" id="tsub">SOUTHERN AFRICA</div>
+  <div class="sub" id="tsub"></div>
 </div></div>
 
 <div id="map" class="layer"><div class="card" id="mcard">
@@ -50,12 +61,22 @@ html,body{margin:0;width:1920px;height:1080px;background:transparent;overflow:hi
     <g id="pin"><path d="M0,-70 C-34,-70 -48,-44 -48,-26 C-48,6 0,40 0,40 C0,40 48,6 48,-26 C48,-44 34,-70 0,-70 Z" fill="#d2442f" stroke="#2b1d12" stroke-width="7"/>
       <circle cx="0" cy="-28" r="15" fill="#f6e7c8" stroke="#2b1d12" stroke-width="5"/></g>
   </svg>
-  <div class="label" id="mlabel">BORDER CAVE<small>~200,000 YEARS AGO</small></div>
+  <div class="label" id="mlabel"></div>
 </div></div>
 
 <div id="src" class="layer"><div class="box" id="sbox">
-  <div class="k">SOURCE</div>
-  <div class="v">Wadley et al., <i>Science</i>, 2020</div>
+  <div class="k" id="sk">SOURCE</div>
+  <div class="v" id="sv"></div>
+</div></div>
+
+<div id="name" class="layer"><div class="box" id="nbox">
+  <div class="k" id="nk"></div>
+  <div class="v" id="nv"></div>
+</div></div>
+
+<div id="num" class="layer"><div class="box" id="ubox">
+  <div class="n" id="un"></div>
+  <div class="s" id="us"></div>
 </div></div>
 
 <script>
@@ -65,8 +86,9 @@ const easeIn=t=>t*t*t;
 const back=t=>{const c=1.9;return 1+(c+1)*Math.pow(t-1,3)+c*Math.pow(t-1,2)};
 const prog=(t,a,b)=>clamp((t-a)/(b-a));
 // ---------- title ----------
-const T="200,000 YEARS AGO";
-document.getElementById('tbig').innerHTML=[...T].map(c=>`<span>${c===' '?'&nbsp;':c}</span>`).join('');
+const $=id=>document.getElementById(id);
+function setTitle(d){$('tbig').innerHTML=[...d.text].map(c=>`<span>${c===' '?'&nbsp;':c}</span>`).join('');$('tsub').textContent=d.sub||'';
+  const n=d.text.length; $('tbig').style.fontSize=(n>18?Math.round(150*18/n):150)+'px';}
 function drawTitle(t,dur){
   const spans=[...document.querySelectorAll('#tbig span')];
   const out=prog(t,dur-0.45,dur);
@@ -90,7 +112,7 @@ document.getElementById('africa').setAttribute('d',smooth(AF));
 document.getElementById('mada').setAttribute('d',smooth(MD));
 const g=document.getElementById('grid');
 for(let lat=-30;lat<=30;lat+=15){const [x1,y]=P(LON0+3,lat),[x2]=P(LON1-3,lat);g.innerHTML+=`<line x1="${x1}" y1="${y}" x2="${x2}" y2="${y}"/>`}
-const BC=P(31.99,-27.02);
+let BC=P(31.99,-27.02);
 const afr=document.getElementById('africa'); const L=afr.getTotalLength();
 afr.style.strokeDasharray=L;
 function drawMap(t,dur){
@@ -112,14 +134,44 @@ function drawMap(t,dur){
   const r=document.getElementById('rings'); r.innerHTML='';
   for(let k=0;k<3;k++){const q=((t-1.9-k*0.45)%1.35)/1.35; if(t>1.9+k*0.45){r.innerHTML+=`<circle cx="${BC[0]}" cy="${BC[1]}" r="${(10+q*70)/z}" stroke-width="${6/z}" opacity="${(1-q)*0.9}"/>`}}
   const lp=back(prog(t,2.3,2.7)); const lab=document.getElementById('mlabel');
-  lab.style.left=(sx-200)+'px'; lab.style.top=(sy-235)+'px'; lab.style.transformOrigin='50% 100%'; lab.style.textAlign='center'; lab.style.width='400px';
-  lab.style.transform=`scale(${Math.max(0,lp)})`; lab.style.opacity=prog(t,2.3,2.4)*(1-out);
+  lab.style.left=sx+'px'; lab.style.top=(sy-235)+'px';
+  lab.style.transform=`translateX(-50%) scale(${Math.max(0,lp)})`; lab.style.opacity=prog(t,2.3,2.4)*(1-out);
 }
 // ---------- source ----------
 function drawSrc(t,dur){
   const pin=ease(prog(t,0,0.5)), out=easeIn(prog(t,dur-0.45,dur));
   const b=document.getElementById('sbox'); b.style.transform=`translateX(${(-1+pin)*700 - out*700}px)`; b.style.opacity=pin*(1-out);
 }
-window.setup=(id)=>{document.querySelectorAll('.layer').forEach(l=>l.style.display='none');document.getElementById(id).style.display='block'};
-window.draw=(id,t,dur)=>{({title:drawTitle,map:drawMap,src:drawSrc})[id](t,dur)};
+// ---------- name ----------
+function drawName(t,dur){
+  const pin=ease(prog(t,0,0.5)), out=easeIn(prog(t,dur-0.45,dur));
+  const b=$('nbox'); b.style.transform=`translateX(${(-1+pin)*800 - out*800}px)`; b.style.opacity=pin*(1-out);
+  const k=$('nk'); k.style.opacity=ease(prog(t,0.35,0.7)); k.style.transform=`translateY(${(1-ease(prog(t,0.35,0.7)))*12}px)`;
+}
+// ---------- number ----------
+let NUM=null;
+function fmt(v,dec){return v.toLocaleString('en-US',{minimumFractionDigits:dec,maximumFractionDigits:dec})}
+function drawNum(t,dur){
+  const out=easeIn(prog(t,dur-0.4,dur)), p=back(prog(t,0,0.5));
+  const b=$('ubox'); b.style.transform=`translateY(${out*-40}px) scale(${Math.max(0,p)}) rotate(${(1-clamp(p))*-8}deg)`; b.style.opacity=(t>0?1:0)*(1-out);
+  if(NUM){const c=ease(prog(t,0.2,1.3)); const dec=(String(NUM.value).split('.')[1]||'').length;
+    $('un').textContent=(NUM.prefix||'')+fmt(NUM.value*c,dec)+(NUM.suffix||'');}
+  const pop=prog(t,1.3,1.6); $('un').style.transform=`scale(${1+0.12*Math.sin(pop*Math.PI)})`;
+  $('us').style.opacity=ease(prog(t,0.6,1.0));
+}
+// ---------- данные из motion_plan.json ----------
+const LAYER={title:'title',map:'map',source:'src',src:'src',name:'name',number:'num'};
+window.setup=(type,d={})=>{
+  document.querySelectorAll('.layer').forEach(l=>l.style.display='none');
+  if(type==='title') setTitle(d.text?d:{text:'200,000 YEARS AGO',sub:'SOUTHERN AFRICA'});
+  if(type==='map'){ $('mlabel').innerHTML=(d.label||'BORDER CAVE')+(d.sub?`<small>${d.sub}</small>`:'');
+    BC=P(d.lon??31.99, d.lat??-27.02); }
+  if(type==='source'||type==='src'){ $('sk').textContent=d.k||'SOURCE'; $('sv').innerHTML=d.text||''; }
+  if(type==='name'){ $('nk').textContent=d.sub||''; $('nv').textContent=d.text||''; }
+  if(type==='number'){ NUM=(typeof d.value==='number')?d:null; $('un').textContent=NUM?'0':(d.text||''); $('us').textContent=d.sub||''; }
+  $(LAYER[type]).style.display='block';
+};
+window.draw=(type,t,dur)=>{({title:drawTitle,map:drawMap,source:drawSrc,src:drawSrc,name:drawName,number:drawNum})[type](t,dur)};
+// открыть anim.html в браузере → показать пример
+if(!navigator.webdriver){window.setup('map',{});let t0=performance.now();(function loop(){const t=((performance.now()-t0)/1000)%4.5;window.draw('map',t,4.5);requestAnimationFrame(loop)})();}
 </script></body></html>
