@@ -113,8 +113,9 @@ def build(r, full):
     else:
         parts += ['Still life close-up. ' + sc, "Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light."]
         tail = "No people. No text, no letters, no watermark."
-    if vid and typ != 'C':
-        parts.append("Video-ready: the main subject fully inside the frame, soft natural elements that can move such as water, smoke, leaves and flames.")
+    if vid:
+        parts.append("Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, "
+                     "nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames.")
     body = ' '.join(p for p in parts if p)
     if full:
         style = STYLE if typ in ('P', 'W') else STYLE_NP
@@ -186,7 +187,7 @@ for i, r in enumerate(rows):
     if '{' in r['full'] or '{' in r['flow']: bad.append((i + 1, 'tag'))
     if r['typ'] in ('E', 'C') and re.search(r'\b(eyes?|faces?|everyone|people|person|man|woman)\b', r['flow'].split('No people')[0].lower()): bad.append((i + 1, 'person word in no-people shot'))
     if r['typ'] == 'P' and 'Only one person' in r['flow'] and len(r['used']) > 1: bad.append((i + 1, 'alone but 2 chars'))
-    if len(r['full'].split()) > 265: bad.append((i + 1, 'long %d' % len(r['full'].split())))
+    if len(r['full'].split()) > 300: bad.append((i + 1, 'long %d' % len(r['full'].split())))
     if r['loc'] not in SETTING: bad.append((i + 1, 'loc ' + r['loc']))
 dups = [k for k, v in collections.Counter(r['sc'] for r in rows).items() if v > 1]
 wc = [len(norm(r['txt'])) for r in rows]

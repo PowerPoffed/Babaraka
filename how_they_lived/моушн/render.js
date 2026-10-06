@@ -111,14 +111,16 @@ function buildTimeline(start) {
   const fmt = (s) => `${String(Math.floor(s / 60)).padStart(2, '0')}:${(s % 60).toFixed(1).padStart(4, '0')}`;
   fs.writeFileSync(path.join(outDir, 'timings.txt'), items.map((it) => `${fmt(it.at)}  ${fileOf(it)}`).join('\r\n') + '\r\n');
   const total = Math.max(...items.map((it) => it.at + (it.dur || DUR[it.type]))) + 1;
-  const args = ['-f', 'lavfi', '-i', `color=c=black@0:s=1920x1080:r=${FPS}:d=${total.toFixed(2)},format=yuva444p10le`];
+  const args = ['-f', 'lavfi', '-i', `color=c=black@0:s=1920x1080:r=${FPS}:d=${total.toFixed(2)},format=rgba`];
   let chain = '', last = '0:v';
   items.forEach((it, k) => {
     args.push('-i', path.join(outDir, fileOf(it)));
-    chain += `[${k + 1}:v]setpts=PTS-STARTPTS+${it.at.toFixed(3)}/TB[e${k}];[${last}][e${k}]overlay=eof_action=pass:format=auto[o${k}];`;
+    // подложка и смешивание в RGBA: с 10-битной YUV-подложкой полупрозрачные места темнели
+    chain += `[${k + 1}:v]setpts=PTS-STARTPTS+${it.at.toFixed(3)}/TB[e${k}];[${last}][e${k}]overlay=eof_action=pass:format=rgb[o${k}];`;
     last = `o${k}`;
   });
-  args.push('-filter_complex', chain.slice(0, -1), '-map', `[${last}]`, '-c:v', 'prores_ks', '-profile:v', '4444', '-qscale:v', '11',
+  chain += `[${last}]format=rgba[out]`;
+  args.push('-filter_complex', chain, '-map', '[out]', '-c:v', 'prores_ks', '-profile:v', '4444', '-qscale:v', '11',
     '-pix_fmt', 'yuva444p10le', path.join(outDir, 'ALL_overlays.mov'));
   console.log('Собираю одну дорожку на весь ролик...');
   ffmpeg(args);

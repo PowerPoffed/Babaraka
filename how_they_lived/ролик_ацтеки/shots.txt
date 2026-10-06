@@ -1,28 +1,28 @@
 # PART 1 — THE CITY ON THE LAKE
-In November 1519, a Spanish soldier|LAKE|P|{SPANIARD} standing on a long stone causeway over a blue lake, looking ahead in amazement {ALONE}
+In November 1519, a Spanish soldier|LAKE|P|{SPANIARD} standing on a long stone causeway over a blue lake, looking ahead in amazement {ALONE} {VID}
 named Bernal Díaz stood on a road|LAKE|E|wide shot of a long straight stone causeway crossing a calm blue lake toward a distant white island city at morning {VID}
-built across a lake, and stared.|LAKE|P|close-up of {SPANIARD} with wide eyes and raised eyebrows, holding his steel helmet in one hand {ALONE}
+built across a lake, and stared.|LAKE|P|close-up of {SPANIARD} with wide eyes and raised eyebrows, holding his steel helmet in one hand {ALONE} {VID}
 In front of him, a white city|CITY|E|wide shot of a huge white island city on a blue lake with canals, temples and gardens, two volcanoes far behind {VID}
 seemed to float right on the water.|LAKE|E|white houses and flowering rooftops reflected in calm blue lake water, soft morning mist {VID}
 Temples, towers, gardens, canals full of canoes.|CANAL|W|a busy city canal full of dugout canoes loaded with flowers and maize, small distant boatmen paddling, white houses on both sides {VID}
-Some of his friends asked each other|LAKE|P|{SPANIARD} whispering to a second Spanish soldier with a red beard and a steel helmet on the causeway, both amazed. Only these two persons in the scene
+Some of his friends asked each other|LAKE|P|{SPANIARD} whispering to a second Spanish soldier with a red beard and a steel helmet on the causeway, both amazed. Only these two persons in the scene {VID}
 if what they saw was just a dream.|CITY|E|dreamy view of the island city through soft golden morning mist, sparkling water {VID}
 This was Tenochtitlan, the capital of the Aztecs.|CITY|E|high wide view of Tenochtitlan with a huge stepped pyramid temple with two shrines on top in the center and canals going out in all directions {VID}
-Historians think a hundred to two hundred|CARD|C|many tiny white clay model houses standing close together in neat rows
-thousand people lived here at that time,|CANAL|W|a crowded street beside a canal with many small distant Aztec people walking and carrying baskets
-more than in most cities of Europe.|EUR|E|a small 16th-century European town with timber houses, a church tower and a muddy street under a gray sky
-But let's forget the emperors and battles.|TEMPLE|E|a huge stepped pyramid temple with two shrines on top seen from an empty stone plaza in the morning
-What was a normal day really like|HOUSE|P|{COATL} sitting on a reed mat in his house, looking at the viewer with a friendly curious face {ALONE}
-for an ordinary family in this city?|HOUSE|P|{FAMILY} sitting together on reed mats in their small house, smiling
-When did they wake up? What did they eat?|CARD|C|a clay bowl of thick maize porridge and a stack of corn tortillas
-Where did they go to the toilet?|CANAL|E|a small reed hut on a wooden platform at the edge of a canal, a canoe tied below
-And why could a single cotton cloak|CARD|C|a folded white cotton cloak with bright red and blue patterns
-get an ordinary man into deadly trouble?|CANAL|P|{COATL} holding a patterned cotton cloak, gulping nervously and looking over his shoulder {ALONE}
+Historians think a hundred to two hundred|CARD|C|many tiny white clay model houses standing close together in neat rows {VID}
+thousand people lived here at that time,|CANAL|W|a crowded street beside a canal with many small distant Aztec people walking and carrying baskets {VID}
+more than in most cities of Europe.|EUR|E|a small 16th-century European town with timber houses, a church tower and a muddy street under a gray sky {VID}
+But let's forget the emperors and battles.|TEMPLE|E|a huge stepped pyramid temple with two shrines on top seen from an empty stone plaza in the morning {VID}
+What was a normal day really like|HOUSE|P|{COATL} sitting on a reed mat in his house, looking at the viewer with a friendly curious face {ALONE} {VID}
+for an ordinary family in this city?|HOUSE|P|{FAMILY} sitting together on reed mats in their small house, smiling {VID}
+When did they wake up? What did they eat?|CARD|C|a clay bowl of thick maize porridge and a stack of corn tortillas {VID}
+Where did they go to the toilet?|CANAL|E|a small reed hut on a wooden platform at the edge of a canal, a canoe tied below {VID}
+And why could a single cotton cloak|CARD|C|a folded white cotton cloak with bright red and blue patterns {VID}
+get an ordinary man into deadly trouble?|CANAL|P|{COATL} holding a patterned cotton cloak, gulping nervously and looking over his shoulder {ALONE} {VID}
 Let's spend one full day in Tenochtitlan.|CITY|E|sunrise over Tenochtitlan, golden light on the temples and the lake {VID}
 # PART 2 — BEFORE SUNRISE
-Meet Coatl. He is not a famous person.|YARD|P|{COATL} waving hello with one hand, warm smile {ALONE}
-We made him up as a typical farmer,|CHIN|P|{COATL} standing in a green garden field by a canal, holding a long wooden digging stick {ALONE}
-but his day is built from real sources.|CARD|C|an old folded screen-book manuscript with colorful painted pictures of houses, canoes and maize plants
+Meet Coatl. He is not a famous person.|YARD|P|{COATL} waving hello with one hand, warm smile {ALONE} {VID}
+We made him up as a typical farmer,|CHIN|P|{COATL} standing in a green garden field by a canal, holding a long wooden digging stick {ALONE} {VID}
+but his day is built from real sources.|CARD|C|an old folded screen-book manuscript with colorful painted pictures of houses, canoes and maize plants {VID}
 He lives with his wife Citlali,|YARD|P|{COATL} and {CITLA} standing side by side in their courtyard, smiling
 their son and daughter, and his old father.|YARD|P|{GRANDPA} sitting on a low wooden stool in the courtyard with {BOY} and {GIRL} standing beside him
 Their home is a small, simple house|YARD|E|a small white adobe house with a flat roof and a wooden door, flowers in clay pots, morning
@@ -32,7 +32,7 @@ There were no beds and no chairs.|HOUSE|E|an earthen floor with several rolled-u
 Everyone slept on woven reed mats, petates,|HOUSE|P|{FAMILY} sleeping side by side on woven reed mats on the floor at night
 rolled out on the floor every night.|HOUSE|P|close-up of two hands unrolling a woven reed mat on an earthen floor, only the hands are visible
 Before sunrise, the temples woke the city.|TEMPLE|E|a stepped pyramid temple at dawn, smoke rising from braziers on top, pink sky {VID}
-Priests blew conch shells and beat drums,|TEMPLE|P|an Aztec priest with long black hair and a black cloak blowing a big conch shell on top of a temple at dawn {ALONE}
+Priests blew conch shells and beat drums,|TEMPLE|P|an Aztec priest with long black hair and a black cloak blowing a big conch shell on top of a temple at dawn {ALONE} {VID}
 and the sound rolled across the water.|LAKE|E|ripples spreading across the calm lake at dawn, the island city in the distance {VID}
 Coatl rolled up his mat and stretched.|HOUSE|P|{COATL} stretching his arms and yawning after waking up, a rolled reed mat beside him, morning {ALONE}
 He splashed cold water on his face.|YARD|P|{COATL} scooping cold water with both hands from a big clay jar and splashing his face, morning {ALONE}
@@ -121,7 +121,7 @@ came there to buy and sell every day.|MKT|W|crowds of small distant people walki
 You could find almost anything here.|MKT|E|market stalls piled with maize, peppers, tomatoes, avocados and pumpkins
 Fruit, vegetables, turkeys, rabbits, cloth,|MKT|E|a market stall with stacks of colorful folded cloth and bundles of bright feathers
 pottery, feathers, knives made of obsidian,|CARD|C|shiny black obsidian blades next to colorful clay pots
-medicine, firewood, even ready-to-eat food.|MKT|P|an Aztec market woman selling hot tamales from a big clay pot, steam rising {ALONEF}
+medicine, firewood, even ready-to-eat food.|MKT|P|an Aztec market woman selling hot tamales from a big clay pot, steam rising {ALONEF} {VID}
 Each kind of goods had its own section,|MKT|E|neat rows of market stalls, one row of pottery and one row of fruit
 and judges walked around checking prices|MKT|P|an Aztec market judge in a long white cloak holding a wooden staff, inspecting a stall with a stern face {ALONE}
 and settling arguments on the spot.|MKT|P|two Aztec market sellers, a man and a woman, arguing loudly over a basket of tomatoes. Only these two persons in the scene
@@ -221,7 +221,7 @@ Then everyone looked toward a hill,|CITY|W|small dark silhouettes of people on f
 where priests tried to light a new fire.|LAKE|E|a tiny new flame glowing on top of a dark hill far away at night
 If the fire caught, the world would continue|LAKE|E|a big bright bonfire blazing on top of a hill at night {VID}
 for another fifty-two years.|LAKE|W|small distant runners carrying flaming torches along a causeway toward the city at night {VID}
-Runners carried the flame to every home.|HOUSE|P|{CITLA} relighting the hearth with a burning torch at night, relieved smile {ALONEF}
+Runners carried the flame to every home.|HOUSE|P|{CITLA} relighting the hearth with a burning torch at night, relieved smile {ALONEF} {VID}
 The last New Fire Ceremony was in 1507.|CITY|E|dawn over the city with thin smoke rising from every home {VID}
 Nobody knew it would be the last one.|CITY|E|the island city in a quiet golden morning with birds flying over the lake
 # PART 11 — THE END OF THEIR WORLD
@@ -234,7 +234,7 @@ the language of the Aztecs.|CARD|C|a small clay figurine of an Aztec farmer next
 And you use their words every day.|HOME|P|{YOU} in his kitchen making breakfast {ALONE}
 Chocolate. Tomato. Avocado. Chili. Coyote.|CARD|C|a bar of chocolate, a tomato, an avocado and a red chili pepper in a row
 All of them come from Nahuatl.|HOME|P|{YOU} staring at a slice of avocado toast in surprise {ALONE}
-So, could you live like Coatl?|CANAL|P|{COATL} smiling and waving from his canoe {ALONE}
+So, could you live like Coatl?|CANAL|P|{COATL} smiling and waving from his canoe {ALONE} {VID}
 Up before dawn, no breakfast, school for everyone,|TEMPLE|E|a big conch shell resting on a stone ledge at dawn
 a daily bath, bugs for protein,|CARD|C|roasted grasshoppers next to a clay bowl of water and a green branch with small brown berries
 and strict rules about your cloak?|HOME|P|{YOU} wrapped in a white bedsheet like a long cloak, posing proudly {ALONE}
