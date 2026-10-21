@@ -1,0 +1,57 @@
+RESEARCH — How Did Ancient Humans Sleep Without Beds?
+Каждый факт в тексте опирается на источник ниже.
+
+1. Border Cave (ЮАР): самые старые известные постели, ~200 000 лет. Пучки травы (в т.ч. Guinea grass) на слое золы; зола мешала ползающим насекомым.
+   Wadley L. et al. (2020). Fire and grass-bedding construction 200 thousand years ago at Border Cave, South Africa. Science 369: 863–866.
+   https://www.science.org/doi/10.1126/science.abc7239
+
+2. Sibudu (ЮАР): постели из осоки и камыша ~77 000 лет назад, сверху листья Cryptocarya woodii (river wild-quince) с веществами против насекомых и их личинок (в т.ч. комаров). Старые постели периодически сжигали (с ~73 000 лет назад). Минимум 15 слоёв постелей между 77 000 и 38 000 лет. Площадь до ~3 м².
+   Wadley L. et al. (2011). Middle Stone Age bedding construction and settlement patterns at Sibudu, South Africa. Science 334: 1388–1391.
+   https://www.science.org/doi/10.1126/science.1213317
+   https://phys.org/news/2011-12-year-old-evidence-early-bedding-medicinal.html
+
+3. Шимпанзе каждый вечер строят новое гнездо, обычно за несколько минут; выбирают деревья с прочными ветками.
+   Fruth B. et al. (2018). Sleep and nesting behavior in primates: A review. Am. J. Phys. Anthropol.
+   https://www.eva.mpg.de/documents/Wiley-Blackwell/Fruth_Sleep_AmJPhysAnthr_2018_2627710.pdf
+   https://www.smithsonianmag.com/science-nature/chimpanzees-are-extremely-picky-about-where-they-sleep-180951128/
+
+4. Homo erectus (~2 млн лет): длинные ноги, плохо лазал; гипотеза Ричарда Рэнгема — огонь позволил спать на земле (гипотеза, спорная).
+   Wrangham R. (2009). Catching Fire: How Cooking Made Us Human.
+   https://www.smithsonianmag.com/science-nature/why-fire-makes-us-human-72989884/
+
+5. Wonderwerk Cave (ЮАР): следы золы и обожжённых костей ~1 млн лет, глубоко в пещере (>30 м от входа).
+   Berna F. et al. (2012). Microstratigraphic evidence of in situ fire in the Acheulean strata of Wonderwerk Cave. PNAS 109(20).
+   https://www.sciencedaily.com/releases/2012/04/120402162548.htm
+
+6. Клопы старше летучих мышей (~115 млн лет); перешли на людей, когда люди жили в пещерах с летучими мышами; линии «человеческого» и «мышиного» клопа разошлись ~250 000 лет назад.
+   Roth S. et al. (2019). Bedbugs Evolved before Their Bat Hosts and Did Not Co-speciate with Ancient Humans. Current Biology 29.
+   https://www.sciencedirect.com/science/article/pii/S0960982219304774
+
+7. Платяные вши появились вместе с одеждой; одежда — около 170 000 лет назад.
+   Toups M.A. et al. (2011). Origin of Clothing Lice Indicates Early Clothing Use by Anatomically Modern Humans in Africa. Mol. Biol. Evol. 28(1): 29–32.
+   https://www.sciencedaily.com/releases/2011/01/110106164616.htm
+
+8. Хадза, сан, цимане: сон 5,7–7,1 ч; засыпают ~3,3 ч после заката, когда холодает; просыпаются в самое холодное время; зимой спят ~на 1 ч дольше; время подъёма стабильнее времени отхода ко сну; почти не дремлют днём; хроническая бессонница редка (в индустриальных странах 10–30%); у сан и цимане нет слова «бессонница».
+   Yetish G., Kaplan H., Gurven M., ... Siegel J.M. (2015). Natural Sleep and Its Seasonal Variations in Three Pre-industrial Societies. Current Biology 25: 2862–2868.
+   https://www.cell.com/fulltext/S0960-9822(15)01157-4
+   https://www.nationalgeographic.com/science/article/20151015-paleo-sleep-time-hadza-san-tsimane-science
+
+9. Хадза за 20 ночей: все спали одновременно только 18 минут; молодые — «совы», старшие — «жаворонки»; «гипотеза плохо спящих бабушек и дедушек».
+   Samson D.R. et al. (2017). Chronotype variation drives night-time sentinel-like behaviour in hunter–gatherers. Proc. R. Soc. B 284: 20170967.
+   https://royalsocietypublishing.org/rspb/article/284/1858/20170967/78582/Chronotype-variation-drives-night-time-sentinel
+   https://www.utoronto.ca/news/why-your-teen-stays-late-you-sleep-poorly-new-research-confirms-sentinel-theory
+
+10. «Первый и второй сон» в доиндустриальной Европе (архивы: дневники, письма, суды). Это данные о Европе последних веков, не о каменном веке; у хадза/сан чёткого двухфазного сна не нашли.
+   Ekirch A.R. (2001). Sleep We Have Lost: Pre-industrial Slumber in the British Isles. American Historical Review 106(2).
+   https://en.wikipedia.org/wiki/Roger_Ekirch
+
+11. Человек спит меньше почти всех приматов (~7 ч против ~9,5 у шимпанзе), но глубже и с большей долей REM; гипотеза: короткий глубокий сон на земле был безопаснее и освобождал время.
+   Samson D.R., Nunn C.L. (2015). Sleep intensity and the evolution of human cognition. Evolutionary Anthropology 24(6): 225–237.
+   https://today.duke.edu/2015/12/humansleep
+
+12. Скара-Брэ (Оркни, Шотландия), ~3100 до н.э.: каменные кровати-ящики в стенах, очаг в центре; набивка из вереска/соломы.
+   Historic Environment Scotland — Skara Brae. https://www.historicenvironment.scot/visit/all/skara-brae/
+
+13. Древний Египет: деревянные (и каменные) подголовники вместо подушек; считались защитой спящего.
+   Glencairn Museum (2018). Headrests in Glencairn's Egyptian Collection.
+   https://www.glencairnmuseum.org/newsletter/2018/7/25/headrests-in-glencairns-egyptian-collection-practicality-and-protection
