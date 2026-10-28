@@ -1,0 +1,10 @@
+{
+  "servers": [
+    "https://XXXX-8188.proxy.runpod.net"
+  ],
+  "runpod_api_key": "",
+  "stop_pods_when_done": true,
+  "default_seconds": 4,
+  "width": 832,
+  "height": 480
+}
