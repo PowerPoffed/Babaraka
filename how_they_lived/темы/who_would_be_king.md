@@ -21,3 +21,20 @@ Mughal — «кто был бы императором» (есть «где жи
 
 ## Риски
 Генеалогия должна быть точной (спорные претенденты — называть всех). Живые люди — только проверенные факты.
+
+## ПОПРАВКА после проверки «спрос + конкуренты» по 8 темам (03.11.2026)
+Формулировка «Who would be X today» почти свободна, но те же темы уже снимают в формате
+«What happened to X's royal family after the empire fell / where are the heirs now».
+Главный конкурент: After the Crown — канал с мая 2026, 46.8K подписчиков, 60+ роликов, хит 870K.
+Также Axiom Files (июнь 2026, 4K, хит 228K), The Fallen Crown (19K, хит 167K), The Sourced Historian.
+
+| Тема | Спрос (лучший ролик) | Похожих за год | Главные конкуренты | Итог |
+|---|---|---|---|---|
+| Mughal | 2.2M | 23 | After the Crown 467K, Khabargaon 398K | спрос огромный, тесно |
+| China | 2.1M | 29 | After the Crown 200-288K, Dynasty Wars 474K | тесно |
+| Habsburg | 4.8M (What if) | 24 | After the Crown 180K, Sourced Historian 195K | тесно |
+| Rome | 4.8M (What if) | 23 | RealLifeLore, Possible History 1M, TimeLens 965K | очень тесно |
+| Shogun | 155K | 11 | Axiom Files 155K, After the Crown 123K | средне, спрос средний |
+| Inca | 2.8M (документалка о потомках) | 8 | почти нет (UsefulCharts tree 86K) | ЛУЧШИЙ БАЛАНС |
+| Mexico | 85K | 10 | After the Crown 49K | мало конкурентов, спрос небольшой |
+| Hawaii | 225K | 21 | After the Crown 161K | средне |
