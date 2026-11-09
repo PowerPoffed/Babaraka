@@ -1,0 +1,29 @@
+=== НАСТРОЙКА ИНСТРУКЦИЙ АГЕНТА (один раз) ===
+Flow → «Инструкции для агента». Это постоянные правила, они действуют на КАЖДУЮ генерацию.
+Сцены сюда НЕ пишем — только стиль и персонажей.
+
+ИНСТРУКЦИЯ 1 — название: «Стиль How They Lived» (без референса)
+2D cartoon illustration in a modern adult animated TV series style, bold clean dark outlines, simple cartoon faces with big round white eyes with small black pupils, flat cel-shaded colors with soft shading, muted cinematic colors, atmospheric lighting, detailed background, wide 16:9 frame. Normal human proportions. Everyone is fully clothed. No text, no letters, no watermark. When a character sleeps, the eyes are fully closed.
+
+ИНСТРУКЦИЯ 2 — название: «CAVE» + Референс: cave_ref_a.png
+The main character CAVE: a grown prehistoric man in his mid 30s with a mature face, a short thick dark brown beard, messy shoulder-length dark brown hair, a ragged brown fur tunic, barefoot. Always draw him exactly like the reference image: same face, beard, hair, body and tunic. When CAVE is in a scene, he is alone unless the scene says otherwise.
+
+(Позже можно добавить так же: YOU, бабушку, учёных — каждого со своим референсом.
+Выключайте переключателем те, что не нужны в текущей пачке.)
+
+=== ЗАДАНИЕ (обычное сообщение агенту, с включённым Agent) ===
+Скопируйте всё ниже линии.
+------------------------------------------------------------
+
+Generate 10 images with CAVE, one for each scene below. Make them one by one and label each image with its shot number.
+
+shot_014 — Night. CAVE lies on his side on a grass mat next to a small campfire in an open camp, eyes wide open, listening nervously to the dark.
+shot_025 — A dense tropical forest at sunset. CAVE stands looking up at a huge tree trunk with one hand on the bark, curious face.
+shot_057 — Dusk in a grassy clearing. CAVE kneels and places stones in a circle around a fire pit.
+shot_075 — A sunny river bank. CAVE cuts tall green sedges with a sharp stone flake.
+shot_083 — Inside a big rock shelter. CAVE lies happily on a bed of fresh green leaves, smiling, hands behind his head.
+shot_098 — A cold night. CAVE sits hugging his knees and shivering under a brown animal hide next to a small fire.
+shot_119 — CAVE walks into a dark cave and looks up at many bats hanging from the ceiling, surprised.
+shot_128 — Night under a sky full of stars. CAVE sleeps peacefully on a grass mat, eyes fully closed, relaxed calm face.
+shot_149 — Sunrise in the savanna. CAVE stretches his arms up next to his grass mat, waking up.
+shot_240 — Sunrise. CAVE stands on a hill looking over a wide green valley, seen from the side, calm and proud.

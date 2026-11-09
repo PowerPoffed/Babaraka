@@ -1,0 +1,41 @@
+Инструкции «Стиль How They Lived» и «CAVE» (с референсом) должны быть включены.
+Каждую пачку — отдельным сообщением агенту. Скачайте и переименуйте по номерам кадров.
+
+==================== ПАЧКА 2 ====================
+
+Generate 10 images with CAVE, one for each scene below. Make them one by one and label each image with its shot number.
+
+shot_002 — Morning. CAVE is seen from behind, walking into a dark cave entrance in a rocky cliff, carrying a big armful of long dry grass on his shoulder. We see his back and the back of his head.
+shot_056 — A green forest. CAVE jumps down from a low tree branch onto the forest floor, mid-jump, arms out for balance.
+shot_058 — Inside a dry cave with a bare rock floor. CAVE stands scratching his head and looking down at the floor, puzzled.
+shot_066 — Inside a cave. CAVE carefully places bundles of dry grass in a neat row along the back wall.
+shot_086 — Inside a rock shelter. CAVE sets fire to an old flattened grass bed with a burning stick, smoke rising.
+shot_094 — Inside a rock shelter. CAVE sits on a fresh bed of green sedges with a satisfied smile.
+shot_104 — Night in the savanna. CAVE sleeps in the tall grass with his eyes closed, while a hyena sniffs nearby in the dark. Tense mood.
+shot_107 — Night in an open camp. CAVE, half asleep with heavy sleepy eyes, puts a log on the campfire.
+shot_113 — Morning by a campfire. CAVE pulls a brown fur tunic over his shoulders.
+shot_125 — Inside a rock shelter. CAVE sprinkles gray ash from his hand around the edge of his grass bed.
+
+==================== ПАЧКА 3 ====================
+
+Generate 11 images with CAVE, one for each scene below. Make them one by one and label each image with its shot number.
+
+shot_137 — Evening by a campfire. CAVE counts on his fingers with a thoughtful face.
+shot_144 — Dawn, frost on the grass. CAVE wakes up on his grass mat and shivers from the cold.
+shot_150 — Midday sun in the savanna. CAVE carries a bundle of firewood on his shoulder, wide awake.
+shot_170 — Midnight in an open camp. CAVE sits up awake on his grass mat by a low fire.
+shot_179 — Night in an open camp. CAVE sits up and listens to the dark, one hand on his wooden spear.
+shot_193 — Night. CAVE lies on his grass mat by the fire with one eye half open, the other eye closed.
+shot_231 — Night in the savanna. CAVE sleeps lightly in the grass with his eyes closed; far away in the dark grass there is the dark silhouette of a lion.
+shot_233 — Night in an open camp. CAVE is in deep sleep close to a strong warm fire, eyes closed, safe and calm.
+shot_237 — Night. CAVE sleeps by the fire with his eyes closed and a happy smile, warm firelight on his face.
+shot_246 — Inside a rock shelter, daylight. CAVE holds out an armful of green leaves toward the viewer, smiling.
+shot_119 — REDO: CAVE walks into a cave and looks up at dozens of bats hanging upside down from the cave ceiling. The bats are big and clearly visible, lit by daylight from the cave entrance.
+
+==================== ПО ЖЕЛАНИЮ: РУКИ (если Z-Image сделал плохо) ====================
+
+Generate 3 close-up images, one per scene. Label each with its shot number. Show only CAVE's hands and the objects; the face is not visible.
+
+shot_003 — Close-up of CAVE's strong hands tying long dry grass into a thick bundle with a twisted grass cord, on a rocky cave floor.
+shot_115 — Close-up of CAVE's hands sewing two pieces of brown hide together with a white bone needle and thin sinew thread, by a fire.
+shot_230 — Close-up of CAVE's hands striking a gray flint stone with a round hammer stone, small stone flakes flying, by a fire at night.

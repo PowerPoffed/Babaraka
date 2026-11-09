@@ -1,0 +1,54 @@
+ВАЖНО: МЕНЯЕМ НАПРАВЛЕНИЕ. Холодная война и шпионы теперь на НЕМЕЦКОМ языке.
+
+КАНАЛ
+- Канал How They Lived переделан в немецкий канал «Geteilte Front» (@GeteilteFront).
+- Тема: «Der Kalte Krieg von innen» — холодная война глазами людей, которые её пережили.
+- Всё на немецком: название, описание, озвучка, субтитры. Английский не смешивать.
+- Аудитория: немцы 40–70 лет (бывшие солдаты, жители ГДР и ФРГ). Обращение к зрителю на «Sie».
+
+ЧТО РАБОТАЕТ (замер 5 ноября 2026)
+- Общие темы «Kalter Krieg», «секреты СССР», «самые опасные шпионы» на немецком идут ПЛОХО (84% новых каналов слабые).
+- Работает холодная война ИЗНУТРИ, про немцев:
+  • Советская армия в ГДР (ГСВГ/ЗГВ): хиты до 1,7M, профильных каналов нет. Главная рубрика.
+  • Бундесвер и призыв в ФРГ 1960–80-х: почти пусто.
+  • Железный занавес на границе Бавария/Саксония – Чехия: своя съёмка (я живу в Чехии).
+  • Армия ГДР (NVA): спрос огромный, но уже есть сильные каналы (Kasernentor, Bei der Fahne, FRONTSTAAT).
+- Шпионов брать ТОЛЬКО с немецкой стороны: Штази, BND, дело Гийома (Guillaume), обмены на Глиникском мосту, «Romeo-Agenten» Штази, шпионы НАТО в ГДР, советские разведчики в ФРГ. Не делать общие ролики про ЦРУ/КГБ.
+
+ФОРМАТЫ (проверены у конкурентов)
+- «27 Dinge, die jeder [X] wirklich erlebte» — 40–60 мин (до 96K у конкурентов)
+- «Wie gefährlich / hart / stark war [X] wirklich?» — 12–15 мин (до 361K)
+- «Was geschah mit [X] nach 1990/1994?»
+
+ПЕРВЫЕ ТЕМЫ
+1. 27 Dinge, die jeder sowjetische Soldat in der DDR wirklich erlebte (план готов)
+2. Wünsdorf: Die verbotene Stadt der Sowjets – was heute davon übrig ist
+3. 1994: Wie Hunderttausende sowjetische Soldaten Deutschland verließen
+4. Wie gefährlich war die Sowjetarmee in der DDR wirklich?
+5. 27 Dinge, die jeder Wehrpflichtige der Bundeswehr in den 80ern erlebte
+6. Fulda Gap: Wo der Dritte Weltkrieg beginnen sollte
+7. Romeo-Agenten: Wie die Stasi Sekretärinnen in Bonn verführte
+8. Der Eiserne Vorhang zwischen Bayern und Böhmen: Dörfer, die verschwinden mussten
+
+МАТЕРИАЛ (только легальный)
+- Фильмы армии США из Германии 1950–80-х (public domain: National Archives, archive.org)
+- Bundesarchiv на Wikimedia Commons (CC BY-SA, указывать автора в описании)
+- Своя съёмка: казармы, бункеры, граница
+- AI-фото (Flow / Nano Banana) для сцен, которых нет в архиве, отмечать как синтетический контент
+- Карты
+- НЕЛЬЗЯ: Bundeswehr Classix, SPIEGEL TV, ZDF, ARD, MDR, чужие YouTube-ролики
+
+ПРАВИЛА
+- Тон нейтральный: без ностальгии по СССР/ГДР, без пропаганды, без оценок сторон.
+- Все цифры и даты проверять по источникам. Источники писать в описание.
+- Мои преимущества: читаю русские источники (мемуары и форумы ветеранов ГСВГ), которые немецкие авторы не читают; живу в Чехии у границы.
+- Перед каждой новой темой проверять спрос и конкурентов.
+
+ФАЙЛЫ В РЕПОЗИТОРИИ (ветка claude/vigilant-goodall-u2n88v)
+- how_they_lived/geteilte_front/01_настройка_канала.md — описание, ключевые слова
+- how_they_lived/geteilte_front/02_ролик_01_план.md — план первого ролика (27 пунктов)
+- how_they_lived/темы/kalter_krieg_de_план.md — исследование ниши
+
+ЧТО СДЕЛАТЬ В ЭТОМ ЧАТЕ
+Всё, что раньше делали про холодную войну и шпионов на английском, переводим в этот формат на немецком.
+Начнём со сценария ролика 1 по плану из файла 02_ролик_01_план.md.

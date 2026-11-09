@@ -1,0 +1,695 @@
+shot_001 | озеро |    0.0s +2.2s | "In November 1519, a Spanish soldier"
+    Medium shot. SPANIARD standing on a long stone causeway over a blue lake, looking ahead in amazement. Only one person in the scene, nobody else around. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_002 | озеро |    2.2s +2.6s | "named Bernal Díaz stood on a road"
+    Wide shot of a long straight stone causeway crossing a calm blue lake toward a distant white island city at morning. Lighting: soft pink and gold early morning light. No people in the scene. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No text, no letters, no watermark.
+
+shot_003 | озеро |    4.8s +2.2s | "built across a lake, and stared."
+    Close-up of SPANIARD with wide eyes and raised eyebrows, holding his steel helmet in one hand. Only one person in the scene, nobody else around. Setting: a wide calm blue lake with reeds, a stone causeway and mountains around. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_004 | город |    7.0s +2.6s | "In front of him, a white city"
+    Wide shot of a huge white island city on a blue lake with canals, temples and gardens, two volcanoes far behind. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No text, no letters, no watermark.
+
+shot_005 | озеро |    9.6s +2.6s | "seemed to float right on the water."
+    Wide establishing shot. White houses and flowering rooftops reflected in calm blue lake water, soft morning mist. Lighting: soft pink and gold early morning light. No people in the scene. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No text, no letters, no watermark.
+
+shot_006 | канал |   12.2s +2.6s | "Temples, towers, gardens, canals full of canoes."
+    Wide shot. A busy city canal full of dugout canoes loaded with flowers and maize, small distant boatmen paddling, white houses on both sides. Small distant figures with simple shapes and normal human proportions, no close-up faces. Lighting: bright warm sunny daylight with soft shadows. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_007 | озеро |   14.8s +2.6s | "Some of his friends asked each other"
+    Medium shot. SPANIARD whispering to a second Spanish soldier with a red beard and a steel helmet on the causeway, both amazed. Only these two persons in the scene. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_008 | город |   17.4s +3.0s | "if what they saw was just a dream."
+    Wide establishing shot. Dreamy view of the island city through soft golden morning mist, sparkling water. Lighting: soft pink and gold early morning light. No people in the scene. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No text, no letters, no watermark.
+
+shot_009 | город |   20.4s +3.0s | "This was Tenochtitlan, the capital of the Aztecs."
+    High wide view of Tenochtitlan with a huge stepped pyramid temple with two shrines on top in the center and canals going out in all directions. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No text, no letters, no watermark.
+
+shot_010 | карточка |   23.3s +2.6s | "Historians think a hundred to two hundred"
+    Still life close-up. Many tiny white clay model houses standing close together in neat rows. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No people. No text, no letters, no watermark.
+
+shot_011 | канал |   25.9s +2.6s | "thousand people lived here at that time,"
+    Wide shot. A crowded street beside a canal with many small distant Aztec people walking and carrying baskets. Small distant figures with simple shapes and normal human proportions, no close-up faces. Lighting: bright warm sunny daylight with soft shadows. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_012 | Европа |   28.5s +2.6s | "more than in most cities of Europe."
+    Wide establishing shot. A small 16th-century European town with timber houses, a church tower and a muddy street under a gray sky. Lighting: dull gray overcast daylight. No people in the scene. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No text, no letters, no watermark.
+
+shot_013 | храм |   31.1s +2.6s | "But let's forget the emperors and battles."
+    Wide establishing shot. A huge stepped pyramid temple with two shrines on top seen from an empty stone plaza in the morning. Lighting: soft pink and gold early morning light. No people in the scene. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No text, no letters, no watermark.
+
+shot_014 | дом (внутри) |   33.7s +2.6s | "What was a normal day really like"
+    Medium shot. COATL sitting on a reed mat in his house, looking at the viewer with a friendly curious face. Only one person in the scene, nobody else around. Setting: inside a simple one-room Aztec adobe house with whitewashed walls, woven reed mats on a packed earth floor, clay pots and a small three-stone hearth with a clay griddle. Lighting: warm light from the doorway and the hearth. Composition: characters big and clear in the frame, faces clearly visible. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_015 | дом (внутри) |   36.3s +2.6s | "for an ordinary family in this city?"
+    Medium shot. The family: COATL, CITLALI, BOY and GIRL sitting together on reed mats in their small house, smiling. Only these four persons in the scene. Setting: inside a simple one-room Aztec adobe house with whitewashed walls, woven reed mats on a packed earth floor, clay pots and a small three-stone hearth with a clay griddle. Lighting: warm light from the doorway and the hearth. Composition: characters big and clear in the frame, faces clearly visible. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_016 | карточка |   38.9s +3.3s | "When did they wake up? What did they eat?"
+    Still life close-up. A clay bowl of thick maize porridge and a stack of corn tortillas. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No people. No text, no letters, no watermark.
+
+shot_017 | канал |   42.2s +2.6s | "Where did they go to the toilet?"
+    Wide establishing shot. A small reed hut on a wooden platform at the edge of a canal, a canoe tied below. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No text, no letters, no watermark.
+
+shot_018 | карточка |   44.8s +2.6s | "And why could a single cotton cloak"
+    Still life close-up. A folded white cotton cloak with bright red and blue patterns. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No people. No text, no letters, no watermark.
+
+shot_019 | канал |   47.4s +2.6s | "get an ordinary man into deadly trouble?"
+    Medium shot. COATL holding a patterned cotton cloak, gulping nervously and looking over his shoulder. Only one person in the scene, nobody else around. Setting: a city canal lined with white adobe houses with flowering rooftops, dugout canoes on the water. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_020 | город |   50.0s +2.6s | "Let's spend one full day in Tenochtitlan."
+    Wide establishing shot. Sunrise over Tenochtitlan, golden light on the temples and the lake. Lighting: soft pink and gold early morning light. No people in the scene. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No text, no letters, no watermark.
+
+shot_021 | двор |   52.6s +3.0s | "Meet Coatl. He is not a famous person."
+    Medium shot. COATL waving hello with one hand, warm smile. Only one person in the scene, nobody else around. Setting: a small Aztec house courtyard with white adobe walls, flowering plants, clay pots and big clay water jars. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_022 | чинампы |   55.6s +3.0s | "We made him up as a typical farmer,"
+    Medium shot. COATL standing in a green garden field by a canal, holding a long wooden digging stick. Only one person in the scene, nobody else around. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_023 | карточка |   58.5s +3.0s | "but his day is built from real sources."
+    Still life close-up. An old folded screen-book manuscript with colorful painted pictures of houses, canoes and maize plants. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No people. No text, no letters, no watermark.
+
+shot_024 | двор |   61.5s +2.2s | "He lives with his wife Citlali,"
+    Medium shot. COATL and CITLALI standing side by side in their courtyard, smiling. Setting: a small Aztec house courtyard with white adobe walls, flowering plants, clay pots and big clay water jars. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_025 | двор |   63.7s +3.0s | "their son and daughter, and his old father."
+    Medium shot. GRANDPA sitting on a low wooden stool in the courtyard with BOY and GIRL standing beside him. Setting: a small Aztec house courtyard with white adobe walls, flowering plants, clay pots and big clay water jars. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_026 | двор |   66.7s +2.6s | "Their home is a small, simple house"
+    Wide establishing shot. A small white adobe house with a flat roof and a wooden door, flowers in clay pots, morning. Setting: a small Aztec house courtyard with white adobe walls, flowering plants, clay pots and big clay water jars. Lighting: soft pink and gold early morning light. No people in the scene. No text, no letters, no watermark.
+
+shot_027 | карточка |   69.3s +3.0s | "made of sun-dried mud bricks, called adobe."
+    Still life close-up. A neat stack of sun-dried mud bricks with bits of straw in them. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_028 | дом (внутри) |   72.2s +2.6s | "Often it had just one main room."
+    Wide establishing shot. Inside a simple one-room adobe house, reed mats on the floor, clay pots and a small hearth. Setting: inside a simple one-room Aztec adobe house with whitewashed walls, woven reed mats on a packed earth floor, clay pots and a small three-stone hearth with a clay griddle. Lighting: warm light from the doorway and the hearth. No people in the scene. No text, no letters, no watermark.
+
+shot_029 | дом (внутри) |   74.8s +2.6s | "There were no beds and no chairs."
+    Wide establishing shot. An earthen floor with several rolled-up reed mats leaning against a white wall. Setting: inside a simple one-room Aztec adobe house with whitewashed walls, woven reed mats on a packed earth floor, clay pots and a small three-stone hearth with a clay griddle. Lighting: warm light from the doorway and the hearth. No people in the scene. No text, no letters, no watermark.
+
+shot_030 | дом (внутри) |   77.4s +2.6s | "Everyone slept on woven reed mats, petates,"
+    Medium shot. The family: COATL, CITLALI, BOY and GIRL sleeping side by side on woven reed mats on the floor at night. Only these four persons in the scene. Everyone is fast asleep with eyes fully closed, drawn as simple curved lines. Setting: inside a simple one-room Aztec adobe house with whitewashed walls, woven reed mats on a packed earth floor, clay pots and a small three-stone hearth with a clay griddle. Lighting: deep blue moonlight with soft silver highlights, calm night atmosphere. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_031 | дом (внутри) |   80.0s +2.6s | "rolled out on the floor every night."
+    Close-up of two hands unrolling a woven reed mat on an earthen floor, only the hands are visible. Setting: inside a simple one-room Aztec adobe house with whitewashed walls, woven reed mats on a packed earth floor, clay pots and a small three-stone hearth with a clay griddle. Lighting: warm light from the doorway and the hearth. Composition: tight close-up on the hands, anatomically correct hands with five fingers. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_032 | храм |   82.6s +2.6s | "Before sunrise, the temples woke the city."
+    Wide establishing shot. A stepped pyramid temple at dawn, smoke rising from braziers on top, pink sky. Lighting: soft pink and gold early morning light. No people in the scene. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No text, no letters, no watermark.
+
+shot_033 | храм |   85.2s +2.6s | "Priests blew conch shells and beat drums,"
+    Medium shot. An Aztec priest with long black hair and a black cloak blowing a big conch shell on top of a temple at dawn. Only one person in the scene, nobody else around. Lighting: soft pink and gold early morning light. Composition: characters big and clear in the frame, faces clearly visible. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_034 | озеро |   87.8s +2.6s | "and the sound rolled across the water."
+    Wide establishing shot. Ripples spreading across the calm lake at dawn, the island city in the distance. Lighting: soft pink and gold early morning light. No people in the scene. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No text, no letters, no watermark.
+
+shot_035 | дом (внутри) |   90.4s +2.6s | "Coatl rolled up his mat and stretched."
+    Medium shot. COATL stretching his arms and yawning after waking up, a rolled reed mat beside him, morning. Only one person in the scene, nobody else around. Setting: inside a simple one-room Aztec adobe house with whitewashed walls, woven reed mats on a packed earth floor, clay pots and a small three-stone hearth with a clay griddle. Lighting: soft pink and gold early morning light. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_036 | двор |   93.0s +2.6s | "He splashed cold water on his face."
+    Medium shot. COATL scooping cold water with both hands from a big clay jar and splashing his face, morning. Only one person in the scene, nobody else around. Setting: a small Aztec house courtyard with white adobe walls, flowering plants, clay pots and big clay water jars. Lighting: soft pink and gold early morning light. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_037 | дом (внутри) |   95.6s +2.6s | "And breakfast? Not yet. First came work."
+    Medium shot. COATL looking into an empty clay bowl with a funny disappointed face. Only one person in the scene, nobody else around. Setting: inside a simple one-room Aztec adobe house with whitewashed walls, woven reed mats on a packed earth floor, clay pots and a small three-stone hearth with a clay griddle. Lighting: warm light from the doorway and the hearth. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_038 | карточка |   98.1s +2.6s | "Most people ate just twice a day,"
+    Still life close-up. Two clay bowls side by side, one with maize porridge and one with beans. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_039 | чинампы |  100.7s +2.2s | "and many worked a few hours"
+    Medium shot. COATL digging in a garden field at dawn with a wooden digging stick. Only one person in the scene, nobody else around. Lighting: soft pink and gold early morning light. Composition: characters big and clear in the frame, faces clearly visible. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_040 | дом (внутри) |  103.0s +3.0s | "before their first real meal of the day."
+    Medium shot. COATL sitting on a reed mat happily eating a rolled tortilla in late morning light. Only one person in the scene, nobody else around. Setting: inside a simple one-room Aztec adobe house with whitewashed walls, woven reed mats on a packed earth floor, clay pots and a small three-stone hearth with a clay griddle. Lighting: soft pink and gold early morning light. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_041 | дом (внутри) |  105.9s +3.0s | "Meanwhile, Citlali had the hardest job of all."
+    Medium shot. CITLALI kneeling at a flat grinding stone, pushing a stone roller over corn, focused. Only one person in the scene, nobody else around. Setting: inside a simple one-room Aztec adobe house with whitewashed walls, woven reed mats on a packed earth floor, clay pots and a small three-stone hearth with a clay griddle. Lighting: warm light from the doorway and the hearth. Composition: characters big and clear in the frame, faces clearly visible. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_042 | дом (внутри) |  108.9s +2.6s | "Every day, she ground maize by hand"
+    Close-up of two hands pushing a stone roller over yellow maize dough on a flat grinding stone, only the hands are visible. Setting: inside a simple one-room Aztec adobe house with whitewashed walls, woven reed mats on a packed earth floor, clay pots and a small three-stone hearth with a clay griddle. Lighting: warm light from the doorway and the hearth. Composition: tight close-up on the hands, anatomically correct hands with five fingers. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_043 | карточка |  111.5s +2.6s | "on a flat stone called a metate."
+    Still life close-up. A flat three-legged grinding stone with a stone rolling pin on top. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_044 | дом (внутри) |  114.1s +2.6s | "Historians think it could take four hours"
+    Medium shot. CITLALI still grinding maize, tired but steady, late morning light from the doorway. Only one person in the scene, nobody else around. Setting: inside a simple one-room Aztec adobe house with whitewashed walls, woven reed mats on a packed earth floor, clay pots and a small three-stone hearth with a clay griddle. Lighting: soft pink and gold early morning light. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_045 | дом (внутри) |  116.7s +3.0s | "or more, though a skilled cook was faster."
+    Medium shot. CITLALI grinding maize quickly with a proud confident smile. Only one person in the scene, nobody else around. Setting: inside a simple one-room Aztec adobe house with whitewashed walls, woven reed mats on a packed earth floor, clay pots and a small three-stone hearth with a clay griddle. Lighting: warm light from the doorway and the hearth. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_046 | карточка |  119.6s +2.6s | "First, the corn was soaked with lime."
+    Still life close-up. A clay pot of yellow corn kernels soaking in milky white water. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_047 | карточка |  122.2s +2.2s | "This old trick made it softer,"
+    Still life close-up. Soft swollen corn kernels in a wooden spoon. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_048 | карточка |  124.4s +1.9s | "and much healthier to eat."
+    Still life close-up. A ball of fresh yellow corn dough on a big green leaf. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_049 | дом (внутри) |  126.3s +2.6s | "Then she patted the dough into tortillas"
+    Close-up of two hands patting a round flat tortilla, only the hands are visible. Setting: inside a simple one-room Aztec adobe house with whitewashed walls, woven reed mats on a packed earth floor, clay pots and a small three-stone hearth with a clay griddle. Lighting: warm light from the doorway and the hearth. Composition: tight close-up on the hands, anatomically correct hands with five fingers. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_050 | дом (внутри) |  128.9s +3.3s | "and cooked them on a clay griddle, a comal."
+    Wide establishing shot. Round tortillas cooking on a flat clay griddle over a small fire, steam rising. Setting: inside a simple one-room Aztec adobe house with whitewashed walls, woven reed mats on a packed earth floor, clay pots and a small three-stone hearth with a clay griddle. Lighting: warm light from the doorway and the hearth. No people in the scene. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No text, no letters, no watermark.
+
+shot_051 | карточка |  132.2s +2.6s | "With tortillas came beans, chili and squash."
+    Still life close-up. A stack of tortillas, a bowl of beans, red chili peppers and a green squash. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_052 | карточка |  134.8s +2.6s | "And a thick corn drink called atole,"
+    Still life close-up. A clay cup of thick warm corn drink with steam rising. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_053 | двор |  137.4s +2.6s | "which almost everybody had every single day."
+    Medium shot. BOY and GIRL sitting in the courtyard holding warm clay cups with steam, smiling. Setting: a small Aztec house courtyard with white adobe walls, flowering plants, clay pots and big clay water jars. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_054 | карточка |  140.0s +2.2s | "Meat was rare for ordinary families."
+    Still life close-up. A single small piece of roasted meat in the middle of a big empty clay plate. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_055 | двор |  142.2s +1.9s | "Turkeys and ducks were raised,"
+    Wide establishing shot. A few turkeys and ducks walking in an adobe courtyard. Setting: a small Aztec house courtyard with white adobe walls, flowering plants, clay pots and big clay water jars. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No text, no letters, no watermark.
+
+shot_056 | дворец |  144.1s +3.3s | "but nobles were the ones who ate them often."
+    Medium shot. NOBLE sitting at a low table with a roasted turkey and many bowls of food, pleased. Only one person in the scene, nobody else around. Setting: a spacious Aztec palace room with painted walls, reed mats, flowers and a garden view. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_057 | дом (внутри) |  147.4s +2.6s | "So where did the protein come from?"
+    Medium shot. COATL scratching his head, thinking hard. Only one person in the scene, nobody else around. Setting: inside a simple one-room Aztec adobe house with whitewashed walls, woven reed mats on a packed earth floor, clay pots and a small three-stone hearth with a clay griddle. Lighting: warm light from the doorway and the hearth. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_058 | озеро |  150.0s +2.2s | "From the lake, and from bugs."
+    Wide establishing shot. Reeds at the edge of the lake with dragonflies and small water insects. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. No text, no letters, no watermark.
+
+shot_059 | карточка |  152.2s +1.9s | "Grasshoppers were roasted with chili,"
+    Still life close-up. A clay plate of roasted grasshoppers with red chili. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_060 | карточка |  154.1s +2.2s | "and the eggs of water flies"
+    Still life close-up. A small pile of tiny gray grains on a green leaf. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_061 | двор |  156.3s +2.6s | "were eaten like a kind of caviar."
+    Medium shot. GRANDPA happily eating tiny grains from a small clay bowl with his fingers. Only one person in the scene, nobody else around. Setting: a small Aztec house courtyard with white adobe walls, flowering plants, clay pots and big clay water jars. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_062 | озеро |  158.9s +2.6s | "They even ate axolotls, the smiling salamanders"
+    Wide establishing shot. A pink axolotl salamander with frilly gills swimming among green water plants. Setting: a wide calm blue lake with reeds, a stone causeway and mountains around. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. No text, no letters, no watermark.
+
+shot_063 | карточка |  161.5s +2.6s | "that still live in Mexico City today."
+    Still life close-up. A cute pink axolotl salamander in a small glass tank. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_064 | озеро |  164.1s +2.6s | "And from the lake surface, they scooped"
+    Medium shot. COATL in a canoe scooping green floating algae from the lake surface with a fine net. Only one person in the scene, nobody else around. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_065 | карточка |  166.7s +2.6s | "green algae and dried it into cakes."
+    Still life close-up. Small dried dark green cakes on a woven mat. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_066 | озеро |  169.3s +3.0s | "Spaniards compared it to a kind of cheese."
+    Medium shot. SPANIARD sniffing a small dark green cake with a suspicious face. Only one person in the scene, nobody else around. Setting: a wide calm blue lake with reeds, a stone causeway and mountains around. Lighting: deep blue moonlight with soft silver highlights, calm night atmosphere. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_067 | дом YOU |  172.2s +2.2s | "Today we sell it as spirulina."
+    Medium shot. YOU holding a glass of green smoothie with a surprised face. Only one person in the scene, nobody else around. Setting: a cozy small modern apartment with a couch, a lamp, a kitchen corner and a window. Lighting: warm cozy lamp light. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_068 | двор |  174.4s +2.6s | "And dogs? Yes, small dogs were raised"
+    Wide establishing shot. A small gray hairless dog sitting in an adobe courtyard. Setting: a small Aztec house courtyard with white adobe walls, flowering plants, clay pots and big clay water jars. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. No text, no letters, no watermark.
+
+shot_069 | дом YOU |  177.0s +2.2s | "for food too. Sorry, dog lovers."
+    Medium shot. YOU hugging his small fluffy pet dog protectively with a shocked face. Only one person in the scene, nobody else around. Setting: a cozy small modern apartment with a couch, a lamp, a kitchen corner and a window. Lighting: warm cozy lamp light. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_070 | канал |  179.3s +3.0s | "After the morning work, Coatl took his canoe"
+    Medium shot. COATL paddling a dugout canoe along a canal. Only one person in the scene, nobody else around. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_071 | чинампы |  182.2s +2.6s | "out to his fields. And his fields"
+    Wide establishing shot. Long narrow green gardens on the water lined with willow trees, calm canals between them. Setting: long narrow green garden fields on the water lined with tall willow trees and separated by calm canals, volcanoes in the distance. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No text, no letters, no watermark.
+
+shot_072 | чинампы |  184.8s +2.2s | "were built right in the lake."
+    High view of many long rectangular green garden plots separated by canals, like a green grid. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. No text, no letters, no watermark.
+
+shot_073 | карточка |  187.0s +1.5s | "They were called chinampas."
+    Still life close-up. A cut-away model of a garden plot on the water showing layers of mud and plants, a willow tree on the edge, water around it. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_074 | чинампы |  188.5s +2.2s | "Farmers piled up mud and plants"
+    Medium shot. COATL lifting wet black mud from the canal with a long wooden scoop onto a garden bed. Only one person in the scene, nobody else around. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_075 | озеро |  190.7s +2.6s | "from the bottom of the shallow lake,"
+    Close-up of dark rich mud and water plants under clear shallow water. Setting: a wide calm blue lake with reeds, a stone causeway and mountains around. Lighting: deep blue moonlight with soft silver highlights, calm night atmosphere. No people in the scene. No text, no letters, no watermark.
+
+shot_076 | чинампы |  193.3s +2.6s | "and planted willow trees around the edges"
+    Wide establishing shot. Young willow trees planted in a row along the edge of a garden plot. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. No text, no letters, no watermark.
+
+shot_077 | карточка |  195.9s +2.2s | "so their roots held everything together."
+    Still life close-up. Tree roots holding a block of dark mud together. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_078 | чинампы |  198.1s +3.0s | "The soil was so rich that some fields"
+    Wide establishing shot. Lush rows of maize, beans, squash and flowers growing on a garden plot. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No text, no letters, no watermark.
+
+shot_079 | чинампы |  201.1s +3.3s | "may have given up to seven harvests a year."
+    Medium shot. COATL carrying a big basket of maize, smiling proudly. Only one person in the scene, nobody else around. Setting: long narrow green garden fields on the water lined with tall willow trees and separated by calm canals, volcanoes in the distance. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_080 | город |  204.4s +2.6s | "These gardens helped feed a huge city."
+    Wide view of green garden fields all around the white island city. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. No text, no letters, no watermark.
+
+shot_081 | чинампы |  207.0s +2.2s | "Coatl grew maize, beans, squash, peppers,"
+    Wide establishing shot. Neat rows of maize, bean plants, squash and red peppers. Setting: long narrow green garden fields on the water lined with tall willow trees and separated by calm canals, volcanoes in the distance. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. No text, no letters, no watermark.
+
+shot_082 | чинампы |  209.3s +3.0s | "and flowers too, because the Aztecs loved flowers."
+    Medium shot. CITLALI carrying a basket full of bright orange marigolds and other flowers. Only one person in the scene, nobody else around. Setting: long narrow green garden fields on the water lined with tall willow trees and separated by calm canals, volcanoes in the distance. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_083 | чинампы |  212.2s +2.2s | "Some chinampas are still farmed today,"
+    Wide establishing shot. Colorful painted flat boats on a green canal next to flower gardens. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. No text, no letters, no watermark.
+
+shot_084 | чинампы |  214.4s +3.0s | "in Xochimilco, at the edge of Mexico City."
+    Wide view of green canals and gardens with modern city buildings far in the distance. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. No text, no letters, no watermark.
+
+shot_085 | канал |  217.4s +2.6s | "Now, here's something that shocked the Spaniards."
+    Medium shot. SPANIARD looking at a clean swept street with a very surprised face. Only one person in the scene, nobody else around. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_086 | двор |  220.0s +2.2s | "The Aztecs were very, very clean."
+    Medium shot. CITLALI combing her long black hair beside a clay water jar. Only one person in the scene, nobody else around. Setting: a small Aztec house courtyard with white adobe walls, flowering plants, clay pots and big clay water jars. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_087 | двор |  222.2s +2.6s | "Many of them bathed every single day."
+    Medium shot. COATL washing his face and arms with water from a big clay bowl, cheerful. Only one person in the scene, nobody else around. Setting: a small Aztec house courtyard with white adobe walls, flowering plants, clay pots and big clay water jars. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_088 | дворец |  224.8s +2.6s | "Emperor Moctezuma reportedly bathed twice a day."
+    Medium shot. An Aztec emperor with a turquoise crown and a long feather cloak sitting beside a stone pool with flowers floating in it, dipping one hand in the water. Only one person in the scene, nobody else around. Setting: a spacious Aztec palace room with painted walls, reed mats, flowers and a garden view. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_089 | карточка |  227.4s +1.9s | "For soap, they used plants."
+    Still life close-up. A green branch with small round brown fruits and a pale root, white foam on a leaf. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_090 | карточка |  229.3s +2.2s | "The fruit of the soap tree"
+    Still life close-up. Small round brown berries in a clay bowl with foamy water. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_091 | двор |  231.5s +3.0s | "made a rich foam for hair and clothes."
+    Medium shot. CITLALI washing white cloth in a clay basin full of white foam. Only one person in the scene, nobody else around. Setting: a small Aztec house courtyard with white adobe walls, flowering plants, clay pots and big clay water jars. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_092 | двор |  234.4s +2.6s | "They also loved steam baths called temazcales."
+    Wide establishing shot. A small round dome-shaped adobe steam bath hut with steam coming out of the low door. Setting: a small Aztec house courtyard with white adobe walls, flowering plants, clay pots and big clay water jars. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No text, no letters, no watermark.
+
+shot_093 | канал |  237.0s +1.9s | "And the streets? Every day,"
+    Wide establishing shot. A clean swept street along a canal in the early morning, wet stones shining. Lighting: soft pink and gold early morning light. No people in the scene. No text, no letters, no watermark.
+
+shot_094 | канал |  238.9s +3.0s | "around a thousand workers swept and watered them."
+    Wide shot. Several small distant Aztec workers sweeping a street with brooms. Small distant figures with simple shapes and normal human proportions, no close-up faces. Lighting: bright warm sunny daylight with soft shadows. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_095 | Европа |  241.9s +1.9s | "Meanwhile, in many European cities,"
+    Wide establishing shot. A narrow muddy European street with garbage and puddles between timber houses. Lighting: dull gray overcast daylight. No people in the scene. No text, no letters, no watermark.
+
+shot_096 | Европа |  243.7s +2.6s | "people still dumped waste in the street."
+    Wide establishing shot. An upstairs window of a timber house with a wooden bucket tipped over the sill and a dirty splash on the muddy street below. Lighting: dull gray overcast daylight. No people in the scene. No text, no letters, no watermark.
+
+shot_097 | двор |  246.3s +3.3s | "So where did the Aztecs go to the toilet?"
+    Medium shot. BOY hopping on one leg with crossed legs, urgently needing a toilet, funny face. Only one person in the scene, nobody else around. Setting: a small Aztec house courtyard with white adobe walls, flowering plants, clay pots and big clay water jars. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_098 | озеро |  249.6s +2.6s | "There were public toilets along the roads,"
+    Wide establishing shot. A small reed toilet hut on a wooden platform beside a stone causeway, a canoe below. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. No text, no letters, no watermark.
+
+shot_099 | рынок |  252.2s +3.0s | "on the causeways, and even in the market."
+    Wide establishing shot. A small reed hut at the edge of an empty market plaza. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. No text, no letters, no watermark.
+
+shot_100 | карточка |  255.2s +2.2s | "And nothing went to waste. Literally."
+    Still life close-up. A closed clay pot with a lid and a few buzzing flies. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_101 | канал |  257.4s +1.9s | "Workers collected it by canoe"
+    Wide shot. A small distant worker paddling a canoe loaded with covered clay pots. Small distant figures with simple shapes and normal human proportions, no close-up faces. Lighting: bright warm sunny daylight with soft shadows. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_102 | чинампы |  259.3s +2.6s | "and used it to fertilize the fields,"
+    Wide establishing shot. Dark rich soil spread on a garden bed with green sprouts. Lighting: deep blue moonlight with soft silver highlights, calm night atmosphere. No people in the scene. No text, no letters, no watermark.
+
+shot_103 | рынок |  261.9s +2.6s | "or sold it for tanning animal hides."
+    Wide establishing shot. Stacks of tanned brown deer hides at a market stall. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. No text, no letters, no watermark.
+
+shot_104 | карточка |  264.4s +2.6s | "Even urine was saved in clay pots"
+    Still life close-up. Several closed clay pots standing in a row. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_105 | двор |  267.0s +2.6s | "to help fix colors when dyeing cloth."
+    Wide establishing shot. Brightly dyed red, blue and yellow cloth hanging to dry in a courtyard. Setting: a small Aztec house courtyard with white adobe walls, flowering plants, clay pots and big clay water jars. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No text, no letters, no watermark.
+
+shot_106 | озеро |  269.6s +2.2s | "And clean drinking water? It came"
+    Wide establishing shot. A long stone aqueduct with a water channel on top crossing the lake toward the city. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. No text, no letters, no watermark.
+
+shot_107 | лес |  271.9s +3.0s | "from springs on the mainland, through an aqueduct."
+    Wide establishing shot. Clear spring water flowing into a stone channel among green trees. Setting: a lush green tropical forest with tall trees and ferns. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No text, no letters, no watermark.
+
+shot_108 | озеро |  274.8s +2.6s | "The lake itself was salty in places,"
+    Wide establishing shot. White salty crust on the lake shore between reeds. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. No text, no letters, no watermark.
+
+shot_109 | двор |  277.4s +3.0s | "so clean water was a very big deal."
+    Medium shot. GIRL carefully filling a clay jar from a stone water channel, happy. Only one person in the scene, nobody else around. Setting: a small Aztec house courtyard with white adobe walls, flowering plants, clay pots and big clay water jars. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_110 | канал |  280.4s +2.6s | "Around midday, Citlali headed to the market."
+    Medium shot. CITLALI paddling a canoe loaded with baskets of flowers and peppers. Only one person in the scene, nobody else around. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_111 | рынок |  283.0s +3.3s | "Not just any market. The biggest in the Americas."
+    Wide shot. Wide view of a huge market plaza packed with stalls and many small distant shoppers. Small distant figures with simple shapes and normal human proportions, no close-up faces. Lighting: bright warm sunny daylight with soft shadows. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_112 | город |  286.3s +2.6s | "It was in Tlatelolco, the city's twin."
+    Wide establishing shot. A second stepped pyramid temple next to a giant market square, wide view from above. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. No text, no letters, no watermark.
+
+shot_113 | комната со свечой |  288.9s +2.6s | "Cortés wrote that over sixty thousand people"
+    Medium shot. SPANIARD writing a letter with a feather quill at a wooden table by candlelight. Only one person in the scene, nobody else around. Setting: a simple stone room with a wooden table, a candle and rolled papers. Lighting: warm candle light in a dim room. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_114 | рынок |  291.5s +3.0s | "came there to buy and sell every day."
+    Wide shot. Crowds of small distant people walking between colorful market stalls. Small distant figures with simple shapes and normal human proportions, no close-up faces. Lighting: bright warm sunny daylight with soft shadows. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_115 | рынок |  294.4s +2.2s | "You could find almost anything here."
+    Wide establishing shot. Market stalls piled with maize, peppers, tomatoes, avocados and pumpkins. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. No text, no letters, no watermark.
+
+shot_116 | рынок |  296.7s +1.9s | "Fruit, vegetables, turkeys, rabbits, cloth,"
+    Wide establishing shot. A market stall with stacks of colorful folded cloth and bundles of bright feathers. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. No text, no letters, no watermark.
+
+shot_117 | карточка |  298.5s +2.2s | "pottery, feathers, knives made of obsidian,"
+    Still life close-up. Shiny black obsidian blades next to colorful clay pots. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_118 | рынок |  300.7s +2.6s | "medicine, firewood, even ready-to-eat food."
+    Medium shot. An Aztec market woman selling hot tamales from a big clay pot, steam rising. Only one person in the scene, nobody else around. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_119 | рынок |  303.3s +3.0s | "Each kind of goods had its own section,"
+    Wide establishing shot. Neat rows of market stalls, one row of pottery and one row of fruit. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. No text, no letters, no watermark.
+
+shot_120 | рынок |  306.3s +2.2s | "and judges walked around checking prices"
+    Medium shot. An Aztec market judge in a long white cloak holding a wooden staff, inspecting a stall with a stern face. Only one person in the scene, nobody else around. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_121 | рынок |  308.5s +2.2s | "and settling arguments on the spot."
+    Medium shot. Two Aztec market sellers, a man and a woman, arguing loudly over a basket of tomatoes. Only these two persons in the scene. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_122 | рынок |  310.7s +2.6s | "But how did you pay without coins?"
+    Medium shot. CITLALI looking at her empty open hand with a puzzled face. Only one person in the scene, nobody else around. Setting: a huge open-air Aztec market plaza with rows of stalls under cloth shades, piles of maize, peppers, tomatoes, pottery and colorful cloth. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_123 | карточка |  313.3s +2.2s | "With chocolate. Well, with cacao beans."
+    Still life close-up. A pile of brown cacao beans next to an open yellow cacao pod. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_124 | рынок |  315.6s +2.6s | "Small things were paid for in beans,"
+    Close-up of one hand counting brown cacao beans into another open hand, only the hands are visible. Setting: a huge open-air Aztec market plaza with rows of stalls under cloth shades, piles of maize, peppers, tomatoes, pottery and colorful cloth. Lighting: bright warm sunny daylight with soft shadows. Composition: tight close-up on the hands, anatomically correct hands with five fingers. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_125 | карточка |  318.1s +2.6s | "big deals in lengths of cotton cloth."
+    Still life close-up. A stack of folded white cotton cloths tied with string. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_126 | карточка |  320.7s +2.6s | "A document from 1545 lists some prices."
+    Still life close-up. An old yellowed paper with small ink drawings of a turkey, a rabbit and beans, no words. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_127 | карточка |  323.3s +2.2s | "A big tomato cost one bean."
+    Still life close-up. One big red tomato next to one brown cacao bean. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_128 | карточка |  325.6s +1.9s | "A rabbit cost thirty beans,"
+    Still life close-up. A brown rabbit sitting next to a small pile of cacao beans. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_129 | карточка |  327.4s +2.6s | "and a turkey hen cost one hundred."
+    Still life close-up. A turkey standing next to a big pile of cacao beans. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_130 | лес |  330.0s +2.2s | "And since money grew on trees,"
+    Wide establishing shot. A cacao tree with big yellow and red pods growing straight out of its trunk. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. No text, no letters, no watermark.
+
+shot_131 | рынок |  332.2s +1.5s | "some people faked it."
+    Medium shot. A sneaky Aztec man in a plain cloak secretly stuffing dirt into an empty cacao bean shell, looking around. Only one person in the scene, nobody else around. Setting: a huge open-air Aztec market plaza with rows of stalls under cloth shades, piles of maize, peppers, tomatoes, pottery and colorful cloth. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_132 | карточка |  333.7s +3.3s | "They emptied real beans and filled them with dirt,"
+    Still life close-up. An empty cacao bean shell next to a little pile of dirt. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_133 | карточка |  337.0s +3.3s | "or shaped fake beans out of clay or wax."
+    Still life close-up. Several fake cacao beans made of gray clay and pale wax next to real brown ones. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_134 | дом YOU |  340.4s +2.6s | "Counterfeit chocolate money, five hundred years ago."
+    Medium shot. YOU laughing and shaking his head at his phone. Only one person in the scene, nobody else around. Setting: a cozy small modern apartment with a couch, a lamp, a kitchen corner and a window. Lighting: warm cozy lamp light. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_135 | двор |  343.0s +3.0s | "While the adults worked, what about the kids?"
+    Medium shot. BOY and GIRL playing with a small rubber ball in the courtyard. Setting: a small Aztec house courtyard with white adobe walls, flowering plants, clay pots and big clay water jars. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_136 | дом (внутри) |  345.9s +2.6s | "Until about fourteen, they learned at home."
+    Medium shot. COATL teaching BOY to tie a fishing net, patient and kind. Setting: inside a simple one-room Aztec adobe house with whitewashed walls, woven reed mats on a packed earth floor, clay pots and a small three-stone hearth with a clay griddle. Lighting: warm light from the doorway and the hearth. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_137 | озеро |  348.5s +1.9s | "Boys learned their father's work,"
+    Medium shot. COATL and BOY fishing from a canoe with a net. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_138 | двор |  350.4s +2.6s | "girls learned to cook, spin and weave."
+    Medium shot. CITLALI teaching GIRL to spin thread on a wooden spindle, smiling. Setting: a small Aztec house courtyard with white adobe walls, flowering plants, clay pots and big clay water jars. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_139 | дом (внутри) |  353.0s +2.6s | "Parents gave long speeches full of advice"
+    Medium shot. GRANDPA giving a speech to BOY and GIRL, raising one finger wisely. Setting: inside a simple one-room Aztec adobe house with whitewashed walls, woven reed mats on a packed earth floor, clay pots and a small three-stone hearth with a clay griddle. Lighting: warm light from the doorway and the hearth. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_140 | дом (внутри) |  355.6s +2.2s | "about being polite, modest and hardworking."
+    Medium shot. BOY and GIRL bowing politely to GRANDPA. Setting: inside a simple one-room Aztec adobe house with whitewashed walls, woven reed mats on a packed earth floor, clay pots and a small three-stone hearth with a clay griddle. Lighting: warm light from the doorway and the hearth. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_141 | школа |  357.8s +3.0s | "And here's a surprise. School was for everyone."
+    Wide establishing shot. A simple Aztec school house with adobe walls and an open courtyard, morning. Lighting: soft pink and gold early morning light. No people in the scene. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No text, no letters, no watermark.
+
+shot_142 | школа |  360.7s +3.0s | "Every boy, rich or poor, had to go,"
+    Wide shot. Many small distant Aztec teenage boys walking into a school courtyard. Small distant figures with simple shapes and normal human proportions, no close-up faces. Lighting: bright warm sunny daylight with soft shadows. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_143 | Европа |  363.7s +3.0s | "at a time when most kids in Europe"
+    Medium shot. A European peasant boy in ragged clothes herding sheep in a muddy field. Only one person in the scene, nobody else around. Lighting: dull gray overcast daylight. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_144 | Европа |  366.7s +2.2s | "never went to school at all."
+    Wide establishing shot. A muddy European field at sunrise with a few sheep. Lighting: soft pink and gold early morning light. No people in the scene. No text, no letters, no watermark.
+
+shot_145 | школа |  368.9s +3.0s | "Common boys went to the house of youth,"
+    Medium shot. BOY carrying a wooden shield and a broom, walking into the school courtyard. Only one person in the scene, nobody else around. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_146 | школа |  371.9s +2.6s | "where they trained as warriors and workers."
+    Wide shot. Small distant Aztec teenage boys practicing with wooden shields and sticks. Small distant figures with simple shapes and normal human proportions, no close-up faces. Setting: a simple Aztec school house with adobe walls and an open courtyard. Lighting: bright warm sunny daylight with soft shadows. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_147 | храм |  374.4s +2.6s | "Noble boys went to a stricter school"
+    Medium shot. An Aztec priest in a black cloak teaching a noble teenage boy in a fine white cotton cloak, both looking at a painted screen-fold book. Only these two persons in the scene. Setting: a wide stone plaza in front of a huge stepped pyramid temple with two shrines on top. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_148 | храм |  377.0s +2.2s | "to become priests, judges and leaders."
+    Medium shot. A noble Aztec teenage boy in a fine white cotton cloak sitting on a mat, writing with a brush, serious face. Only one person in the scene, nobody else around. Setting: a wide stone plaza in front of a huge stepped pyramid temple with two shrines on top. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_149 | школа |  379.3s +2.6s | "And many teens learned songs and dances"
+    Wide shot. Small distant Aztec teenagers dancing in a circle around a drummer. Small distant figures with simple shapes and normal human proportions, no close-up faces. Setting: a simple Aztec school house with adobe walls and an open courtyard. Lighting: bright warm sunny daylight with soft shadows. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_150 | школа |  381.9s +1.9s | "in special houses of song."
+    Wide establishing shot. A tall upright Aztec wooden drum with carved sides on a stone floor. Setting: a simple Aztec school house with adobe walls and an open courtyard. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. No text, no letters, no watermark.
+
+shot_151 | дом (внутри) |  383.7s +2.6s | "But Aztec parents could be very strict."
+    Medium shot. CITLALI with hands on hips and a stern face. Only one person in the scene, nobody else around. Setting: inside a simple one-room Aztec adobe house with whitewashed walls, woven reed mats on a packed earth floor, clay pots and a small three-stone hearth with a clay griddle. Lighting: warm light from the doorway and the hearth. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_152 | карточка |  386.3s +2.6s | "A colonial book called the Codex Mendoza"
+    Still life close-up. An old open book with a colorful painted page showing simple pictures of a father and a son. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_153 | двор |  388.9s +3.0s | "shows a punishment for naughty eleven-year-olds:"
+    Medium shot. BOY looking guilty with his head down. Only one person in the scene, nobody else around. Setting: a small Aztec house courtyard with white adobe walls, flowering plants, clay pots and big clay water jars. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_154 | дом (внутри) |  391.9s +3.3s | "holding them over the smoke of burning chili peppers."
+    Wide establishing shot. Red chili peppers burning on hot coals in a clay brazier, thick smoke rising. Setting: inside a simple one-room Aztec adobe house with whitewashed walls, woven reed mats on a packed earth floor, clay pots and a small three-stone hearth with a clay griddle. Lighting: warm light from the doorway and the hearth. No people in the scene. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No text, no letters, no watermark.
+
+shot_155 | дом (внутри) |  395.2s +2.2s | "Nobody knows how long it lasted,"
+    Medium shot. BOY coughing with watery eyes and waving away chili smoke while COATL points at him sternly. Setting: inside a simple one-room Aztec adobe house with whitewashed walls, woven reed mats on a packed earth floor, clay pots and a small three-stone hearth with a clay griddle. Lighting: warm light from the doorway and the hearth. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_156 | двор |  397.4s +2.6s | "but most kids probably behaved after that."
+    Medium shot. BOY sweeping the courtyard with a broom, with a very obedient smile. Only one person in the scene, nobody else around. Setting: a small Aztec house courtyard with white adobe walls, flowering plants, clay pots and big clay water jars. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_157 | дворец |  400.0s +2.6s | "Aztec life had rules for almost everything,"
+    Medium shot. An Aztec judge in a long white cloak sitting on a reed seat, raising one hand. Only one person in the scene, nobody else around. Setting: a spacious Aztec palace room with painted walls, reed mats, flowers and a garden view. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_158 | карточка |  402.6s +1.5s | "even for your clothes."
+    Still life close-up. Two cloaks side by side, a short plain off-white one and a long white one with bright patterns. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_159 | чинампы |  404.1s +2.6s | "Ordinary people wore cloth made from maguey,"
+    Wide establishing shot. A big spiky agave plant with thick blue-green leaves. Setting: long narrow green garden fields on the water lined with tall willow trees and separated by calm canals, volcanoes in the distance. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. No text, no letters, no watermark.
+
+shot_160 | двор |  406.7s +2.6s | "a tough fiber from the agave plant."
+    Medium shot. CITLALI pulling long pale fibers from an agave leaf, concentrated. Only one person in the scene, nobody else around. Setting: a small Aztec house courtyard with white adobe walls, flowering plants, clay pots and big clay water jars. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_161 | дворец |  409.3s +1.9s | "Cotton was for the nobles."
+    Medium shot. NOBLE proudly showing off his long patterned cotton cloak. Only one person in the scene, nobody else around. Setting: a spacious Aztec palace room with painted walls, reed mats, flowers and a garden view. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_162 | карточка |  411.1s +3.3s | "A commoner's cloak had to end at the knee."
+    Still life close-up. A plain knee-length off-white cloak hanging on a wooden stand. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_163 | карточка |  414.4s +3.0s | "Only nobles wore them down to the ankles."
+    Still life close-up. A long ankle-length white cotton cloak with red and blue patterns hanging on a wooden stand. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_164 | дворец |  417.4s +2.2s | "Break that rule, and the punishment"
+    Medium shot. COATL wearing a long patterned cotton cloak and freezing in fear as NOBLE glares at him. Setting: a spacious Aztec palace room with painted walls, reed mats, flowers and a garden view. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_165 | дом YOU |  419.6s +2.6s | "could be death. Fashion was serious business."
+    Medium shot. YOU looking down at his own clothes nervously. Only one person in the scene, nobody else around. Setting: a cozy small modern apartment with a couch, a lamp, a kitchen corner and a window. Lighting: warm cozy lamp light. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_166 | карточка |  422.2s +1.5s | "Alcohol had rules too."
+    Still life close-up. A clay jug and a clay cup with white foamy liquid. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_167 | чинампы |  423.7s +2.6s | "The Aztecs brewed pulque from agave sap,"
+    Medium shot. An Aztec man collecting sap from the hollow center of a big agave plant with a long gourd tube. Only one person in the scene, nobody else around. Setting: long narrow green garden fields on the water lined with tall willow trees and separated by calm canals, volcanoes in the distance. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_168 | карточка |  426.3s +1.9s | "a milky, slightly sour drink."
+    Still life close-up. A clay bowl of milky white foamy liquid. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_169 | дворец |  428.1s +2.6s | "But public drunkenness was a serious crime."
+    Medium shot. A stern Aztec judge pointing at a dizzy man in a plain cloak who holds an empty cup. Only these two persons in the scene. Setting: a spacious Aztec palace room with painted walls, reed mats, flowers and a garden view. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_170 | рынок |  430.7s +2.6s | "A drunk could be shamed in public,"
+    Wide shot. A small distant crowd in a plaza staring at one man standing alone in the middle. Small distant figures with simple shapes and normal human proportions, no close-up faces. Lighting: bright warm sunny daylight with soft shadows. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_171 | храм |  433.3s +2.6s | "and repeat offenders could even be executed."
+    Wide establishing shot. An empty stone plaza at dusk with a single tipped-over clay cup on the ground. Lighting: warm orange sunset light with long soft shadows. No people in the scene. No text, no letters, no watermark.
+
+shot_172 | двор |  435.9s +2.6s | "But there was one exception: the elderly."
+    Medium shot. GRANDPA grinning and holding a clay cup of white foamy liquid. Only one person in the scene, nobody else around. Setting: a small Aztec house courtyard with white adobe walls, flowering plants, clay pots and big clay water jars. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_173 | двор |  438.5s +2.2s | "Old people had earned the right"
+    Medium shot. GRANDPA raising his cup cheerfully toward the sunset. Only one person in the scene, nobody else around. Setting: a small Aztec house courtyard with white adobe walls, flowering plants, clay pots and big clay water jars. Lighting: warm orange sunset light with long soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_174 | двор |  440.7s +2.2s | "to drink at festivals without punishment."
+    Medium shot. GRANDPA and two other old Aztec men laughing together at a festival with clay cups. Only these three persons in the scene. Setting: a small Aztec house courtyard with white adobe walls, flowering plants, clay pots and big clay water jars. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_175 | дом YOU |  443.0s +2.2s | "Getting old finally had its perks."
+    Medium shot. YOU laughing on his couch. Only one person in the scene, nobody else around. Lighting: warm cozy lamp light. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_176 | двор |  445.2s +2.6s | "But life wasn't only work and rules."
+    Medium shot. The family: COATL, CITLALI, BOY and GIRL laughing together in the courtyard at sunset. Only these four persons in the scene. Setting: a small Aztec house courtyard with white adobe walls, flowering plants, clay pots and big clay water jars. Lighting: warm orange sunset light with long soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_177 | карточка |  447.8s +1.5s | "The Aztecs loved games."
+    Still life close-up. A painted cross-shaped game board on a reed mat with five large beans. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_178 | двор |  449.3s +2.6s | "A favorite was patolli, a board game"
+    Medium shot. COATL and GRANDPA playing a board game on a reed mat, throwing beans like dice. Setting: a small Aztec house courtyard with white adobe walls, flowering plants, clay pots and big clay water jars. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_179 | карточка |  451.9s +2.2s | "played with beans instead of dice."
+    Still life close-up. Five large beans with white dots painted on one side. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_180 | двор |  454.1s +2.6s | "And people bet on it. A lot."
+    Medium shot. COATL nervously pushing a pile of folded cloaks forward as a bet. Only one person in the scene, nobody else around. Setting: a small Aztec house courtyard with white adobe walls, flowering plants, clay pots and big clay water jars. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_181 | карточка |  456.7s +2.2s | "Cloaks, jewels, food, and some gamblers"
+    Still life close-up. A pile of folded cloaks, green jade beads and a basket of maize. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_182 | двор |  458.9s +2.6s | "even lost their homes or their freedom."
+    Medium shot. COATL holding his head in his hands after losing a game while GRANDPA laughs. Setting: a small Aztec house courtyard with white adobe walls, flowering plants, clay pots and big clay water jars. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_183 | стадион |  461.5s +2.6s | "Then there was the famous ball game."
+    Wide establishing shot. A long narrow stone ballcourt with sloping side walls and a carved stone ring high on each side wall. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No text, no letters, no watermark.
+
+shot_184 | стадион |  464.1s +2.2s | "Players hit a heavy rubber ball"
+    Medium shot. An Aztec ball player in a thick leather hip belt hitting a black rubber ball with his hip in mid-jump. Only one person in the scene, nobody else around. Setting: a long narrow stone ballcourt with sloping side walls and a carved stone ring high on each side wall. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_185 | стадион |  466.3s +2.2s | "with their hips, not their hands."
+    Close-up of a black rubber ball bouncing off a thick leather hip guard on a stone floor. Setting: a long narrow stone ballcourt with sloping side walls and a carved stone ring high on each side wall. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. No text, no letters, no watermark.
+
+shot_186 | стадион |  468.5s +2.6s | "Scoring through the stone ring was rare,"
+    Wide establishing shot. A black rubber ball flying through a carved stone ring on a stone wall. Setting: a long narrow stone ballcourt with sloping side walls and a carved stone ring high on each side wall. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No text, no letters, no watermark.
+
+shot_187 | стадион |  471.1s +3.0s | "and it could end the game at once."
+    Wide shot. A crowd of small distant spectators cheering on the stone walls of the ballcourt. Small distant figures with simple shapes and normal human proportions, no close-up faces. Lighting: bright warm sunny daylight with soft shadows. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_188 | лес |  474.1s +3.0s | "The rubber came from the sap of trees,"
+    Wide establishing shot. White milky sap dripping from a cut in a tree trunk into a clay bowl. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. No text, no letters, no watermark.
+
+shot_189 | дом YOU |  477.0s +2.6s | "long before Europeans had ever seen rubber."
+    Medium shot. YOU bouncing a rubber ball with an impressed face. Only one person in the scene, nobody else around. Setting: a cozy small modern apartment with a couch, a lamp, a kitchen corner and a window. Lighting: warm cozy lamp light. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_190 | храм |  479.6s +3.0s | "Yes, the game also had a religious side,"
+    Wide establishing shot. A stepped pyramid temple at sunset, smoke rising from the top. Lighting: warm orange sunset light with long soft shadows. No people in the scene. No text, no letters, no watermark.
+
+shot_191 | карточка |  482.6s +2.2s | "like almost everything in Aztec life."
+    Still life close-up. A giant round carved stone disk with circles of carved pictures. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_192 | храм |  484.8s +2.2s | "Their religion did include human sacrifice,"
+    Wide establishing shot. The great temple seen from far away at dusk under a dark red sky, smoke rising. Lighting: deep blue moonlight with soft silver highlights, calm night atmosphere. No people in the scene. No text, no letters, no watermark.
+
+shot_193 | карточка |  487.0s +2.6s | "and historians still argue about the numbers."
+    Still life close-up. A stack of old books with a magnifying glass on top. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_194 | дом (внутри) |  489.6s +2.6s | "But for most families, on most days,"
+    Medium shot. CITLALI cooking calmly at the hearth, peaceful face. Only one person in the scene, nobody else around. Setting: inside a simple one-room Aztec adobe house with whitewashed walls, woven reed mats on a packed earth floor, clay pots and a small three-stone hearth with a clay griddle. Lighting: warm light from the doorway and the hearth. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_195 | двор |  492.2s +2.6s | "life was about food, family and work."
+    Medium shot. The family: COATL, CITLALI, BOY and GIRL eating together on reed mats in the courtyard. Only these four persons in the scene. Setting: a small Aztec house courtyard with white adobe walls, flowering plants, clay pots and big clay water jars. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_196 | город |  494.8s +3.0s | "As the sun went down, the city slowed."
+    Wide establishing shot. Sunset over Tenochtitlan, orange sky behind the temples, the lake glowing. Lighting: warm orange sunset light with long soft shadows. No people in the scene. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No text, no letters, no watermark.
+
+shot_197 | дом (внутри) |  497.8s +1.9s | "Families ate their second meal,"
+    Medium shot. The family: COATL, CITLALI, BOY and GIRL eating tortillas and beans by the small hearth in the evening. Only these four persons in the scene. Setting: inside a simple one-room Aztec adobe house with whitewashed walls, woven reed mats on a packed earth floor, clay pots and a small three-stone hearth with a clay griddle. Lighting: warm orange sunset light with long soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_198 | дом (внутри) |  499.6s +2.6s | "told stories, and went to sleep early."
+    Medium shot. GRANDPA telling a story by the fire to BOY and GIRL in the evening. Setting: inside a simple one-room Aztec adobe house with whitewashed walls, woven reed mats on a packed earth floor, clay pots and a small three-stone hearth with a clay griddle. Lighting: warm orange sunset light with long soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_199 | храм |  502.2s +2.6s | "Fires burned on the temples all night."
+    Wide establishing shot. Braziers burning on top of a pyramid temple at night under the stars. Lighting: deep blue night with warm orange firelight, soft glow. No people in the scene. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No text, no letters, no watermark.
+
+shot_200 | храм |  504.8s +2.6s | "Priests kept watch and studied the stars."
+    Medium shot. An Aztec priest in a black cloak looking up at the starry sky from a temple top at night. Only one person in the scene, nobody else around. Lighting: deep blue moonlight with soft silver highlights, calm night atmosphere. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_201 | карточка |  507.4s +3.3s | "Because time was a big deal for the Aztecs."
+    Still life close-up. A big round carved stone wheel with rings of carved pictures. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_202 | карточка |  510.7s +3.0s | "They used two calendars at the same time,"
+    Still life close-up. Two round carved stone wheels with picture signs, fitting together like gears. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_203 | карточка |  513.7s +3.0s | "one of 365 days, and one of 260."
+    Still life close-up. A big carved wheel and a smaller carved wheel touching each other. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_204 | карточка |  516.7s +3.0s | "And every fifty-two years, both cycles ended"
+    Still life close-up. A thick bundle of many thin wooden sticks tied together with a rope. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_205 | город |  519.6s +1.9s | "on the very same day."
+    Wide establishing shot. The night sky over the dark city with a small bright cluster of stars overhead. Lighting: deep blue moonlight with soft silver highlights, calm night atmosphere. No people in the scene. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No text, no letters, no watermark.
+
+shot_206 | дом (внутри) |  521.5s +3.0s | "The Aztecs feared the world might end then."
+    Medium shot. CITLALI hugging GIRL tightly in the dark, both worried. Setting: inside a simple one-room Aztec adobe house with whitewashed walls, woven reed mats on a packed earth floor, clay pots and a small three-stone hearth with a clay griddle. Lighting: deep blue moonlight with soft silver highlights, calm night atmosphere. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_207 | дом (внутри) |  524.4s +3.3s | "So on that night, every fire was put out,"
+    Wide establishing shot. A hearth with the last embers going dark and thin smoke curling up. Setting: inside a simple one-room Aztec adobe house with whitewashed walls, woven reed mats on a packed earth floor, clay pots and a small three-stone hearth with a clay griddle. Lighting: deep blue night with warm orange firelight, soft glow. No people in the scene. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No text, no letters, no watermark.
+
+shot_208 | город |  527.8s +2.6s | "from the great temples to every kitchen."
+    Wide establishing shot. The whole island city completely dark at night under the stars. Lighting: deep blue moonlight with soft silver highlights, calm night atmosphere. No people in the scene. No text, no letters, no watermark.
+
+shot_209 | двор |  530.4s +3.3s | "People threw away old pots and swept their homes."
+    Medium shot. COATL throwing an old cracked clay pot onto a pile of broken pottery. Only one person in the scene, nobody else around. Setting: a small Aztec house courtyard with white adobe walls, flowering plants, clay pots and big clay water jars. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_210 | город |  533.7s +2.2s | "Then everyone looked toward a hill,"
+    Wide shot. Small dark silhouettes of people on flat rooftops looking at a distant hill at night. Small distant figures with simple shapes and normal human proportions, no close-up faces. Lighting: deep blue moonlight with soft silver highlights, calm night atmosphere. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_211 | озеро |  535.9s +3.0s | "where priests tried to light a new fire."
+    Wide establishing shot. A tiny new flame glowing on top of a dark hill far away at night. Lighting: deep blue night with warm orange firelight, soft glow. No people in the scene. No text, no letters, no watermark.
+
+shot_212 | озеро |  538.9s +3.0s | "If the fire caught, the world would continue"
+    Wide establishing shot. A big bright bonfire blazing on top of a hill at night. Lighting: deep blue night with warm orange firelight, soft glow. No people in the scene. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No text, no letters, no watermark.
+
+shot_213 | озеро |  541.9s +1.9s | "for another fifty-two years."
+    Wide shot. Small distant runners carrying flaming torches along a causeway toward the city at night. Small distant figures with simple shapes and normal human proportions, no close-up faces. Lighting: deep blue night with warm orange firelight, soft glow. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_214 | дом (внутри) |  543.7s +2.6s | "Runners carried the flame to every home."
+    Medium shot. CITLALI relighting the hearth with a burning torch at night, relieved smile. Only one person in the scene, nobody else around. Setting: inside a simple one-room Aztec adobe house with whitewashed walls, woven reed mats on a packed earth floor, clay pots and a small three-stone hearth with a clay griddle. Lighting: deep blue night with warm orange firelight, soft glow. Composition: characters big and clear in the frame, faces clearly visible. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_215 | город |  546.3s +3.0s | "The last New Fire Ceremony was in 1507."
+    Wide establishing shot. Dawn over the city with thin smoke rising from every home. Lighting: soft pink and gold early morning light. No people in the scene. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No text, no letters, no watermark.
+
+shot_216 | город |  549.3s +3.0s | "Nobody knew it would be the last one."
+    Wide establishing shot. The island city in a quiet golden morning with birds flying over the lake. Lighting: soft pink and gold early morning light. No people in the scene. No text, no letters, no watermark.
+
+shot_217 | озеро |  552.2s +2.2s | "Twelve years later, the Spaniards arrived."
+    Wide shot. Small distant Spanish soldiers in steel helmets with horses marching along the causeway. Small distant figures with simple shapes and normal human proportions, no close-up faces. Lighting: bright warm sunny daylight with soft shadows. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_218 | город |  554.4s +3.3s | "By 1521, after war and smallpox, Tenochtitlan had fallen."
+    Wide establishing shot. Ruins of white temples under gray clouds with dark smoke rising far away. Setting: the Aztec island city of Tenochtitlan on a blue lake, white adobe houses, canals, causeways and a huge stepped pyramid temple with two shrines on top, volcanoes in the distance. Lighting: deep blue moonlight with soft silver highlights, calm night atmosphere. No people in the scene. No text, no letters, no watermark.
+
+shot_219 | город |  557.8s +3.3s | "The Spaniards built Mexico City on top of it."
+    Wide establishing shot. A colonial stone cathedral being built where a temple once stood, scaffolding, 1500s. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. No text, no letters, no watermark.
+
+shot_220 | город |  561.1s +2.6s | "But the Aztec world never fully disappeared."
+    Wide establishing shot. A modern city square with old temple ruins right next to a big colonial cathedral. Lighting: bright warm sunny daylight with soft shadows. No people in the scene. No text, no letters, no watermark.
+
+shot_221 | рынок |  563.7s +2.6s | "Over a million people still speak Nahuatl,"
+    Medium shot. A modern Mexican grandmother in a colorful embroidered blouse smiling and talking at a market stall. Only one person in the scene, nobody else around. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_222 | карточка |  566.3s +1.9s | "the language of the Aztecs."
+    Still life close-up. A small clay figurine of an Aztec farmer next to a modern smartphone. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_223 | дом YOU |  568.1s +2.6s | "And you use their words every day."
+    Medium shot. YOU in his kitchen making breakfast. Only one person in the scene, nobody else around. Lighting: warm cozy lamp light. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_224 | карточка |  570.7s +1.9s | "Chocolate. Tomato. Avocado. Chili. Coyote."
+    Still life close-up. A bar of chocolate, a tomato, an avocado and a red chili pepper in a row. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_225 | дом YOU |  572.6s +2.2s | "All of them come from Nahuatl."
+    Medium shot. YOU staring at a slice of avocado toast in surprise. Only one person in the scene, nobody else around. Setting: a cozy small modern apartment with a couch, a lamp, a kitchen corner and a window. Lighting: warm cozy lamp light. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_226 | канал |  574.8s +2.2s | "So, could you live like Coatl?"
+    Medium shot. COATL smiling and waving from his canoe. Only one person in the scene, nobody else around. Lighting: bright warm sunny daylight with soft shadows. Composition: characters big and clear in the frame, faces clearly visible. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_227 | храм |  577.0s +3.0s | "Up before dawn, no breakfast, school for everyone,"
+    Wide establishing shot. A big conch shell resting on a stone ledge at dawn. Setting: a wide stone plaza in front of a huge stepped pyramid temple with two shrines on top. Lighting: soft pink and gold early morning light. No people in the scene. No text, no letters, no watermark.
+
+shot_228 | карточка |  580.0s +2.2s | "a daily bath, bugs for protein,"
+    Still life close-up. Roasted grasshoppers next to a clay bowl of water and a green branch with small brown berries. Simple objects centered on a plain warm beige background, objects large and clear. Soft even studio light. No people. No text, no letters, no watermark.
+
+shot_229 | дом YOU |  582.2s +2.2s | "and strict rules about your cloak?"
+    Medium shot. YOU wrapped in a white bedsheet like a long cloak, posing proudly. Only one person in the scene, nobody else around. Setting: a cozy small modern apartment with a couch, a lamp, a kitchen corner and a window. Lighting: warm cozy lamp light. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_230 | дом YOU |  584.4s +1.9s | "Tell me in the comments."
+    Medium shot. YOU typing on his phone and smiling. Only one person in the scene, nobody else around. Setting: a cozy small modern apartment with a couch, a lamp, a kitchen corner and a window. Lighting: warm cozy lamp light. Composition: characters big and clear in the frame, faces clearly visible. Everyone is fully clothed. No text, no letters, no watermark.
+
+shot_231 | канал |  586.3s +3.3s | "And if you liked this trip back in time,"
+    Wide establishing shot. A canoe gliding on a calm canal at sunset with flowers floating on the water. Lighting: warm orange sunset light with long soft shadows. No people in the scene. Animation-ready composition: the main subject fully inside the frame with empty space around it, clear separation between foreground and background, nothing important cut by the frame edges, no motion blur, natural elements that can move such as water, smoke, steam, leaves, cloth and flames. No text, no letters, no watermark.
+
+shot_232 | пещера |  589.6s +3.0s | "watch our video on how ancient humans slept."
+    Wide establishing shot. A cozy bed of grass bundles by a small fire inside a cave at night. Lighting: deep blue night with warm orange firelight, soft glow. No people in the scene. No text, no letters, no watermark.
