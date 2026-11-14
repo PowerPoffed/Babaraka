@@ -15,9 +15,19 @@
 Заняты (не брать): Puglia, Calabria, Sardegna, Lazio, Stretto di Messina, Lago di Garda, Salento, Venezia, Napoli, Campi Flegrei, Lago di Como, Pianura Padana, Gargano.
 Перед каждой новой темой проверять спрос и конкурентов.
 
-КАК ДЕЛАЮ РОЛИК
-Сценарий (ты) → озвучка ElevenLabs (итальянский голос) → футажи через мою программу (Pixabay, Wikimedia Commons; Pexels ключи не выдаёт)
-→ картинки Google Flow (Nano Banana) → монтаж CapCut.
+ГОТОВАЯ СИСТЕМА — ВЗЯТЬ ОТСЮДА
+Всё уже настроено и работает для моего немецкого канала https://www.youtube.com/@GeteilteFront
+в папке: C:\Users\hapuk\Desktop\Impossible Places Global
+(поиск футажей, сценарии, озвучка, картинки, монтаж, структура папок роликов).
+
+Что сделать:
+1. Сначала изучи папку Impossible Places Global: как устроены программы, настройки и папки роликов (ролик_01_..., ролик_02_...).
+2. Создай НОВУЮ папку C:\Users\hapuk\Desktop\L'Italia che non sai и скопируй туда всю систему.
+3. Переделай копию под итальянский: язык сценария и озвучки, поисковые слова для футажей (пейзажи Италии вместо ГДР), голос ElevenLabs итальянский.
+4. В папке Impossible Places Global НИЧЕГО не меняй и не удаляй — немецкий канал работает.
+5. Ключи (API, config.json) копируй только на моём компьютере, никому не показывай.
+Pexels новые ключи не выдаёт: используй Pixabay и Wikimedia Commons.
+
 Темп: ролик раз в 2 дня, позже можно каждый день.
 
 ПРАВИЛА
