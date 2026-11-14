@@ -28,3 +28,18 @@ Emilia-Romagna, Pianura Padana, Campi Flegrei, Etna, Vesuvio, Lago Maggiore, Lag
 - Голос: итальянский (ElevenLabs). Текст проверять (факты и язык).
 - Обложка: вид региона + карта со стрелкой/красной зоной, 2–4 слова.
 - Смотрят МЕСТНЫЕ: только регионы Италии, не другие страны.
+
+## Проверка регионов (14 ноября 2026)
+Формат = сколько роликов «[регион] nasconde qualcosa» уже есть (в топ-20 поиска) и лучший из них.
+| Регион | Роликов в формате | Лучший | Население (смотрят местные) | Решение |
+|---|---|---|---|---|
+| Toscana | 1 | 1,6K (слабый канал) | 3,7 млн | ✅ 1-й ролик: много футажей |
+| Veneto | 0 | — | 4,9 млн | ✅ 2-й |
+| Lombardia | 0 | — | 10 млн | ✅ 3-й |
+| Piemonte | 0 | — | 4,2 млн | ✅ |
+| Emilia-Romagna | 0 | — | 4,4 млн | ✅ |
+| Vesuvio | 0 | — | Кампания 5,6 млн | ✅ |
+| Abruzzo, Trentino, Friuli, Umbria, Maremma, Cilento, Lago Maggiore, Alpi | 0 | — | меньше | ✅ запас |
+| Liguria, Etna, Dolomiti | 1 | 0–1,2K | — | можно (конкуренты слабые) |
+| Campi Flegrei, Lago di Como, Pianura Padana, Gargano | 1 | 5–20K | — | ⚠️ занято сильнее |
+| Sicilia | 3 | 2K | — | ⚠️ |
