@@ -1,0 +1,76 @@
+ИНСТРУКЦИИ ДЛЯ АГЕНТА FLOW — ролик «Aztecs» (How They Lived)
+Каждый блок = одна инструкция: «Добавить инструкцию» → название → текст → референс (если указан).
+Старые инструкции ролика про сон (CAVE, учёные, бабушка, люди каменного века) — ВЫКЛЮЧИТЬ.
+«Стиль How They Lived» — тот же, оставить. «Правила сцен» — заменить на текст ниже (добавлены правила для ацтеков).
+
+ПОРЯДОК:
+1. Добавить инструкции 1–2 (стиль и правила).
+2. Сделать референсы персонажей: файл flow_REFERENCES.txt (одна пачка, 8 картинок).
+3. Выбрать лучший вариант каждого персонажа → добавить инструкции 3–10, к каждой прикрепить его картинку.
+4. Дальше — пачки из flow_batches_of_24.txt.
+
+========================================
+1) Название: Стиль How They Lived     Референс: нет
+----------------------------------------
+2D cartoon illustration in a modern adult animated TV series style, bold clean dark outlines, simple cartoon faces with big round white eyes with small black pupils, flat cel-shaded colors with soft shading, muted cinematic colors, atmospheric lighting, detailed background, wide 16:9 frame. Normal human proportions. Everyone is fully clothed. No text, no letters, no numbers, no watermark, no captions anywhere in the image.
+
+========================================
+2) Название: Правила сцен (Aztecs)     Референс: нет
+----------------------------------------
+Follow these rules in every image:
+- The story takes place in the Aztec city of Tenochtitlan in central Mexico around 1500 AD, unless the prompt says modern or Europe.
+- Aztec people have warm brown skin, straight black hair and normal human faces. Commoners wear plain off-white cloaks of rough plant fiber that end at the knee; women wear loose white blouses and long wrap skirts. Only nobles wear long colorful patterned cloaks, jewelry and feathers.
+- Aztec houses are simple white adobe houses with flat roofs. People sleep on woven reed mats on the floor, there are no beds and no chairs in commoners' houses.
+- No horses, no metal tools, no wheels, no glass and no European objects in Aztec scenes (except when a SPANIARD is in the prompt).
+- Draw exactly the number of people the prompt asks for. "Only one person" means nobody else, no crowd in the background.
+- If the prompt says "No people in the scene", draw no people and no human figures at all.
+- "Small distant figures" means a wide view with many tiny people, no close-up faces.
+- Prompts with "plain warm beige background" are simple object cards: only the objects on a plain beige background.
+- A sleeping person always has the eyes fully closed.
+- No blood, no violence, no weapons pointed at anyone. Calm, friendly, family-safe scenes.
+- Every character is an adult unless the prompt says BOY, GIRL, boy, girl or teenage.
+- Make exactly one image per prompt. Never repeat a shot and never make extra variations unless asked.
+
+========================================
+3) Название: COATL     Референс: его лучший кадр из flow_REFERENCES (ref_COATL)
+----------------------------------------
+COATL is the main character: an Aztec farmer in his early 30s with warm brown skin, a friendly face, straight black hair cut in a bowl shape with short straight bangs, a plain off-white knee-length cloak of rough plant fiber knotted on his right shoulder over a white loincloth, barefoot. Always draw him exactly like the reference image: same face, hair, cloak and body.
+
+========================================
+4) Название: CITLALI     Референс: ref_CITLALI
+----------------------------------------
+CITLALI is COATL's wife: an Aztec woman in her late 20s with warm brown skin and a kind face, long black hair twisted up into two small knots above her forehead, a loose white blouse with a simple red border at the neck and a long white wrap skirt, barefoot. Always draw her exactly like the reference image.
+
+========================================
+5) Название: BOY и GIRL     Референс: ref_KIDS
+----------------------------------------
+BOY is their son, about 12 years old: warm brown skin, straight black bowl-cut hair like his father, a small plain off-white cloak over a white loincloth.
+GIRL is their daughter, about 10 years old: warm brown skin, one long black braid, a loose white blouse and a white wrap skirt.
+They are children with child proportions. Always draw them exactly like the reference image.
+
+========================================
+6) Название: GRANDPA     Референс: ref_GRANDPA
+----------------------------------------
+GRANDPA is COATL's old father: an old Aztec man with warm brown skin, short gray hair, a kind wrinkled face with a big smile and a plain off-white knee-length cloak. Always draw him exactly like the reference image.
+
+========================================
+7) Название: NOBLE     Референс: ref_NOBLE
+----------------------------------------
+NOBLE is a rich Aztec nobleman in his 40s with warm brown skin, a proud face, a long ankle-length white cotton cloak with bright red and blue geometric patterns, a green jade necklace, a headband with a few green feathers and leather sandals. Always draw him exactly like the reference image.
+
+========================================
+8) Название: SPANIARD     Референс: ref_SPANIARD
+----------------------------------------
+SPANIARD is a Spanish soldier from 1519: a man in his 30s with a short dark beard, a rounded steel helmet, a steel breastplate over a red shirt, dark trousers and boots. He never holds a weapon in his hands. Always draw him exactly like the reference image.
+
+========================================
+9) Название: YOU     Референс: ref_YOU (или кадр shot_005 из ролика про сон)
+----------------------------------------
+YOU: a modern man in his late 20s with short messy brown hair and a plain white t-shirt. He lives in a cozy small modern apartment. Always draw him exactly like the reference image.
+
+========================================
+СОВЕТЫ
+- Инструкции 1 и 2 — всегда включены. Персонажей можно включать только для пачек, где они есть
+  (в flow_batches_of_24.txt у каждой пачки написано «Персонажи в пачке: ...»).
+- Если персонаж «гуляет» — замените его референс на самый удачный кадр с ним.
+- Если Google не пропустил кадр (ошибка фильтра) — пришлите Claude номер, перепишем промпт.

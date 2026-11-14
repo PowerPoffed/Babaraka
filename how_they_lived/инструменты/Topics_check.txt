@@ -1,0 +1,37 @@
+ПРОВЕРКА 30 ТЕМ — поиск YouTube, топ-20/25 результатов на каждое название
+
+Колонки: вердикт | похожих роликов | из них >100K просмотров | из них <1000 | лучший ролик
+
+ХОРОШО — спрос есть, копий мало.  ЗАБИТО — много копий, почти все <1000 просмотров.
+СЛАБЫЙ СПРОС — копий мало, но и никто не набрал много.  Оценка грубая (по совпадению слов в названиях).
+
+ 1. ХОРОШО        | похожих  8 | >100K:  1 | <1K:  6 | топ 191,171 (Human History for Sleep) | How Did Ancient Humans Sleep Without Beds?
+ 2. СЛАБЫЙ СПРОС  | похожих  3 | >100K:  0 | <1K:  3 | топ 49 (Bones and Habits) | Where Did Ancient Humans Go To The Toilet?
+ 3. ЗАБИТО        | похожих 17 | >100K:  1 | <1K: 14 | топ 151,133 (History Hit) | How Did Ancient Humans Brush Their Teeth?
+ 4. ХОРОШО        | похожих  8 | >100K:  1 | <1K:  6 | топ 1,822,725 (Tasting History with Max Miller) | What Did Ancient Humans Eat For Breakfast?
+ 5. ЗАБИТО        | похожих 24 | >100K:  0 | <1K: 24 | топ 441 (Doodle 2 Mind) | How Did Ancient Humans Make Fire Without Matches?
+ 6. ЗАБИТО        | похожих 19 | >100K:  0 | <1K: 19 | топ 844 (Inter Sup and Ancient Tuesday) | How Did Ancient Humans Cut Their Hair?
+ 7. ЗАБИТО        | похожих 23 | >100K:  0 | <1K: 19 | топ 4,215 (Doodle Facts) | How Did Ancient Humans Stay Clean Without Soap?
+ 8. НЕТ ДАННЫХ    | похожих  0 | >100K:  0 | <1K:  0 | топ 0 () | How Did Ancient Humans Know What Time It Was?
+ 9. СЛАБЫЙ СПРОС  | похожих  0 | >100K:  0 | <1K:  0 | топ 0 () | What Did Ancient Humans Do When They Were Bored At Night?
+10. ЗАБИТО        | похожих 19 | >100K:  0 | <1K: 17 | топ 34,289 (Before Civilization) | How Did Ancient Humans Find Water?
+11. ЗАБИТО        | похожих 20 | >100K:  2 | <1K: 14 | топ 3,243,469 (CNBC Make It) | Who Invented Shoes And Why?
+12. СЛАБЫЙ СПРОС  | похожих 11 | >100K:  0 | <1K: 10 | топ 2,607 (Bob and 3 more) | How Did Ancient Humans Raise Babies?
+13. ЗАБИТО        | похожих 18 | >100K:  0 | <1K: 17 | топ 5,253 (History In Sticks) | How Did Ancient Humans Keep Food From Rotting?
+14. ЗАБИТО        | похожих 24 | >100K:  1 | <1K: 17 | топ 366,964 (Boneink) | What Did Ancient Humans Do When It Was Too Hot?
+15. ЗАБИТО        | похожих 21 | >100K:  0 | <1K: 19 | топ 2,959 (ThinkMation) | How Did Ancient Humans Talk Before Language?
+16. СРЕДНЕ        | похожих 21 | >100K: 12 | <1K:  1 | топ 5,513,871 (ABC News In-depth) | Who Invented Clothes And Why?
+17. ЗАБИТО        | похожих 23 | >100K:  0 | <1K: 20 | топ 8,084 (Goshu) | How Did Ancient Humans Count Without Numbers?
+18. СЛАБЫЙ СПРОС  | похожих  9 | >100K:  0 | <1K:  8 | топ 7,924 (Renn) | What Did Ancient Humans Do With Their Dead?
+19. СЛАБЫЙ СПРОС  | похожих  1 | >100K:  0 | <1K:  1 | топ 5 (Before The Alarms) | How Did Ancient Humans Get Their First Pets?
+20. ЗАБИТО        | похожих 18 | >100K:  1 | <1K: 17 | топ 1,131,869 (nabil ebraheim) | How Did Ancient Humans Fix Broken Bones?
+21. ЗАБИТО        | похожих 25 | >100K:  7 | <1K: 15 | топ 4,709,435 (Peekaboo Kidz) | Who Invented Money And Why?
+22. ЗАБИТО        | похожих 25 | >100K:  0 | <1K: 23 | топ 71,153 (Stickly and 2 more) | How Did Ancient Humans Fall In Love?
+23. СЛАБЫЙ СПРОС  | похожих 11 | >100K:  0 | <1K: 10 | топ 4,121 (Mogo and 3 more) | How Did Ancient Humans Cook Without Pots?
+24. СРЕДНЕ        | похожих 11 | >100K:  0 | <1K:  9 | топ 50,868 ( History Alive Animated) | What Did Ancient Humans Fear The Most?
+25. СЛАБЫЙ СПРОС  | похожих  4 | >100K:  0 | <1K:  4 | топ 147 (Sketchly) | How Did Ancient Humans Build Their First Houses?
+26. ЗАБИТО        | похожих 22 | >100K:  0 | <1K: 21 | топ 39,935 (History of Simple Things) | What Did Ancient Humans Do On Their Birthday?
+27. СЛАБЫЙ СПРОС  | похожих 10 | >100K:  0 | <1K: 10 | топ 67 (Spixey) | How Did Ancient Humans Make Music?
+28. ХОРОШО        | похожих  3 | >100K:  1 | <1K:  2 | топ 191,852 (Rahe Insaniyat Official) | How Did Ancient Humans Get Around Without Shoes Or Roads?
+29. ХОРОШО        | похожих  7 | >100K:  2 | <1K:  0 | топ 202,722 (Stephanie Farrell Focus) | Who Invented Beds And Pillows?
+30. СЛАБЫЙ СПРОС  | похожих  3 | >100K:  0 | <1K:  3 | топ 250 (TegaLab) | What Would Happen If You Lived In The Stone Age For A Day?

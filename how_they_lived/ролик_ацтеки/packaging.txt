@@ -1,0 +1,24 @@
+НАЗВАНИЕ, ОБЛОЖКА, ОПИСАНИЕ — ролик про ацтеков
+
+ПРОВЕРКА НА КЛОНЫ (6.10.2026): по запросам «what did aztecs do all day», «day in the life aztec family» уже есть
+~10 свежих мелких клонов (0–2 тыс. просмотров). Спрос держат большие каналы: Weird History 2,3M, Invicta 1,8M.
+Значит: название НЕ «What Did the Aztecs Actually Do All Day?» (занято клонами), а с конкретным крючком.
+
+НАЗВАНИЯ (рекомендую №1):
+1. Bugs for Breakfast, Chocolate for Money: A Day With the Aztecs
+2. A Normal Day in Tenochtitlan Was Weirder Than You Think
+3. The Aztec City That Made the Spanish Think They Were Dreaming
+4. Why the Aztecs Paid With Chocolate (And Other Daily Life Secrets)
+5. One Day as an Ordinary Aztec Family
+
+ОБЛОЖКА (для №1):
+- COATL крупно слева, удивлённо-довольное лицо, держит в одной руке жареного кузнечика, в другой — какао-бобы.
+- Справа — белый город на озере с пирамидой, яркое небо.
+- Текст 2–3 слова: «PAID IN CHOCOLATE?» или без текста.
+- Сделать 2–3 варианта и включить в YouTube «Тест и сравнение».
+Промпт для Flow (обложка): Medium close-up. COATL holding a roasted grasshopper in one hand and a handful of brown cacao beans in the other, surprised happy face, looking at the viewer. Behind him a white island city with a huge stepped pyramid temple on a bright blue lake, vivid sunny sky. Bold, very clear, high contrast, simple composition. No text.
+
+ОПИСАНИЕ: готовое, с фактами, главами и ссылками на Википедию — файл description.txt (копировать целиком).
+   Главы посчитаны по темпу 162 слова/мин — после озвучки сверить время (CapCut) и поправить.
+
+ТЕГИ: aztecs, aztec daily life, tenochtitlan, aztec food, aztec history, chinampas, cacao money, aztec school, history explained, how they lived

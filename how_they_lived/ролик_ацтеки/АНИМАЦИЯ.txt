@@ -1,0 +1,28 @@
+АНИМАЦИЯ — ролик про ацтеков
+
+Всего 57 кадров для анимации: первая минута (shot_001–023) и 34 ключевых кадров дальше.
+Картинки этих кадров уже подготовлены под анимацию (в промптах есть «Animation-ready composition»:
+персонаж целиком в кадре, есть место для движения, отделён фон, есть дым/вода/листья/ткань, которые могут двигаться).
+
+ЧЕМ АНИМИРОВАТЬ
+1) Wan 2.2 на ПК (бесплатно, ~2,5 мин на клип): все кадры из animate.txt.
+   Файлы: animate_first_minute.txt (23 клипа ≈ 1 ч), animate_key_shots.txt (34 клипа ≈ 1,5 ч).
+   Скрипт: animate_wan.ps1 из папки ролика про сон (он принимает такие же файлы) или кнопка «Видео» в программе.
+2) Google Flow (Veo 3.1 Lite / Omni Flash, из ежедневных 50 кредитов): 10 ГЕРОЙ-кадров с движением персонажей —
+   там Wan слабее. ~10 кредитов за клип → 2 дня бесплатных кредитов.
+   В Flow: открыть картинку кадра → «Видео из картинки» (Frames to video) → вставить текст ниже → 720p, 4–5 сек.
+
+ГЕРОЙ-КАДРЫ ДЛЯ FLOW:
+shot_001: The soldier slowly lowers his chin and his eyes widen in amazement, a light breeze moves his red sleeves, the lake water sparkles, slow camera push-in toward his face. Keep exactly the same cartoon style, colors, characters and faces. No new objects, no text.
+shot_004: Slow aerial camera drift toward the city, sunlight glitters on the canals and the lake, thin smoke rises from the temple tops, clouds move slowly. Keep exactly the same cartoon style, colors, characters and faces. No new objects, no text.
+shot_021: COATL waves his hand hello in a friendly way, smiles wider, his cloak moves slightly. Keep exactly the same cartoon style, colors, characters and faces. No new objects, no text.
+shot_033: The priest raises the conch shell and blows into it, his cheeks puff, his black cloak moves in the wind, smoke drifts behind him. Keep exactly the same cartoon style, colors, characters and faces. No new objects, no text.
+shot_041: CITLALI pushes the stone roller forward and pulls it back in a steady rhythm, the corn dough moves under the roller, firelight flickers. Keep exactly the same cartoon style, colors, characters and faces. No new objects, no text.
+shot_110: CITLALI paddles the canoe with calm strokes, the flowers in the baskets bounce slightly, the water ripples behind. Keep exactly the same cartoon style, colors, characters and faces. No new objects, no text.
+shot_184: The ball player swings his hip and the black rubber ball bounces away in an arc, his hair and belt move. Keep exactly the same cartoon style, colors, characters and faces. No new objects, no text.
+shot_212: The bonfire flares up and blazes brightly, sparks fly upward into the night sky. Keep exactly the same cartoon style, colors, characters and faces. No new objects, no text.
+shot_214: CITLALI touches the torch to the hearth and new flames catch and grow, she smiles with relief, warm light rises on her face. Keep exactly the same cartoon style, colors, characters and faces. No new objects, no text.
+shot_226: COATL waves from his canoe with a big smile, the canoe rocks gently, the water ripples around it. Keep exactly the same cartoon style, colors, characters and faces. No new objects, no text.
+
+СОВЕТ: если клип «поплыл» (лицо меняется, появляются лишние предметы) — сделать его короче (3 сек)
+или убрать из промпта движение персонажа, оставив только воду/дым/камеру.
